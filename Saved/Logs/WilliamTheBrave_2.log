@@ -782,4 +782,1463 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [2015.05.06-21.17.42:808][658]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
 [2015.05.06-21.17.42:821][658]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
 '
-[2015.05.06-21.17.43:011][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Templ
+[2015.05.06-21.17.43:011][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.06-21.17.43:791][658]LogSavePackage: Save=763.812805ms
+[2015.05.06-21.17.43:791][658]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple0AEA83CE4FF459D84D2BC38E39D242FD.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.06-21.17.43:838][658]LogFileHelpers: Saving map 'Temple' took 0.920
+[2015.05.06-21.17.43:864][659]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-21.17.43:873][660]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-21.17.44:942][772]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-21.17.45:952][856]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset" "S:/GameDev/WilliamTheBrave/Content/Metal.uasset" "S:/GameDev/WilliamTheBrave/Content/Skin.uasset" "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.17.45:961][857]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.48:946][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.17.49:949][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.06-21.17.49:959][ 39]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-21.17.49:964][ 39]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.50:502][ 95]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.06-21.17.51:275][175]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-21.17.52:322][266]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.17.52:330][266]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.56:527][557]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.17.56:541][557]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Assets/Lamp/Lamp.uasset
+'
+[2015.05.06-21.17.56:611][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lamp/Lamp" FILE="S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset" SILENT=true
+[2015.05.06-21.17.56:805][557]LogSavePackage: Save=188.086075ms
+[2015.05.06-21.17.56:805][557]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Lamp61F9C4AE403D781FCA742C8992F75E19.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset'
+[2015.05.06-21.17.56:816][558]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.17.56:829][560]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/Assets/Lamp/Lamp.uasset
+'
+[2015.05.06-21.27.25:040][290]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.25:052][291]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.25:480][333]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.25:502][335]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.26:139][399]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.06-21.27.28:026][582]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-21.27.29:033][675]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.29:051][677]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.29:701][734]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.29:718][736]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.30:044][768]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.30:055][769]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.30:716][836]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.30:732][838]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.32:546][ 17]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.32:559][ 18]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:415][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.37:429][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:475][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.37:494][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:542][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.37:556][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:623][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.37:637][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:809][268]LogSourceControl: RunCommandInternalRaw: 'git reset "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.37:855][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Saved/Logs/WilliamTheBrave_2.log
+'
+[2015.05.06-21.27.37:855][268]LogSourceControl: RunCommandInternalRaw: 'git checkout "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.37:878][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:878][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.37:900][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.37:932][268]LogSourceControl: RunCommandInternalRaw: 'git rm "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.37:976][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='rm 'Content/Untitled.umap'
+'
+[2015.05.06-21.27.37:976][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.27.38:001][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='D  Content/Untitled.umap
+'
+[2015.05.06-21.27.38:001][268]SourceControl: Info rm 'Content/Untitled.umap'
+[2015.05.06-21.27.38:035][268]LogSourceControl: RunCommandInternalRaw: 'git reset "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.38:050][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Saved/Logs/WilliamTheBrave_2.log
+'
+[2015.05.06-21.27.38:050][268]LogSourceControl: RunCommandInternalRaw: 'git checkout "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.38:064][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.38:064][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.38:078][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.38:122][268]LogSourceControl: RunCommandInternalRaw: 'git rm "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.38:143][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='rm 'Content/Skin.uasset'
+'
+[2015.05.06-21.27.38:143][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Skin.uasset"'
+[2015.05.06-21.27.38:157][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='D  Content/Skin.uasset
+'
+[2015.05.06-21.27.38:174][268]SourceControl: Info rm 'Content/Skin.uasset'
+[2015.05.06-21.27.38:203][268]LogSourceControl: RunCommandInternalRaw: 'git reset "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.38:219][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Saved/Logs/WilliamTheBrave_2.log
+'
+[2015.05.06-21.27.38:219][268]LogSourceControl: RunCommandInternalRaw: 'git checkout "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.38:232][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.38:232][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.38:255][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.38:284][268]LogSourceControl: RunCommandInternalRaw: 'git rm "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.38:307][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='rm 'Content/Metal.uasset'
+'
+[2015.05.06-21.27.38:307][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.27.38:327][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='D  Content/Metal.uasset
+'
+[2015.05.06-21.27.38:327][268]SourceControl: Info rm 'Content/Metal.uasset'
+[2015.05.06-21.27.38:358][268]LogSourceControl: RunCommandInternalRaw: 'git reset "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.38:379][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	Saved/Logs/WilliamTheBrave_2.log
+'
+[2015.05.06-21.27.38:379][268]LogSourceControl: RunCommandInternalRaw: 'git checkout "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.38:396][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.38:396][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.38:407][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.27.38:439][268]LogSourceControl: RunCommandInternalRaw: 'git rm "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.38:454][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='rm 'Content/MainCharacter.uasset'
+'
+[2015.05.06-21.27.38:454][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset"'
+[2015.05.06-21.27.38:467][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='D  Content/MainCharacter.uasset
+'
+[2015.05.06-21.27.38:492][268]SourceControl: Info rm 'Content/MainCharacter.uasset'
+[2015.05.06-21.29.06:674][167]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.06-21.29.07:823][280]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.29.08:838][360]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.29.08:854][361]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.29.18:213][584]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces.uasset"'
+[2015.05.06-21.29.18:228][584]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.29.18:244][584]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/MapPieces.FBX)
+[2015.05.06-21.29.18:262][584]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-21.29.18:262][584]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-21.29.18:262][584]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-21.29.18:262][584]LogFbx: ItemName: Model, ItemCount : 11
+[2015.05.06-21.29.18:262][584]LogFbx: ItemName: Geometry, ItemCount : 11
+[2015.05.06-21.29.24:055][584]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/MapPieces.FBX
+[2015.05.06-21.29.24:106][584]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-21.29.24:110][584]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.06-21.29.24:118][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.24:118][584]LogFbx: 0: None
+[2015.05.06-21.29.24:118][584]LogFbx: == After sorting:
+[2015.05.06-21.29.24:118][584]LogFbx: 0: None
+[2015.05.06-21.29.24:118][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.24:118][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.24:118][584]LogStaticMesh: Building static mesh MapPieces_Box001...
+[2015.05.06-21.29.24:122][584]LogStaticMesh: Built static mesh [3.305110ms] /Game/Maps/Temple/MapPieces_Box001.MapPieces_Box001
+[2015.05.06-21.29.24:124][584]LogStaticMesh:Warning: MapPieces_Box001 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.25:695][584]LogFbx:Warning: Triangulating static mesh Box002
+[2015.05.06-21.29.25:805][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.25:805][584]LogFbx: 0: None
+[2015.05.06-21.29.25:805][584]LogFbx: == After sorting:
+[2015.05.06-21.29.25:805][584]LogFbx: 0: None
+[2015.05.06-21.29.25:805][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.25:805][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.25:806][584]LogStaticMesh: Building static mesh MapPieces_Box002...
+[2015.05.06-21.29.25:819][584]LogStaticMesh: Built static mesh [13.090095ms] /Game/Maps/Temple/MapPieces_Box002.MapPieces_Box002
+[2015.05.06-21.29.25:822][584]LogStaticMesh:Warning: MapPieces_Box002 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.26:452][584]LogFbx:Warning: Triangulating static mesh Box003
+[2015.05.06-21.29.26:504][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.26:504][584]LogFbx: 0: None
+[2015.05.06-21.29.26:504][584]LogFbx: == After sorting:
+[2015.05.06-21.29.26:504][584]LogFbx: 0: None
+[2015.05.06-21.29.26:504][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.26:504][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.26:505][584]LogStaticMesh: Building static mesh MapPieces_Box003...
+[2015.05.06-21.29.26:511][584]LogStaticMesh: Built static mesh [6.903748ms] /Game/Maps/Temple/MapPieces_Box003.MapPieces_Box003
+[2015.05.06-21.29.26:512][584]LogStaticMesh:Warning: MapPieces_Box003 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.27:108][584]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2015.05.06-21.29.27:123][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.27:123][584]LogFbx: 0: None
+[2015.05.06-21.29.27:123][584]LogFbx: == After sorting:
+[2015.05.06-21.29.27:123][584]LogFbx: 0: None
+[2015.05.06-21.29.27:123][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.27:123][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.27:123][584]LogStaticMesh: Building static mesh MapPieces_Cylinder001...
+[2015.05.06-21.29.27:130][584]LogStaticMesh: Built static mesh [6.525718ms] /Game/Maps/Temple/MapPieces_Cylinder001.MapPieces_Cylinder001
+[2015.05.06-21.29.27:136][584]LogFbx:Warning: Triangulating static mesh Box004
+[2015.05.06-21.29.27:224][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.27:224][584]LogFbx: 0: None
+[2015.05.06-21.29.27:224][584]LogFbx: == After sorting:
+[2015.05.06-21.29.27:224][584]LogFbx: 0: None
+[2015.05.06-21.29.27:224][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.27:224][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.27:225][584]LogStaticMesh: Building static mesh MapPieces_Box004...
+[2015.05.06-21.29.27:235][584]LogStaticMesh: Built static mesh [10.743572ms] /Game/Maps/Temple/MapPieces_Box004.MapPieces_Box004
+[2015.05.06-21.29.27:237][584]LogStaticMesh:Warning: MapPieces_Box004 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.27:738][584]LogFbx:Warning: Triangulating static mesh Box005
+[2015.05.06-21.29.27:836][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.27:836][584]LogFbx: 0: None
+[2015.05.06-21.29.27:836][584]LogFbx: == After sorting:
+[2015.05.06-21.29.27:836][584]LogFbx: 0: None
+[2015.05.06-21.29.27:836][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.27:836][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.27:837][584]LogStaticMesh: Building static mesh MapPieces_Box005...
+[2015.05.06-21.29.27:853][584]LogStaticMesh: Built static mesh [15.624091ms] /Game/Maps/Temple/MapPieces_Box005.MapPieces_Box005
+[2015.05.06-21.29.27:864][584]LogFbx:Warning: Triangulating static mesh Box006
+[2015.05.06-21.29.27:903][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.27:903][584]LogFbx: 0: None
+[2015.05.06-21.29.27:903][584]LogFbx: == After sorting:
+[2015.05.06-21.29.27:903][584]LogFbx: 0: None
+[2015.05.06-21.29.27:903][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.27:903][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.27:904][584]LogStaticMesh: Building static mesh MapPieces_Box006...
+[2015.05.06-21.29.27:909][584]LogStaticMesh: Built static mesh [5.329707ms] /Game/Maps/Temple/MapPieces_Box006.MapPieces_Box006
+[2015.05.06-21.29.27:910][584]LogStaticMesh:Warning: MapPieces_Box006 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.28:304][584]LogFbx:Warning: Triangulating static mesh StraightStair001
+[2015.05.06-21.29.28:323][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.28:323][584]LogFbx: 0: None
+[2015.05.06-21.29.28:323][584]LogFbx: == After sorting:
+[2015.05.06-21.29.28:323][584]LogFbx: 0: None
+[2015.05.06-21.29.28:323][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.28:323][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.28:324][584]LogStaticMesh: Building static mesh MapPieces_StraightStair001...
+[2015.05.06-21.29.28:326][584]LogStaticMesh: Built static mesh [2.852158ms] /Game/Maps/Temple/MapPieces_StraightStair001.MapPieces_StraightStair001
+[2015.05.06-21.29.28:331][584]LogFbx:Warning: Triangulating static mesh Box007
+[2015.05.06-21.29.28:347][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.28:347][584]LogFbx: 0: None
+[2015.05.06-21.29.28:347][584]LogFbx: == After sorting:
+[2015.05.06-21.29.28:347][584]LogFbx: 0: None
+[2015.05.06-21.29.28:347][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.28:347][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.28:348][584]LogStaticMesh: Building static mesh MapPieces_Box007...
+[2015.05.06-21.29.28:353][584]LogStaticMesh: Built static mesh [5.213390ms] /Game/Maps/Temple/MapPieces_Box007.MapPieces_Box007
+[2015.05.06-21.29.28:354][584]LogStaticMesh:Warning: MapPieces_Box007 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.28:898][584]LogFbx:Warning: Triangulating static mesh Box008
+[2015.05.06-21.29.28:912][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.28:912][584]LogFbx: 0: None
+[2015.05.06-21.29.28:912][584]LogFbx: == After sorting:
+[2015.05.06-21.29.28:912][584]LogFbx: 0: None
+[2015.05.06-21.29.28:912][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.28:912][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.28:912][584]LogStaticMesh: Building static mesh MapPieces_Box008...
+[2015.05.06-21.29.28:916][584]LogStaticMesh: Built static mesh [3.896615ms] /Game/Maps/Temple/MapPieces_Box008.MapPieces_Box008
+[2015.05.06-21.29.28:920][584]LogFbx:Warning: Triangulating static mesh Box009
+[2015.05.06-21.29.28:950][584]LogFbx: == Initial material list:
+[2015.05.06-21.29.28:950][584]LogFbx: 0: None
+[2015.05.06-21.29.28:950][584]LogFbx: == After sorting:
+[2015.05.06-21.29.28:950][584]LogFbx: 0: None
+[2015.05.06-21.29.28:950][584]LogFbx: == Mapping table:
+[2015.05.06-21.29.28:950][584]LogFbx:   sort 0 -> 0
+[2015.05.06-21.29.28:951][584]LogStaticMesh: Building static mesh MapPieces_Box009...
+[2015.05.06-21.29.28:956][584]LogStaticMesh: Built static mesh [4.832623ms] /Game/Maps/Temple/MapPieces_Box009.MapPieces_Box009
+[2015.05.06-21.29.28:957][584]LogStaticMesh:Warning: MapPieces_Box009 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.29.29:489][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-21.29.29:490][584]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.29.30:506][681]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.29.30:523][683]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.29.59:226][937]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces.uasset"'
+[2015.05.06-21.29.59:241][937]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.29.59:275][937]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/MapPieces.FBX)
+[2015.05.06-21.29.59:294][937]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-21.29.59:294][937]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-21.29.59:294][937]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-21.29.59:294][937]LogFbx: ItemName: Model, ItemCount : 11
+[2015.05.06-21.29.59:294][937]LogFbx: ItemName: Geometry, ItemCount : 11
+[2015.05.06-21.30.27:048][937]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/MapPieces.FBX
+[2015.05.06-21.30.27:097][937]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-21.30.27:100][937]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.06-21.30.27:108][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.27:108][937]LogFbx: 0: None
+[2015.05.06-21.30.27:108][937]LogFbx: == After sorting:
+[2015.05.06-21.30.27:108][937]LogFbx: 0: None
+[2015.05.06-21.30.27:108][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.27:108][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.27:109][937]LogStaticMesh: Building static mesh MapPieces_Box001...
+[2015.05.06-21.30.27:112][937]LogStaticMesh: Built static mesh [3.413558ms] /Game/Maps/Temple/MapPieces_Box001.MapPieces_Box001
+[2015.05.06-21.30.27:115][937]LogStaticMesh:Warning: MapPieces_Box001 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.33:638][937]LogFbx:Warning: Triangulating static mesh Box002
+[2015.05.06-21.30.33:747][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.33:747][937]LogFbx: 0: None
+[2015.05.06-21.30.33:747][937]LogFbx: == After sorting:
+[2015.05.06-21.30.33:747][937]LogFbx: 0: None
+[2015.05.06-21.30.33:747][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.33:747][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.33:748][937]LogStaticMesh: Building static mesh MapPieces_Box002...
+[2015.05.06-21.30.33:761][937]LogStaticMesh: Built static mesh [12.930672ms] /Game/Maps/Temple/MapPieces_Box002.MapPieces_Box002
+[2015.05.06-21.30.33:764][937]LogStaticMesh:Warning: MapPieces_Box002 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.34:882][937]LogFbx:Warning: Triangulating static mesh Box003
+[2015.05.06-21.30.34:927][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.34:927][937]LogFbx: 0: None
+[2015.05.06-21.30.34:927][937]LogFbx: == After sorting:
+[2015.05.06-21.30.34:927][937]LogFbx: 0: None
+[2015.05.06-21.30.34:927][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.34:927][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.34:927][937]LogStaticMesh: Building static mesh MapPieces_Box003...
+[2015.05.06-21.30.34:934][937]LogStaticMesh: Built static mesh [6.753220ms] /Game/Maps/Temple/MapPieces_Box003.MapPieces_Box003
+[2015.05.06-21.30.34:936][937]LogStaticMesh:Warning: MapPieces_Box003 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.35:081][937]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2015.05.06-21.30.35:096][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.35:096][937]LogFbx: 0: None
+[2015.05.06-21.30.35:096][937]LogFbx: == After sorting:
+[2015.05.06-21.30.35:096][937]LogFbx: 0: None
+[2015.05.06-21.30.35:096][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.35:096][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.35:097][937]LogStaticMesh: Building static mesh MapPieces_Cylinder001...
+[2015.05.06-21.30.35:103][937]LogStaticMesh: Built static mesh [6.083372ms] /Game/Maps/Temple/MapPieces_Cylinder001.MapPieces_Cylinder001
+[2015.05.06-21.30.35:107][937]LogFbx:Warning: Triangulating static mesh Box004
+[2015.05.06-21.30.35:196][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.35:196][937]LogFbx: 0: None
+[2015.05.06-21.30.35:196][937]LogFbx: == After sorting:
+[2015.05.06-21.30.35:196][937]LogFbx: 0: None
+[2015.05.06-21.30.35:196][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.35:196][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.35:197][937]LogStaticMesh: Building static mesh MapPieces_Box004...
+[2015.05.06-21.30.35:207][937]LogStaticMesh: Built static mesh [10.510255ms] /Game/Maps/Temple/MapPieces_Box004.MapPieces_Box004
+[2015.05.06-21.30.35:209][937]LogStaticMesh:Warning: MapPieces_Box004 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.35:484][937]LogFbx:Warning: Triangulating static mesh Box005
+[2015.05.06-21.30.35:583][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.35:583][937]LogFbx: 0: None
+[2015.05.06-21.30.35:584][937]LogFbx: == After sorting:
+[2015.05.06-21.30.35:584][937]LogFbx: 0: None
+[2015.05.06-21.30.35:584][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.35:584][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.35:585][937]LogStaticMesh: Building static mesh MapPieces_Box005...
+[2015.05.06-21.30.35:600][937]LogStaticMesh: Built static mesh [15.311404ms] /Game/Maps/Temple/MapPieces_Box005.MapPieces_Box005
+[2015.05.06-21.30.35:609][937]LogFbx:Warning: Triangulating static mesh Box006
+[2015.05.06-21.30.35:639][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.35:639][937]LogFbx: 0: None
+[2015.05.06-21.30.35:639][937]LogFbx: == After sorting:
+[2015.05.06-21.30.35:639][937]LogFbx: 0: None
+[2015.05.06-21.30.35:639][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.35:639][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.35:640][937]LogStaticMesh: Building static mesh MapPieces_Box006...
+[2015.05.06-21.30.35:645][937]LogStaticMesh: Built static mesh [5.158995ms] /Game/Maps/Temple/MapPieces_Box006.MapPieces_Box006
+[2015.05.06-21.30.35:646][937]LogStaticMesh:Warning: MapPieces_Box006 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.35:891][937]LogFbx:Warning: Triangulating static mesh StraightStair001
+[2015.05.06-21.30.35:910][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.35:910][937]LogFbx: 0: None
+[2015.05.06-21.30.35:910][937]LogFbx: == After sorting:
+[2015.05.06-21.30.35:910][937]LogFbx: 0: None
+[2015.05.06-21.30.35:910][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.35:910][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.35:911][937]LogStaticMesh: Building static mesh MapPieces_StraightStair001...
+[2015.05.06-21.30.35:913][937]LogStaticMesh: Built static mesh [2.726946ms] /Game/Maps/Temple/MapPieces_StraightStair001.MapPieces_StraightStair001
+[2015.05.06-21.30.35:918][937]LogFbx:Warning: Triangulating static mesh Box007
+[2015.05.06-21.30.35:933][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.35:934][937]LogFbx: 0: None
+[2015.05.06-21.30.35:934][937]LogFbx: == After sorting:
+[2015.05.06-21.30.35:934][937]LogFbx: 0: None
+[2015.05.06-21.30.35:934][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.35:934][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.35:934][937]LogStaticMesh: Building static mesh MapPieces_Box007...
+[2015.05.06-21.30.35:939][937]LogStaticMesh: Built static mesh [5.092626ms] /Game/Maps/Temple/MapPieces_Box007.MapPieces_Box007
+[2015.05.06-21.30.35:941][937]LogStaticMesh:Warning: MapPieces_Box007 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.36:383][937]LogFbx:Warning: Triangulating static mesh Box008
+[2015.05.06-21.30.36:398][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.36:398][937]LogFbx: 0: None
+[2015.05.06-21.30.36:398][937]LogFbx: == After sorting:
+[2015.05.06-21.30.36:398][937]LogFbx: 0: None
+[2015.05.06-21.30.36:398][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.36:398][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.36:398][937]LogStaticMesh: Building static mesh MapPieces_Box008...
+[2015.05.06-21.30.36:402][937]LogStaticMesh: Built static mesh [3.846325ms] /Game/Maps/Temple/MapPieces_Box008.MapPieces_Box008
+[2015.05.06-21.30.36:406][937]LogFbx:Warning: Triangulating static mesh Box009
+[2015.05.06-21.30.36:435][937]LogFbx: == Initial material list:
+[2015.05.06-21.30.36:435][937]LogFbx: 0: None
+[2015.05.06-21.30.36:435][937]LogFbx: == After sorting:
+[2015.05.06-21.30.36:435][937]LogFbx: 0: None
+[2015.05.06-21.30.36:435][937]LogFbx: == Mapping table:
+[2015.05.06-21.30.36:435][937]LogFbx:   sort 0 -> 0
+[2015.05.06-21.30.36:435][937]LogStaticMesh: Building static mesh MapPieces_Box009...
+[2015.05.06-21.30.36:440][937]LogStaticMesh: Built static mesh [4.786439ms] /Game/Maps/Temple/MapPieces_Box009.MapPieces_Box009
+[2015.05.06-21.30.36:441][937]LogStaticMesh:Warning: MapPieces_Box009 has degenerate tangent bases which will result in incorrect shading. Consider enabling Recompute Tangents in the mesh's Build Settings.
+[2015.05.06-21.30.36:591][937]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-21.30.36:591][937]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.30.37:611][ 35]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.30.37:622][ 36]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.30.47:407][432]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces.uasset"'
+[2015.05.06-21.30.47:422][432]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.30.47:440][432]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/MapPieces.FBX)
+[2015.05.06-21.30.47:457][432]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-21.30.47:457][432]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-21.30.47:457][432]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-21.30.47:457][432]LogFbx: ItemName: Model, ItemCount : 11
+[2015.05.06-21.30.47:457][432]LogFbx: ItemName: Geometry, ItemCount : 11
+[2015.05.06-21.31.08:133][432]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/MapPieces.FBX
+[2015.05.06-21.31.08:185][432]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-21.31.08:188][432]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.06-21.31.08:196][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.08:196][432]LogFbx: 0: None
+[2015.05.06-21.31.08:196][432]LogFbx: == After sorting:
+[2015.05.06-21.31.08:196][432]LogFbx: 0: None
+[2015.05.06-21.31.08:196][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.08:196][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.08:197][432]LogStaticMesh: Building static mesh MapPieces_Box001...
+[2015.05.06-21.31.08:200][432]LogStaticMesh: Built static mesh [3.546638ms] /Game/Maps/Temple/MapPieces_Box001.MapPieces_Box001
+[2015.05.06-21.31.08:203][432]LogStaticMesh:Warning: MapPieces_Box001 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.09:250][432]LogFbx:Warning: Triangulating static mesh Box002
+[2015.05.06-21.31.09:360][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.09:360][432]LogFbx: 0: None
+[2015.05.06-21.31.09:360][432]LogFbx: == After sorting:
+[2015.05.06-21.31.09:360][432]LogFbx: 0: None
+[2015.05.06-21.31.09:360][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.09:360][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.09:361][432]LogStaticMesh: Building static mesh MapPieces_Box002...
+[2015.05.06-21.31.09:376][432]LogStaticMesh: Built static mesh [15.396932ms] /Game/Maps/Temple/MapPieces_Box002.MapPieces_Box002
+[2015.05.06-21.31.09:379][432]LogStaticMesh:Warning: MapPieces_Box002 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.09:993][432]LogFbx:Warning: Triangulating static mesh Box003
+[2015.05.06-21.31.10:037][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.10:037][432]LogFbx: 0: None
+[2015.05.06-21.31.10:037][432]LogFbx: == After sorting:
+[2015.05.06-21.31.10:037][432]LogFbx: 0: None
+[2015.05.06-21.31.10:037][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.10:037][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.10:038][432]LogStaticMesh: Building static mesh MapPieces_Box003...
+[2015.05.06-21.31.10:046][432]LogStaticMesh: Built static mesh [7.630044ms] /Game/Maps/Temple/MapPieces_Box003.MapPieces_Box003
+[2015.05.06-21.31.10:047][432]LogStaticMesh:Warning: MapPieces_Box003 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.10:543][432]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2015.05.06-21.31.10:559][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.10:559][432]LogFbx: 0: None
+[2015.05.06-21.31.10:559][432]LogFbx: == After sorting:
+[2015.05.06-21.31.10:559][432]LogFbx: 0: None
+[2015.05.06-21.31.10:559][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.10:559][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.10:560][432]LogStaticMesh: Building static mesh MapPieces_Cylinder001...
+[2015.05.06-21.31.10:567][432]LogStaticMesh: Built static mesh [7.704966ms] /Game/Maps/Temple/MapPieces_Cylinder001.MapPieces_Cylinder001
+[2015.05.06-21.31.10:573][432]LogFbx:Warning: Triangulating static mesh Box004
+[2015.05.06-21.31.10:656][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.10:656][432]LogFbx: 0: None
+[2015.05.06-21.31.10:656][432]LogFbx: == After sorting:
+[2015.05.06-21.31.10:656][432]LogFbx: 0: None
+[2015.05.06-21.31.10:656][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.10:656][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.10:657][432]LogStaticMesh: Building static mesh MapPieces_Box004...
+[2015.05.06-21.31.10:670][432]LogStaticMesh: Built static mesh [13.223174ms] /Game/Maps/Temple/MapPieces_Box004.MapPieces_Box004
+[2015.05.06-21.31.10:673][432]LogStaticMesh:Warning: MapPieces_Box004 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.11:018][432]LogFbx:Warning: Triangulating static mesh Box005
+[2015.05.06-21.31.11:115][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.11:115][432]LogFbx: 0: None
+[2015.05.06-21.31.11:115][432]LogFbx: == After sorting:
+[2015.05.06-21.31.11:115][432]LogFbx: 0: None
+[2015.05.06-21.31.11:115][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.11:115][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.11:116][432]LogStaticMesh: Building static mesh MapPieces_Box005...
+[2015.05.06-21.31.11:134][432]LogStaticMesh: Built static mesh [17.749952ms] /Game/Maps/Temple/MapPieces_Box005.MapPieces_Box005
+[2015.05.06-21.31.11:143][432]LogFbx:Warning: Triangulating static mesh Box006
+[2015.05.06-21.31.11:180][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.11:180][432]LogFbx: 0: None
+[2015.05.06-21.31.11:180][432]LogFbx: == After sorting:
+[2015.05.06-21.31.11:180][432]LogFbx: 0: None
+[2015.05.06-21.31.11:180][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.11:180][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.11:181][432]LogStaticMesh: Building static mesh MapPieces_Box006...
+[2015.05.06-21.31.11:187][432]LogStaticMesh: Built static mesh [5.715263ms] /Game/Maps/Temple/MapPieces_Box006.MapPieces_Box006
+[2015.05.06-21.31.11:188][432]LogStaticMesh:Warning: MapPieces_Box006 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.11:490][432]LogFbx:Warning: Triangulating static mesh StraightStair001
+[2015.05.06-21.31.11:509][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.11:509][432]LogFbx: 0: None
+[2015.05.06-21.31.11:509][432]LogFbx: == After sorting:
+[2015.05.06-21.31.11:509][432]LogFbx: 0: None
+[2015.05.06-21.31.11:509][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.11:509][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.11:509][432]LogStaticMesh: Building static mesh MapPieces_StraightStair001...
+[2015.05.06-21.31.11:513][432]LogStaticMesh: Built static mesh [3.530559ms] /Game/Maps/Temple/MapPieces_StraightStair001.MapPieces_StraightStair001
+[2015.05.06-21.31.11:517][432]LogFbx:Warning: Triangulating static mesh Box007
+[2015.05.06-21.31.11:533][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.11:533][432]LogFbx: 0: None
+[2015.05.06-21.31.11:533][432]LogFbx: == After sorting:
+[2015.05.06-21.31.11:533][432]LogFbx: 0: None
+[2015.05.06-21.31.11:533][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.11:533][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.11:534][432]LogStaticMesh: Building static mesh MapPieces_Box007...
+[2015.05.06-21.31.11:539][432]LogStaticMesh: Built static mesh [5.578420ms] /Game/Maps/Temple/MapPieces_Box007.MapPieces_Box007
+[2015.05.06-21.31.11:541][432]LogStaticMesh:Warning: MapPieces_Box007 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.12:039][432]LogFbx:Warning: Triangulating static mesh Box008
+[2015.05.06-21.31.12:054][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.12:054][432]LogFbx: 0: None
+[2015.05.06-21.31.12:054][432]LogFbx: == After sorting:
+[2015.05.06-21.31.12:054][432]LogFbx: 0: None
+[2015.05.06-21.31.12:054][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.12:054][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.12:054][432]LogStaticMesh: Building static mesh MapPieces_Box008...
+[2015.05.06-21.31.12:058][432]LogStaticMesh: Built static mesh [4.255486ms] /Game/Maps/Temple/MapPieces_Box008.MapPieces_Box008
+[2015.05.06-21.31.12:062][432]LogFbx:Warning: Triangulating static mesh Box009
+[2015.05.06-21.31.12:099][432]LogFbx: == Initial material list:
+[2015.05.06-21.31.12:099][432]LogFbx: 0: None
+[2015.05.06-21.31.12:099][432]LogFbx: == After sorting:
+[2015.05.06-21.31.12:099][432]LogFbx: 0: None
+[2015.05.06-21.31.12:099][432]LogFbx: == Mapping table:
+[2015.05.06-21.31.12:099][432]LogFbx:   sort 0 -> 0
+[2015.05.06-21.31.12:100][432]LogStaticMesh: Building static mesh MapPieces_Box009...
+[2015.05.06-21.31.12:106][432]LogStaticMesh: Built static mesh [5.620841ms] /Game/Maps/Temple/MapPieces_Box009.MapPieces_Box009
+[2015.05.06-21.31.12:107][432]LogStaticMesh:Warning: MapPieces_Box009 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.31.12:540][432]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-21.31.12:540][432]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.31.13:556][531]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.31.13:567][532]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.20:082][108]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-21.31.20:104][110]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.20:454][139]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-21.31.20:468][139]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.20:807][165]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-21.31.20:821][166]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.21:229][199]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset"'
+[2015.05.06-21.31.21:255][201]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.21:303][203]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset"'
+[2015.05.06-21.31.21:333][206]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.21:616][227]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset"'
+[2015.05.06-21.31.21:631][228]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.21:999][253]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.06-21.31.22:008][254]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.22:345][284]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.06-21.31.22:361][286]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.31.23:117][350]Cmd: DELETE
+[2015.05.06-21.31.23:117][350]Cmd: ACTOR DELETE
+[2015.05.06-21.31.23:118][350]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-21.31.23:169][350]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2015.05.06-21.31.23:930][408]LogActorFactory: Actor Factory created MapPieces_Box008
+[2015.05.06-21.31.25:190][526]LogActorFactory: Actor Factory created MapPieces_Box008
+[2015.05.06-21.31.41:998][ 41]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.06-21.31.43:100][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box14)
+[2015.05.06-21.31.44:857][304]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MapPieces_Box14)
+[2015.05.06-21.31.51:353][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box10)
+[2015.05.06-21.31.51:826][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.06-21.32.25:485][239]Cmd: SELECT NONE
+[2015.05.06-21.33.05:120][132]Cmd: SELECT NONE
+[2015.05.06-21.33.12:044][743]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.05.06-21.33.16:574][ 91]Cmd: DELETE
+[2015.05.06-21.33.16:574][ 91]Cmd: ACTOR DELETE
+[2015.05.06-21.33.16:576][ 91]LogEditorActor: Deleted Actor: PointLight
+[2015.05.06-21.33.16:591][ 91]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.05.06-21.33.19:801][389]Cmd: TRANSACTION UNDO
+[2015.05.06-21.33.19:801][389]LogEditorTransaction: Undo Delete Actors
+[2015.05.06-21.33.27:034][ 37]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-21.33.40:567][259]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.33.41:578][365]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.33.41:604][368]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.42:404][456]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-21.33.42:415][457]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.42:716][488]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-21.33.42:733][490]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.43:025][520]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-21.33.43:033][521]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.43:096][526]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset"'
+[2015.05.06-21.33.43:104][527]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.43:497][565]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset"'
+[2015.05.06-21.33.43:504][566]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.43:896][605]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset"'
+[2015.05.06-21.33.43:914][607]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.44:337][641]LogActorFactory: Actor Factory created MapPieces_Box009
+[2015.05.06-21.33.44:403][643]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.06-21.33.44:414][644]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.33.44:828][674]LogActorFactory: Actor Factory created MapPieces_Box009
+[2015.05.06-21.33.54:736][702]LogUnrealMath: Expression Error : No value recognized
+[2015.05.06-21.33.54:736][702]LogUnrealMath: Expression Error : Error in expression
+[2015.05.06-21.33.54:736][702]LogUnrealMath: Expression Error : No value recognized
+[2015.05.06-21.33.54:736][702]LogUnrealMath: Expression Error : Error in expression
+[2015.05.06-21.34.15:831][766]Cmd: SELECT NONE
+[2015.05.06-21.34.18:679][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.34.29:138][ 81]Cmd: SELECT NONE
+[2015.05.06-21.34.35:841][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.06-21.34.36:834][755]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.05.06-21.34.55:931][568]Cmd: DELETE
+[2015.05.06-21.34.55:931][568]Cmd: ACTOR DELETE
+[2015.05.06-21.34.55:932][568]LogEditorActor: Deleted Actor: PointLight
+[2015.05.06-21.34.55:944][568]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.05.06-21.35.04:877][490]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.04:887][491]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.04:904][493]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.04:913][494]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.04:922][495]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.04:939][497]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.04:983][502]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.05:033][508]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.05:050][510]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.05:083][512]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.05:117][516]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.05:725][587]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.11:382][153]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.11:489][164]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.13:227][349]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.13:896][415]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:837][998]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:846][999]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:855][  0]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:888][  1]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:898][  2]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:906][  3]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:923][  5]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:939][  7]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:956][  9]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.19:992][ 11]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:009][ 13]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:025][ 15]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:042][ 17]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:089][ 20]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:098][ 21]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:123][ 24]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.20:355][ 50]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.23:193][318]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.06-21.35.23:209][320]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.35.25:498][520]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:515][522]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:523][523]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:540][525]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:548][526]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:590][528]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:599][529]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:624][532]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:649][535]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:689][536]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:699][537]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:716][539]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:741][542]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:791][546]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:800][547]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.25:809][548]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.26:046][575]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.30:134][992]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.31:892][169]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.36:530][655]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.38:981][921]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.45:995][676]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.35.48:121][908]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.00:908][989]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.00:926][991]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.00:936][992]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.00:946][993]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.00:955][994]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.00:990][996]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:000][997]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:009][998]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:019][999]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:029][  0]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:055][  3]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:086][  4]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.01:227][ 19]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.02:761][159]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.02:858][169]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:277][213]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:295][215]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:321][218]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:339][220]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:349][221]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:376][222]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:386][223]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:395][224]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:404][225]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:422][227]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:432][228]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:441][229]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:451][230]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:477][231]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:487][232]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:497][233]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:506][234]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:516][235]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:534][237]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:552][239]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:577][240]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:603][243]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:750][260]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:777][261]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:794][263]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:805][264]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:814][265]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:824][266]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:833][267]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.03:901][274]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:314][428]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:391][436]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:409][438]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:419][439]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:429][440]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:439][441]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:449][442]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:483][443]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:494][444]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:504][445]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:514][446]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:524][447]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:542][449]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:553][450]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:583][451]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:594][452]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:603][453]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:613][454]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:640][457]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:650][458]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:684][459]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:710][462]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.05:728][464]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:635][560]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:794][575]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:811][577]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:836][580]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:854][582]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:887][583]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.06:896][584]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:036][599]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:053][601]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:090][603]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:100][604]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:109][605]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:134][608]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:143][609]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:295][623]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:329][627]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.07:390][632]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.14:881][358]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.14:907][361]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.14:925][363]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.14:942][365]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.14:978][367]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:004][370]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:022][372]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:039][374]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:050][375]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:079][376]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:105][379]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:181][387]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:482][420]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:524][425]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:551][428]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:580][429]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:796][453]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.15:814][455]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.16:023][478]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.16:190][496]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.17:288][608]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.17:403][620]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.19:485][794]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.19:593][806]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.20:916][951]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.21:084][969]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.22:350][105]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.22:494][119]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.22:888][158]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.22:995][169]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.23:597][228]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.23:722][241]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.24:232][292]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.24:340][303]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.25:101][388]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.25:227][402]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.25:237][403]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.36.34:443][281]MapCheck: New page: Map Check
+[2015.05.06-21.36.34:498][281]LightingResults: New page: Lighting Build - May 6, 2015, 7:36:34 AM
+[2015.05.06-21.36.39:034][281]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.06-21.36.39:034][281]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.06-21.36.39:034][281]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.06-21.36.39:034][281]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.06-21.36.39:034][281]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.06-21.36.39:034][281]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.06-21.36.39:295][281]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.06-21.37.06:023][362]LightingResults:Error: Error MapPieces_Box009 Object has overlapping UVs.
+[2015.05.06-21.37.06:023][362]LightingResults: Info MapPieces_Box009 Lightmap UV are overlapping by 9.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.37.06:689][364]LightingResults:Error: Error MapPieces_Box005 Object has overlapping UVs.
+[2015.05.06-21.37.06:689][364]LightingResults: Info MapPieces_Box005 Lightmap UV are overlapping by 1.7%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.37.07:690][367]Job is a success!
+[2015.05.06-21.37.09:048][368]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.06-21.37.09:270][368]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.05.06-21.37.09:284][368]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.05.06-21.37.09:300][368]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.05.06-21.37.09:303][368]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.05.06-21.37.09:316][368]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.05.06-21.37.09:375][368]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.05.06-21.37.09:542][368]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.05.06-21.37.09:612][368]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.05.06-21.37.09:817][368]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.05.06-21.37.09:898][368]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.05.06-21.37.10:085][368]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.05.06-21.37.10:149][368]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.05.06-21.37.10:307][368]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.05.06-21.37.10:392][368]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.05.06-21.37.10:649][368]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.06-21.37.10:723][368]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.06-21.37.11:011][368]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.06-21.37.11:630][368]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.05.06-21.37.12:392][368]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.05.06-21.37.13:195][368]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.05.06-21.37.13:539][368]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.05.06-21.37.13:594][368]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.05.06-21.37.13:596][368]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.05.06-21.37.13:599][368]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.05.06-21.37.13:686][368]LogStaticLightingSystem: Illumination: 38.8 sec (5.11 sec encoding lightmaps)
+[2015.05.06-21.37.13:686][368]LogStaticLightingSystem: Lightmap texture memory:  9.4 MB (8.0 MB streaming, 1.3 MB non-streaming), 18 textures
+[2015.05.06-21.37.13:686][368]LogStaticLightingSystem: Shadowmap texture memory: 58.8 MB (53.5 MB streaming, 5.3 MB non-streaming), 10 textures
+[2015.05.06-21.37.14:059][369]Lightmass on FRED: 33.4 sec total, 143 ms importing, 18 ms setup, 949 ms photons, 32.2 sec processing, 0 ms extra exporting [41/41 mappings]. Threads: 2:08 min total, 1:17 min processing.
+[2015.05.06-21.37.14:059][369]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.06-21.37.14:060][369]MapCheck: New page: Temple - May 6, 2015, 7:37:14 AM
+[2015.05.06-21.37.14:183][369]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 123.174ms to complete.
+[2015.05.06-21.37.45:014][790]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultGame.ini"'
+[2015.05.06-21.37.45:021][790]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.46:005][897]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultGame.ini"'
+[2015.05.06-21.37.46:014][898]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.47:009][  0]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultGame.ini"'
+[2015.05.06-21.37.47:017][  1]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.48:011][100]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultGame.ini"'
+[2015.05.06-21.37.48:022][101]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.48:785][165]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.48:804][167]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.49:775][267]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.49:792][269]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.50:778][377]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.50:797][379]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.51:792][484]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.51:809][486]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.52:792][585]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.52:800][586]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.53:796][681]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.53:805][682]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.54:800][782]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.37.54:808][783]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.37.55:034][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-21.37.55:616][787]LogSavePackage: Save=556.471863ms
+[2015.05.06-21.37.55:616][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto60D71F89949977DF9B92A97991C424934.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto6.umap'
+[2015.05.06-21.37.55:620][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.662
+[2015.05.06-21.37.55:620][787]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.662
+[2015.05.06-21.37.55:711][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box003] ([1] browsable assets)...
+[2015.05.06-21.37.55:749][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box003.MapPieces_Box003]
+[2015.05.06-21.37.55:749][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box003]
+[2015.05.06-21.37.55:751][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box003" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box003_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.55:994][787]LogSavePackage: Save=220.336288ms
+[2015.05.06-21.37.55:995][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box003_Auto6384F3F1F41D9CE4F3E926894DCB5E7FA.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box003_Auto6.uasset'
+[2015.05.06-21.37.56:074][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Cylinder001] ([1] browsable assets)...
+[2015.05.06-21.37.56:114][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Cylinder001.MapPieces_Cylinder001]
+[2015.05.06-21.37.56:114][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Cylinder001]
+[2015.05.06-21.37.56:116][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Cylinder001" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Cylinder001_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.56:426][787]LogSavePackage: Save=304.027313ms
+[2015.05.06-21.37.56:426][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Cylinder001_Auto6819C2FE949A601A69989928DBDB59E6D.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Cylinder001_Auto6.uasset'
+[2015.05.06-21.37.56:513][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box001] ([1] browsable assets)...
+[2015.05.06-21.37.56:548][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box001.MapPieces_Box001]
+[2015.05.06-21.37.56:548][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box001]
+[2015.05.06-21.37.56:549][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box001" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box001_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.56:881][787]LogSavePackage: Save=325.181915ms
+[2015.05.06-21.37.56:882][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box001_Auto68BF22E6C4DF172D7B82394AC6BA2F34F.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box001_Auto6.uasset'
+[2015.05.06-21.37.56:960][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box002] ([1] browsable assets)...
+[2015.05.06-21.37.57:003][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box002.MapPieces_Box002]
+[2015.05.06-21.37.57:003][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box002]
+[2015.05.06-21.37.57:005][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box002" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box002_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.57:385][787]LogSavePackage: Save=356.123230ms
+[2015.05.06-21.37.57:386][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box002_Auto65CF0828F4A9E9A736FD18B95E8D48312.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box002_Auto6.uasset'
+[2015.05.06-21.37.57:462][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box004] ([1] browsable assets)...
+[2015.05.06-21.37.57:503][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box004.MapPieces_Box004]
+[2015.05.06-21.37.57:503][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box004]
+[2015.05.06-21.37.57:505][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box004" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box004_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.57:885][787]LogSavePackage: Save=374.075378ms
+[2015.05.06-21.37.57:886][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box004_Auto6823F8DB24136E91AAB5E6FB49A0590B6.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box004_Auto6.uasset'
+[2015.05.06-21.37.57:965][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box005] ([1] browsable assets)...
+[2015.05.06-21.37.58:004][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box005.MapPieces_Box005]
+[2015.05.06-21.37.58:004][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box005]
+[2015.05.06-21.37.58:006][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box005" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box005_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.58:387][787]LogSavePackage: Save=373.091797ms
+[2015.05.06-21.37.58:388][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box005_Auto672C1B1BD4B12D4A742C1C3AE34858A04.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box005_Auto6.uasset'
+[2015.05.06-21.37.58:482][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box006] ([1] browsable assets)...
+[2015.05.06-21.37.58:522][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box006.MapPieces_Box006]
+[2015.05.06-21.37.58:522][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box006]
+[2015.05.06-21.37.58:524][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box006" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box006_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.58:891][787]LogSavePackage: Save=361.771423ms
+[2015.05.06-21.37.58:892][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box006_Auto62C36373640E28636004F10B30543A845.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box006_Auto6.uasset'
+[2015.05.06-21.37.58:999][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_StraightStair001] ([1] browsable assets)...
+[2015.05.06-21.37.59:025][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_StraightStair001.MapPieces_StraightStair001]
+[2015.05.06-21.37.59:025][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_StraightStair001]
+[2015.05.06-21.37.59:390][787]LogSavePackage: Save=356.584045ms
+[2015.05.06-21.37.59:391][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_StraightStair001_Auto60EFD867742797962C54047B043BFBF44.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_StraightStair001_Auto6.uasset'
+[2015.05.06-21.37.59:427][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box007] ([1] browsable assets)...
+[2015.05.06-21.37.59:444][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box007.MapPieces_Box007]
+[2015.05.06-21.37.59:444][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box007]
+[2015.05.06-21.37.59:445][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box007" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box007_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.37.59:790][787]LogSavePackage: Save=342.201477ms
+[2015.05.06-21.37.59:791][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box007_Auto6CAE01CD9471D04BCA2D895BE8D02E914.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box007_Auto6.uasset'
+[2015.05.06-21.37.59:827][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box008] ([1] browsable assets)...
+[2015.05.06-21.37.59:860][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box008.MapPieces_Box008]
+[2015.05.06-21.37.59:860][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box008]
+[2015.05.06-21.37.59:861][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box008" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box008_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.38.00:189][787]LogSavePackage: Save=325.979706ms
+[2015.05.06-21.38.00:190][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box008_Auto6C5B53EF3448C4514F5E6ABAC5B203130.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box008_Auto6.uasset'
+[2015.05.06-21.38.00:227][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box009] ([1] browsable assets)...
+[2015.05.06-21.38.00:247][787]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box009.MapPieces_Box009]
+[2015.05.06-21.38.00:247][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box009]
+[2015.05.06-21.38.00:248][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box009" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box009_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.38.00:540][787]LogSavePackage: Save=290.009064ms
+[2015.05.06-21.38.00:540][787]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box009_Auto6325A0C8C46B633952056AE8F2AAA48DE.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box009_Auto6.uasset'
+[2015.05.06-21.38.00:545][787]LogFileHelpers: Auto-saving content packages took 4.925
+[2015.05.06-21.38.01:514][892]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.01:522][893]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.02:514][  2]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.02:522][  3]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.03:519][103]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.03:527][104]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.04:521][203]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.04:530][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.05:523][305]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.05:531][306]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.06:527][415]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.06:535][416]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.07:534][524]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.07:542][525]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.08:535][626]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.08:543][627]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.09:536][726]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.09:544][727]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.10:541][825]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.10:549][826]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.11:543][927]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.11:552][928]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.12:547][ 37]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.12:556][ 38]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.13:550][141]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.13:558][142]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.14:553][241]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.14:561][242]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.15:555][339]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.15:563][340]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.16:560][447]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.16:577][448]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.38.17:563][557]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Config/DefaultInput.ini"'
+[2015.05.06-21.38.17:579][558]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.39.08:840][272]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.39.08:939][281]Cmd: UpdateLandscapeSetup
+[2015.05.06-21.39.13:338][730]MapCheck: New page: Map Check
+[2015.05.06-21.39.13:347][730]LightingResults: New page: Lighting Build - May 6, 2015, 7:39:13 AM
+[2015.05.06-21.39.17:918][730]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.06-21.39.17:918][730]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.06-21.39.17:918][730]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.06-21.39.17:918][730]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.06-21.39.17:918][730]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.06-21.39.17:918][730]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.06-21.39.18:118][730]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.06-21.39.44:922][811]LightingResults:Error: Error MapPieces_Box009 Object has overlapping UVs.
+[2015.05.06-21.39.44:922][811]LightingResults: Info MapPieces_Box009 Lightmap UV are overlapping by 9.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.39.45:255][812]LightingResults:Error: Error MapPieces_Box005 Object has overlapping UVs.
+[2015.05.06-21.39.45:255][812]LightingResults: Info MapPieces_Box005 Lightmap UV are overlapping by 1.7%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.39.46:589][816]Job is a success!
+[2015.05.06-21.39.47:964][817]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.05.06-21.39.48:216][817]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.05.06-21.39.48:231][817]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.05.06-21.39.48:246][817]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.05.06-21.39.48:249][817]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.05.06-21.39.48:273][817]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.05.06-21.39.48:334][817]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.05.06-21.39.48:531][817]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.05.06-21.39.48:602][817]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.05.06-21.39.48:793][817]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.05.06-21.39.48:871][817]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.05.06-21.39.49:061][817]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.05.06-21.39.49:125][817]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.05.06-21.39.49:296][817]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.05.06-21.39.49:385][817]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.05.06-21.39.49:698][817]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.06-21.39.49:807][817]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.06-21.39.50:123][817]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.05.06-21.39.50:748][817]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.05.06-21.39.51:531][817]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.05.06-21.39.52:235][817]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.05.06-21.39.52:531][817]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.05.06-21.39.52:563][817]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.05.06-21.39.52:566][817]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.05.06-21.39.52:569][817]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.05.06-21.39.52:601][817]Lightmass on FRED: 33.5 sec total, 152 ms importing, 14 ms setup, 1.02 sec photons, 32.3 sec processing, 0 ms extra exporting [41/41 mappings]. Threads: 2:09 min total, 1:17 min processing.
+[2015.05.06-21.39.52:617][817]LogStaticLightingSystem: Illumination: 38.9 sec (5.19 sec encoding lightmaps)
+[2015.05.06-21.39.52:618][817]LogStaticLightingSystem: Lightmap texture memory:  9.4 MB (8.0 MB streaming, 1.3 MB non-streaming), 18 textures
+[2015.05.06-21.39.52:618][817]LogStaticLightingSystem: Shadowmap texture memory: 93.6 MB (85.6 MB streaming, 8.0 MB non-streaming), 17 textures
+[2015.05.06-21.39.52:951][818]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.06-21.39.52:951][818]MapCheck: New page: Temple - May 6, 2015, 7:39:52 AM
+[2015.05.06-21.39.53:117][818]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 164.597ms to complete.
+[2015.05.06-21.40.11:120][457]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap0_3. Streaming mips will be recached.
+[2015.05.06-21.40.11:122][457]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.05.06-21.40.11:879][501]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap0_5. Streaming mips will be recached.
+[2015.05.06-21.40.11:883][501]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.05.06-21.40.12:498][541]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap0_1. Streaming mips will be recached.
+[2015.05.06-21.40.12:500][541]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.06-21.40.12:899][557]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap0_2. Streaming mips will be recached.
+[2015.05.06-21.40.12:901][557]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.06-21.40.15:204][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.06-21.40.27:839][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.40.28:494][881]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box16)
+[2015.05.06-21.40.31:107][112]Cmd: SELECT NONE
+[2015.05.06-21.40.34:925][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.06-21.40.36:328][585]Cmd: SELECT NONE
+[2015.05.06-21.40.38:678][798]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap0_4. Streaming mips will be recached.
+[2015.05.06-21.40.38:681][798]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.05.06-21.40.42:356][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.40.47:080][538]Cmd: SELECT NONE
+[2015.05.06-21.40.51:453][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box16)
+[2015.05.06-21.41.09:514][ 87]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap1_6. Streaming mips will be recached.
+[2015.05.06-21.41.09:516][ 87]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.05.06-21.41.17:033][740]Cmd: SELECT NONE
+[2015.05.06-21.41.25:209][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box16)
+[2015.05.06-21.41.35:784][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.41.57:373][386]Cmd: SELECT NONE
+[2015.05.06-21.42.09:835][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.42.14:896][672]LogEditorViewport: Clicking Background
+[2015.05.06-21.42.15:823][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.42.22:494][460]Cmd: SELECT NONE
+[2015.05.06-21.42.22:729][486]Cmd: SELECT NONE
+[2015.05.06-21.42.36:750][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box17)
+[2015.05.06-21.42.37:148][822]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box18)
+[2015.05.06-21.42.37:683][880]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.06-21.42.38:025][915]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box16)
+[2015.05.06-21.42.38:402][952]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.42.41:451][186]Cmd: DELETE
+[2015.05.06-21.42.41:451][186]Cmd: ACTOR DELETE
+[2015.05.06-21.42.41:452][186]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-21.42.41:520][186]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2015.05.06-21.42.42:481][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.06-21.42.42:854][319]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box16)
+[2015.05.06-21.42.43:386][375]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.42.43:787][415]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box17)
+[2015.05.06-21.42.44:222][460]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box18)
+[2015.05.06-21.43.18:894][884]Cmd: SELECT NONE
+[2015.05.06-21.43.19:125][903]Cmd: SELECT NONE
+[2015.05.06-21.43.52:381][811]MapCheck: New page: Map Check
+[2015.05.06-21.43.52:418][811]LightingResults: New page: Lighting Build - May 6, 2015, 7:43:52 AM
+[2015.05.06-21.43.56:967][811]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.06-21.43.56:968][811]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.06-21.43.56:968][811]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.06-21.43.56:968][811]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.06-21.43.56:968][811]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.06-21.43.56:968][811]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.06-21.43.57:209][811]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.06-21.44.25:964][564]LightingResults:Error: Error MapPieces_Box009 Object has overlapping UVs.
+[2015.05.06-21.44.25:964][564]LightingResults: Info MapPieces_Box009 Lightmap UV are overlapping by 9.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.44.26:297][565]LightingResults:Error: Error MapPieces_Box009 Object has overlapping UVs.
+[2015.05.06-21.44.26:297][565]LightingResults: Info MapPieces_Box009 Lightmap UV are overlapping by 9.0%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.44.26:631][566]LightingResults:Error: Error MapPieces_Box005 Object has overlapping UVs.
+[2015.05.06-21.44.26:631][566]LightingResults: Info MapPieces_Box005 Lightmap UV are overlapping by 1.7%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.44.27:964][570]Job is a success!
+[2015.05.06-21.44.29:244][571]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.06-21.44.29:389][571]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.05.06-21.44.29:394][571]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.05.06-21.44.29:406][571]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.05.06-21.44.29:418][571]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.05.06-21.44.29:434][571]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.05.06-21.44.29:445][571]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.05.06-21.44.29:468][571]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.05.06-21.44.29:475][571]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.05.06-21.44.29:486][571]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.05.06-21.44.29:492][571]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.05.06-21.44.29:509][571]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.05.06-21.44.29:515][571]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.05.06-21.44.29:530][571]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.05.06-21.44.29:539][571]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.05.06-21.44.29:560][571]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.05.06-21.44.29:618][571]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.05.06-21.44.29:690][571]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.05.06-21.44.29:748][571]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.05.06-21.44.29:883][571]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.05.06-21.44.29:951][571]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.05.06-21.44.30:202][571]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.05.06-21.44.30:269][571]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.05.06-21.44.30:418][571]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.05.06-21.44.30:508][571]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.05.06-21.44.30:731][571]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.06-21.44.30:803][571]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.06-21.44.31:085][571]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.06-21.44.31:704][571]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.05.06-21.44.32:420][571]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.05.06-21.44.33:135][571]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.05.06-21.44.33:437][571]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.05.06-21.44.33:477][571]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.05.06-21.44.33:490][571]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.05.06-21.44.33:493][571]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.05.06-21.44.33:496][571]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.05.06-21.44.33:498][571]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.05.06-21.44.33:502][571]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2015.05.06-21.44.33:506][571]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2015.05.06-21.44.33:509][571]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2015.05.06-21.44.33:588][571]LogStaticLightingSystem: Illumination: 40.8 sec (4.76 sec encoding lightmaps)
+[2015.05.06-21.44.33:588][571]LogStaticLightingSystem: Lightmap texture memory:  8.5 MB (7.1 MB streaming, 1.3 MB non-streaming), 28 textures
+[2015.05.06-21.44.33:588][571]LogStaticLightingSystem: Shadowmap texture memory: 128.7 MB (118.0 MB streaming, 10.7 MB non-streaming), 29 textures
+[2015.05.06-21.44.33:976][572]Lightmass on FRED: 33.6 sec total, 456 ms importing, 14 ms setup, 1.32 sec photons, 31.7 sec processing, 0 ms extra exporting [45/45 mappings]. Threads: 2:07 min total, 1:16 min processing.
+[2015.05.06-21.44.33:976][572]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.06-21.44.33:977][572]MapCheck: New page: Temple - May 6, 2015, 7:44:33 AM
+[2015.05.06-21.44.34:102][572]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.187ms to complete.
+[2015.05.06-21.44.40:441][591]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap1_1. Streaming mips will be recached.
+[2015.05.06-21.44.40:443][591]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.05.06-21.44.40:668][591]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap1_3. Streaming mips will be recached.
+[2015.05.06-21.44.40:673][591]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.05.06-21.44.40:939][592]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap0_6. Streaming mips will be recached.
+[2015.05.06-21.44.40:941][592]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.05.06-21.45.38:319][ 22]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap1_2. Streaming mips will be recached.
+[2015.05.06-21.45.38:321][ 22]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.06-21.46.00:670][136]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap1_4. Streaming mips will be recached.
+[2015.05.06-21.46.00:673][136]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.05.06-21.46.11:731][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.46.21:991][791]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Temple/Temple.HQ_Lightmap1_5. Streaming mips will be recached.
+[2015.05.06-21.46.21:994][791]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.05.06-21.46.22:184][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box17)
+[2015.05.06-21.46.23:237][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box18)
+[2015.05.06-21.46.26:435][193]Cmd: TRANSACTION UNDO
+[2015.05.06-21.46.26:435][193]LogEditorTransaction: Undo Move Actors
+[2015.05.06-21.46.27:035][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box17)
+[2015.05.06-21.46.31:392][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box18)
+[2015.05.06-21.46.38:582][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box22)
+[2015.05.06-21.46.39:987][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box21)
+[2015.05.06-21.46.41:140][497]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box23)
+[2015.05.06-21.46.44:081][761]Cmd: SELECT NONE
+[2015.05.06-21.46.44:206][774]Cmd: SELECT NONE
+[2015.05.06-21.48.22:805][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-21.48.23:726][366]LogSavePackage: Save=630.513306ms
+[2015.05.06-21.48.23:726][366]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto7ABA74AB04F1BB7DA24716C9A0A13206D.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto7.umap'
+[2015.05.06-21.48.23:736][366]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 1.026
+[2015.05.06-21.48.23:736][366]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.026
+[2015.05.06-21.50.04:537][853]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces.uasset"'
+[2015.05.06-21.50.04:564][853]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.04:584][853]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/MapPieces.FBX)
+[2015.05.06-21.50.04:605][853]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-21.50.04:605][853]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-21.50.04:605][853]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-21.50.04:605][853]LogFbx: ItemName: Model, ItemCount : 14
+[2015.05.06-21.50.04:605][853]LogFbx: ItemName: Geometry, ItemCount : 14
+[2015.05.06-21.50.07:117][853]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/MapPieces.FBX
+[2015.05.06-21.50.07:169][853]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-21.50.07:172][853]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.06-21.50.07:185][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.07:185][853]LogFbx: 0: None
+[2015.05.06-21.50.07:185][853]LogFbx: == After sorting:
+[2015.05.06-21.50.07:185][853]LogFbx: 0: None
+[2015.05.06-21.50.07:185][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.07:185][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.07:186][853]LogStaticMesh: Building static mesh MapPieces_Box001...
+[2015.05.06-21.50.07:189][853]LogStaticMesh: Built static mesh [3.452900ms] /Game/Maps/Temple/MapPieces_Box001.MapPieces_Box001
+[2015.05.06-21.50.07:192][853]LogStaticMesh:Warning: MapPieces_Box001 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.08:670][853]LogFbx:Warning: Triangulating static mesh Box002
+[2015.05.06-21.50.08:790][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.08:790][853]LogFbx: 0: None
+[2015.05.06-21.50.08:790][853]LogFbx: == After sorting:
+[2015.05.06-21.50.08:790][853]LogFbx: 0: None
+[2015.05.06-21.50.08:790][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.08:790][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.08:791][853]LogStaticMesh: Building static mesh MapPieces_Box002...
+[2015.05.06-21.50.08:806][853]LogStaticMesh: Built static mesh [14.848189ms] /Game/Maps/Temple/MapPieces_Box002.MapPieces_Box002
+[2015.05.06-21.50.08:808][853]LogStaticMesh:Warning: MapPieces_Box002 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.09:034][853]LogFbx:Warning: Triangulating static mesh Box003
+[2015.05.06-21.50.09:085][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.09:085][853]LogFbx: 0: None
+[2015.05.06-21.50.09:085][853]LogFbx: == After sorting:
+[2015.05.06-21.50.09:085][853]LogFbx: 0: None
+[2015.05.06-21.50.09:085][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.09:085][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.09:086][853]LogStaticMesh: Building static mesh MapPieces_Box003...
+[2015.05.06-21.50.09:093][853]LogStaticMesh: Built static mesh [7.474385ms] /Game/Maps/Temple/MapPieces_Box003.MapPieces_Box003
+[2015.05.06-21.50.09:095][853]LogStaticMesh:Warning: MapPieces_Box003 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.09:319][853]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2015.05.06-21.50.09:334][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.09:334][853]LogFbx: 0: None
+[2015.05.06-21.50.09:334][853]LogFbx: == After sorting:
+[2015.05.06-21.50.09:334][853]LogFbx: 0: None
+[2015.05.06-21.50.09:334][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.09:334][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.09:335][853]LogStaticMesh: Building static mesh MapPieces_Cylinder001...
+[2015.05.06-21.50.09:342][853]LogStaticMesh: Built static mesh [7.142881ms] /Game/Maps/Temple/MapPieces_Cylinder001.MapPieces_Cylinder001
+[2015.05.06-21.50.09:346][853]LogFbx:Warning: Triangulating static mesh Box004
+[2015.05.06-21.50.09:437][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.09:437][853]LogFbx: 0: None
+[2015.05.06-21.50.09:437][853]LogFbx: == After sorting:
+[2015.05.06-21.50.09:437][853]LogFbx: 0: None
+[2015.05.06-21.50.09:437][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.09:437][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.09:438][853]LogStaticMesh: Building static mesh MapPieces_Box004...
+[2015.05.06-21.50.09:450][853]LogStaticMesh: Built static mesh [12.405877ms] /Game/Maps/Temple/MapPieces_Box004.MapPieces_Box004
+[2015.05.06-21.50.09:453][853]LogStaticMesh:Warning: MapPieces_Box004 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.09:721][853]LogFbx:Warning: Triangulating static mesh Box005
+[2015.05.06-21.50.09:819][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.09:819][853]LogFbx: 0: None
+[2015.05.06-21.50.09:819][853]LogFbx: == After sorting:
+[2015.05.06-21.50.09:819][853]LogFbx: 0: None
+[2015.05.06-21.50.09:819][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.09:819][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.09:820][853]LogStaticMesh: Building static mesh MapPieces_Box005...
+[2015.05.06-21.50.09:838][853]LogStaticMesh: Built static mesh [17.941191ms] /Game/Maps/Temple/MapPieces_Box005.MapPieces_Box005
+[2015.05.06-21.50.09:847][853]LogFbx:Warning: Triangulating static mesh Box006
+[2015.05.06-21.50.09:885][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.09:885][853]LogFbx: 0: None
+[2015.05.06-21.50.09:885][853]LogFbx: == After sorting:
+[2015.05.06-21.50.09:885][853]LogFbx: 0: None
+[2015.05.06-21.50.09:885][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.09:885][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.09:885][853]LogStaticMesh: Building static mesh MapPieces_Box006...
+[2015.05.06-21.50.09:891][853]LogStaticMesh: Built static mesh [5.628026ms] /Game/Maps/Temple/MapPieces_Box006.MapPieces_Box006
+[2015.05.06-21.50.09:892][853]LogStaticMesh:Warning: MapPieces_Box006 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.10:152][853]LogFbx:Warning: Triangulating static mesh StraightStair001
+[2015.05.06-21.50.10:173][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:173][853]LogFbx: 0: None
+[2015.05.06-21.50.10:173][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:173][853]LogFbx: 0: None
+[2015.05.06-21.50.10:173][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:173][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:174][853]LogStaticMesh: Building static mesh MapPieces_StraightStair001...
+[2015.05.06-21.50.10:177][853]LogStaticMesh: Built static mesh [4.049195ms] /Game/Maps/Temple/MapPieces_StraightStair001.MapPieces_StraightStair001
+[2015.05.06-21.50.10:182][853]LogFbx:Warning: Triangulating static mesh Box007
+[2015.05.06-21.50.10:199][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:199][853]LogFbx: 0: None
+[2015.05.06-21.50.10:199][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:199][853]LogFbx: 0: None
+[2015.05.06-21.50.10:199][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:199][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:199][853]LogStaticMesh: Building static mesh MapPieces_Box007...
+[2015.05.06-21.50.10:204][853]LogStaticMesh: Built static mesh [5.404286ms] /Game/Maps/Temple/MapPieces_Box007.MapPieces_Box007
+[2015.05.06-21.50.10:206][853]LogStaticMesh:Warning: MapPieces_Box007 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.10:406][853]LogFbx:Warning: Triangulating static mesh Box008
+[2015.05.06-21.50.10:420][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:420][853]LogFbx: 0: None
+[2015.05.06-21.50.10:420][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:420][853]LogFbx: 0: None
+[2015.05.06-21.50.10:420][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:420][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:421][853]LogStaticMesh: Building static mesh MapPieces_Box008...
+[2015.05.06-21.50.10:425][853]LogStaticMesh: Built static mesh [4.395409ms] /Game/Maps/Temple/MapPieces_Box008.MapPieces_Box008
+[2015.05.06-21.50.10:432][853]LogFbx:Warning: Triangulating static mesh Box009
+[2015.05.06-21.50.10:462][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:462][853]LogFbx: 0: None
+[2015.05.06-21.50.10:462][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:462][853]LogFbx: 0: None
+[2015.05.06-21.50.10:462][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:462][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:463][853]LogStaticMesh: Building static mesh MapPieces_Box009...
+[2015.05.06-21.50.10:468][853]LogStaticMesh: Built static mesh [5.657447ms] /Game/Maps/Temple/MapPieces_Box009.MapPieces_Box009
+[2015.05.06-21.50.10:470][853]LogStaticMesh:Warning: MapPieces_Box009 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.50.10:683][853]LogFbx:Warning: Triangulating static mesh Box010
+[2015.05.06-21.50.10:692][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:692][853]LogFbx: 0: None
+[2015.05.06-21.50.10:692][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:692][853]LogFbx: 0: None
+[2015.05.06-21.50.10:692][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:692][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:693][853]LogStaticMesh: Building static mesh MapPieces_Box010...
+[2015.05.06-21.50.10:696][853]LogStaticMesh: Built static mesh [3.999932ms] /Game/Maps/Temple/MapPieces_Box010.MapPieces_Box010
+[2015.05.06-21.50.10:702][853]LogFbx:Warning: Triangulating static mesh Box011
+[2015.05.06-21.50.10:710][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:710][853]LogFbx: 0: None
+[2015.05.06-21.50.10:710][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:710][853]LogFbx: 0: None
+[2015.05.06-21.50.10:710][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:710][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:710][853]LogStaticMesh: Building static mesh MapPieces_Box011...
+[2015.05.06-21.50.10:715][853]LogStaticMesh: Built static mesh [4.302355ms] /Game/Maps/Temple/MapPieces_Box011.MapPieces_Box011
+[2015.05.06-21.50.10:718][853]LogFbx:Warning: Triangulating static mesh Box012
+[2015.05.06-21.50.10:727][853]LogFbx: == Initial material list:
+[2015.05.06-21.50.10:727][853]LogFbx: 0: None
+[2015.05.06-21.50.10:727][853]LogFbx: == After sorting:
+[2015.05.06-21.50.10:727][853]LogFbx: 0: None
+[2015.05.06-21.50.10:727][853]LogFbx: == Mapping table:
+[2015.05.06-21.50.10:727][853]LogFbx:   sort 0 -> 0
+[2015.05.06-21.50.10:727][853]LogStaticMesh: Building static mesh MapPieces_Box012...
+[2015.05.06-21.50.10:731][853]LogStaticMesh: Built static mesh [4.157986ms] /Game/Maps/Temple/MapPieces_Box012.MapPieces_Box012
+[2015.05.06-21.50.10:742][853]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-21.50.10:743][853]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.50.10:870][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box009)
+[2015.05.06-21.50.10:980][868]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.05.06-21.50.11:762][952]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.50.11:771][952]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.13:919][169]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-21.50.13:935][171]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.14:347][215]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-21.50.14:356][216]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.15:742][364]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset"'
+[2015.05.06-21.50.15:749][365]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.15:799][370]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset"'
+[2015.05.06-21.50.15:815][372]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.15:888][379]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset"'
+[2015.05.06-21.50.15:903][381]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.16:003][392]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.06-21.50.16:012][393]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.17:898][586]LogActorFactory: Actor Factory created MapPieces_Box011
+[2015.05.06-21.50.17:920][587]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset"'
+[2015.05.06-21.50.17:939][589]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.50.19:126][666]LogActorFactory: Actor Factory created MapPieces_Box011
+[2015.05.06-21.50.48:087][330]Cmd: DELETE
+[2015.05.06-21.50.48:087][330]Cmd: ACTOR DELETE
+[2015.05.06-21.50.48:088][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-21.50.48:114][330]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.05.06-21.50.53:194][815]LogActorFactory: Actor Factory created MapPieces_Box011
+[2015.05.06-21.50.53:554][849]LogActorFactory: Actor Factory created MapPieces_Box011
+[2015.05.06-21.51.39:242][999]Cmd: SELECT NONE
+[2015.05.06-21.51.45:313][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box011)
+[2015.05.06-21.51.52:883][301]Cmd: SELECT NONE
+[2015.05.06-21.51.55:279][508]LogActorFactory: Actor Factory created MapPieces_Box012
+[2015.05.06-21.51.56:284][606]LogActorFactory: Actor Factory created MapPieces_Box012
+[2015.05.06-21.53.12:381][ 38]Cmd: DELETE
+[2015.05.06-21.53.12:381][ 38]Cmd: ACTOR DELETE
+[2015.05.06-21.53.12:382][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-21.53.12:395][ 38]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.05.06-21.53.19:055][700]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset"'
+[2015.05.06-21.53.19:065][700]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.53.19:090][701]LogActorFactory: Actor Factory created MapPieces_Box010
+[2015.05.06-21.53.19:343][723]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset"'
+[2015.05.06-21.53.19:358][724]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.53.19:854][764]LogActorFactory: Actor Factory created MapPieces_Box010
+[2015.05.06-21.53.35:043][265]Cmd: SELECT NONE
+[2015.05.06-21.53.36:816][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box010)
+[2015.05.06-21.53.41:756][872]Cmd: SELECT NONE
+[2015.05.06-21.53.46:991][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box011)
+[2015.05.06-21.54.04:193][953]Cmd: SELECT NONE
+[2015.05.06-21.54.06:155][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box26)
+[2015.05.06-21.54.29:776][194]Cmd: SELECT NONE
+[2015.05.06-21.54.32:830][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box26)
+[2015.05.06-21.54.45:247][595]Cmd: SELECT NONE
+[2015.05.06-21.54.56:692][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box7)
+[2015.05.06-21.55.01:184][878]Cmd: SELECT NONE
+[2015.05.06-21.55.07:499][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box28)
+[2015.05.06-21.55.10:506][710]Cmd: SELECT NONE
+[2015.05.06-21.58.24:088][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-21.58.24:268][706]LogSavePackage: Save=148.259521ms
+[2015.05.06-21.58.24:268][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto8FEB1319149CE018B9205C88D62CF1E30.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto8.umap'
+[2015.05.06-21.58.24:277][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.283
+[2015.05.06-21.58.24:277][706]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2015.05.06-21.58.24:312][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_Box003] ([1] browsable assets)...
+[2015.05.06-21.58.24:312][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box003]
+[2015.05.06-21.58.24:322][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box003" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box003_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.24:420][706]LogSavePackage: Save=91.222183ms
+[2015.05.06-21.58.24:421][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box003_Auto81566A9484B7C7BBB674773856086EF10.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box003_Auto8.uasset'
+[2015.05.06-21.58.24:460][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_Cylinder001] ([1] browsable assets)...
+[2015.05.06-21.58.24:460][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Cylinder001]
+[2015.05.06-21.58.24:488][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Cylinder001" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Cylinder001_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.24:606][706]LogSavePackage: Save=111.171890ms
+[2015.05.06-21.58.24:607][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Cylinder001_Auto89CDA7C334669E9C9E61BD4B4EC7B2E3C.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Cylinder001_Auto8.uasset'
+[2015.05.06-21.58.24:643][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box001] ([1] browsable assets)...
+[2015.05.06-21.58.24:722][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box001.MapPieces_Box001]
+[2015.05.06-21.58.24:722][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box001]
+[2015.05.06-21.58.24:724][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box001" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box001_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.24:981][706]LogSavePackage: Save=250.044983ms
+[2015.05.06-21.58.24:982][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box001_Auto8ED902FEC4636ABCA4160AFBA5975945A.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box001_Auto8.uasset'
+[2015.05.06-21.58.25:022][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_Box002] ([1] browsable assets)...
+[2015.05.06-21.58.25:022][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box002]
+[2015.05.06-21.58.25:069][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box002" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box002_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.25:195][706]LogSavePackage: Save=116.745178ms
+[2015.05.06-21.58.25:196][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box002_Auto86E8534E04DEB3C6E0FC164B9AD38C583.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box002_Auto8.uasset'
+[2015.05.06-21.58.25:233][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_Box004] ([1] browsable assets)...
+[2015.05.06-21.58.25:233][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box004]
+[2015.05.06-21.58.25:241][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box004" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box004_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.25:335][706]LogSavePackage: Save=87.499702ms
+[2015.05.06-21.58.25:336][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box004_Auto8CE89B918420AFB27721B60AC4C44EB38.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box004_Auto8.uasset'
+[2015.05.06-21.58.25:374][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_Box005] ([1] browsable assets)...
+[2015.05.06-21.58.25:374][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box005]
+[2015.05.06-21.58.25:405][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box005" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box005_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.25:525][706]LogSavePackage: Save=113.718887ms
+[2015.05.06-21.58.25:526][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box005_Auto82E6B66204874940B5CBB33A27D94D9C9.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box005_Auto8.uasset'
+[2015.05.06-21.58.25:563][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_Box006] ([1] browsable assets)...
+[2015.05.06-21.58.25:563][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box006]
+[2015.05.06-21.58.25:578][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box006" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box006_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.25:701][706]LogSavePackage: Save=115.137611ms
+[2015.05.06-21.58.25:702][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box006_Auto823D3E66A421F5A7F5C7D26BFA5303E1F.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box006_Auto8.uasset'
+[2015.05.06-21.58.25:740][706]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Temple/MapPieces_StraightStair001] ([1] browsable assets)...
+[2015.05.06-21.58.25:740][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_StraightStair001]
+[2015.05.06-21.58.25:916][706]LogSavePackage: Save=118.474197ms
+[2015.05.06-21.58.25:917][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_StraightStair001_Auto8F4FBF9914E33A4896D2EFA8C5070BF94.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_StraightStair001_Auto8.uasset'
+[2015.05.06-21.58.25:957][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box007] ([1] browsable assets)...
+[2015.05.06-21.58.26:004][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box007.MapPieces_Box007]
+[2015.05.06-21.58.26:004][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box007]
+[2015.05.06-21.58.26:005][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box007" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box007_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.26:337][706]LogSavePackage: Save=330.324158ms
+[2015.05.06-21.58.26:338][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box007_Auto8BD225FD4486837652CED08917A156116.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box007_Auto8.uasset'
+[2015.05.06-21.58.26:378][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box008] ([1] browsable assets)...
+[2015.05.06-21.58.26:405][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box008.MapPieces_Box008]
+[2015.05.06-21.58.26:405][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box008]
+[2015.05.06-21.58.26:407][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box008" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box008_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.26:728][706]LogSavePackage: Save=319.718445ms
+[2015.05.06-21.58.26:728][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box008_Auto8AE7AE2654DB7E9B6ADD9FCA032F21357.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box008_Auto8.uasset'
+[2015.05.06-21.58.26:764][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box009] ([1] browsable assets)...
+[2015.05.06-21.58.26:792][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box009.MapPieces_Box009]
+[2015.05.06-21.58.26:793][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box009]
+[2015.05.06-21.58.26:794][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box009" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box009_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.27:131][706]LogSavePackage: Save=334.876251ms
+[2015.05.06-21.58.27:131][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box009_Auto81B034EA84A89A35DA10C72B242FB0943.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box009_Auto8.uasset'
+[2015.05.06-21.58.27:172][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box010] ([1] browsable assets)...
+[2015.05.06-21.58.27:194][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box010.MapPieces_Box010]
+[2015.05.06-21.58.27:194][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box010]
+[2015.05.06-21.58.27:196][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box010" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box010_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.27:546][706]LogSavePackage: Save=348.363190ms
+[2015.05.06-21.58.27:547][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box010_Auto8F876155542643130C670DD8A7044DBE1.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box010_Auto8.uasset'
+[2015.05.06-21.58.27:615][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box011] ([1] browsable assets)...
+[2015.05.06-21.58.27:655][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box011.MapPieces_Box011]
+[2015.05.06-21.58.27:655][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box011]
+[2015.05.06-21.58.27:657][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box011" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box011_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.27:934][706]LogSavePackage: Save=275.337067ms
+[2015.05.06-21.58.27:935][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box011_Auto8402C92EB406F7ADA9A7395AC1FFC0578.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box011_Auto8.uasset'
+[2015.05.06-21.58.27:973][706]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/MapPieces_Box012] ([1] browsable assets)...
+[2015.05.06-21.58.27:995][706]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/MapPieces_Box012.MapPieces_Box012]
+[2015.05.06-21.58.27:995][706]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/MapPieces_Box012]
+[2015.05.06-21.58.27:997][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box012" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box012_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.58.28:326][706]LogSavePackage: Save=327.181549ms
+[2015.05.06-21.58.28:326][706]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box012_Auto80F7011C84C6BA8CE2F3890ACB9A4AC36.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/MapPieces_Box012_Auto8.uasset'
+[2015.05.06-21.58.28:331][706]LogFileHelpers: Auto-saving content packages took 4.055
+[2015.05.06-22.02.49:135][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-22.02.49:147][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.49:249][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box001" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" SILENT=true
+[2015.05.06-22.02.49:271][481]LogSavePackage: Save=8.692633ms
+[2015.05.06-22.02.49:271][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box0013CCB8ABF4869E92C9FF9EA8AC211CB42.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset'
+[2015.05.06-22.02.49:280][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box002" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" SILENT=true
+[2015.05.06-22.02.49:290][481]LogSavePackage: Save=5.850396ms
+[2015.05.06-22.02.49:290][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box002F9A589594D23CF62DEB87E80B9FCE32A.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset'
+[2015.05.06-22.02.49:530][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box003" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" SILENT=true
+[2015.05.06-22.02.49:539][481]LogSavePackage: Save=5.658131ms
+[2015.05.06-22.02.49:539][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box003C20738E443B7DC02B5247AB4DF972CA2.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset'
+[2015.05.06-22.02.49:547][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box004" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset" SILENT=true
+[2015.05.06-22.02.49:557][481]LogSavePackage: Save=6.016661ms
+[2015.05.06-22.02.49:558][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box004015FFAE241B6CD5CD785BEB6EE6314D9.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset'
+[2015.05.06-22.02.49:581][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box005" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset" SILENT=true
+[2015.05.06-22.02.49:591][481]LogSavePackage: Save=5.508287ms
+[2015.05.06-22.02.49:591][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box0055DA9272F4109D9052367DD883144EF67.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset'
+[2015.05.06-22.02.49:607][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box006" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset" SILENT=true
+[2015.05.06-22.02.49:617][481]LogSavePackage: Save=6.090898ms
+[2015.05.06-22.02.49:617][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box00643B310FA4D00BADA591874BFFA352AFE.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset'
+[2015.05.06-22.02.49:639][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box007" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset" SILENT=true
+[2015.05.06-22.02.49:839][481]LogSavePackage: Save=196.665817ms
+[2015.05.06-22.02.49:839][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box007DA67E5AA41FB7FD4406D9DADAB0D80A2.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset'
+[2015.05.06-22.02.49:879][481]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset"'
+[2015.05.06-22.02.49:907][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.49:907][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset"'
+[2015.05.06-22.02.49:918][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/MapPieces_Box007.uasset
+'
+[2015.05.06-22.02.49:941][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box008" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset" SILENT=true
+[2015.05.06-22.02.50:127][481]LogSavePackage: Save=185.069366ms
+[2015.05.06-22.02.50:128][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box00831A66C1C449A2B27B496718E93356191.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset'
+[2015.05.06-22.02.50:163][481]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset"'
+[2015.05.06-22.02.50:192][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.50:192][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset"'
+[2015.05.06-22.02.50:214][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/MapPieces_Box008.uasset
+'
+[2015.05.06-22.02.50:235][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box009" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset" SILENT=true
+[2015.05.06-22.02.50:426][481]LogSavePackage: Save=189.932434ms
+[2015.05.06-22.02.50:426][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box009B85C89034069E99AC0AAC69750F20A97.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset'
+[2015.05.06-22.02.50:460][481]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset"'
+[2015.05.06-22.02.50:493][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.50:493][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset"'
+[2015.05.06-22.02.50:504][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/MapPieces_Box009.uasset
+'
+[2015.05.06-22.02.50:525][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box010" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset" SILENT=true
+[2015.05.06-22.02.50:711][481]LogSavePackage: Save=184.240433ms
+[2015.05.06-22.02.50:711][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box010E514285443F261C19A99F1A75E32E716.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset'
+[2015.05.06-22.02.50:744][481]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset"'
+[2015.05.06-22.02.50:766][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.50:766][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset"'
+[2015.05.06-22.02.50:787][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/MapPieces_Box010.uasset
+'
+[2015.05.06-22.02.50:827][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box011" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset" SILENT=true
+[2015.05.06-22.02.51:000][481]LogSavePackage: Save=171.094574ms
+[2015.05.06-22.02.51:000][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box011689753814AC847D851AB768736ECF67B.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset'
+[2015.05.06-22.02.51:035][481]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset"'
+[2015.05.06-22.02.51:064][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.51:064][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset"'
+[2015.05.06-22.02.51:078][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/MapPieces_Box011.uasset
+'
+[2015.05.06-22.02.51:097][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Box012" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset" SILENT=true
+[2015.05.06-22.02.51:318][481]LogSavePackage: Save=218.961365ms
+[2015.05.06-22.02.51:318][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Box012C156522749327ED29B4E4C9585BEC27E.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset'
+[2015.05.06-22.02.51:354][481]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset"'
+[2015.05.06-22.02.51:385][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-22.02.51:385][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset"'
+[2015.05.06-22.02.51:398][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/MapPieces_Box012.uasset
+'
+[2015.05.06-22.02.51:418][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_Cylinder001" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset" SILENT=true
+[2015.05.06-22.02.51:427][481]LogSavePackage: Save=5.687894ms
+[2015.05.06-22.02.51:427][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_Cylinder001237D6A3841A04343E72CF4A956591B44.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset'
+[2015.05.06-22.02.51:435][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/MapPieces_StraightStair001" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset" SILENT=true
+[2015.05.06-22.02.51:445][481]LogSavePackage: Save=5.564051ms
+[2015.05.06-22.02.51:445][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/MapPieces_StraightStair001059AB2FD4A63B4F5229CEB8F09F2211D.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset'
+[2015.05.06-22.02.51:583][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.06-22.02.51:743][481]LogSavePackage: Save=145.102554ms
+[2015.05.06-22.02.51:743][481]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/TempleA46E48A843C0792B08DB5F9465860403.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.06-22.02.51:765][481]LogFileHelpers: Saving map 'Temple' took 0.276
+[2015.05.06-22.02.51:822][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset"'
+[2015.05.06-22.02.51:847][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/MapPieces_Box001.uasset
+ M Content/Maps/Temple/MapPieces_Box002.uasset
+ M Content/Maps/Temple/MapPieces_Box003.uasset
+ M Content/Maps/Temple/MapPieces_Box004.uasset
+ M Content/Maps/Temple/MapPieces_Box005.uasset
+ M Content/Maps/Temple/MapPieces_Box006.uasset
+A  Content/Maps/Temple/MapPieces_Box007.uasset
+A  Content/Maps/Temple/MapPieces_Box008.uasset
+A  Content/Maps/Temple/MapPieces_Box009.uasset
+A  Content/Maps/Temple/MapPieces_Box010.uasset
+A  Content/Maps/Temple/MapPieces_Box011.uasset
+A  Content/Maps/Temple/MapPieces_Box012.uasset
+ M Content/Maps/Temple/MapPieces_Cylinder001.uasset
+ M Content/Maps/Temple/MapPieces_StraightStair001.uasset
+ M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-22.02.55:276][482]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.
