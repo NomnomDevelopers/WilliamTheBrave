@@ -1,9 +1,11 @@
-﻿Log file open, 05/03/15 12:20:48
+﻿Log file open, 05/06/15 12:25:47
 LogInit:Display: Running engine for game: WilliamTheBrave
+LogConfig:Warning: Failed to saved backup for config[Engine]
 LogConfig:Warning: Failed to saved backup for config[EditorUserSettings]
 LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
-LogConfig:Warning: Failed to saved backup for config[EditorGameAgnostic]
-LogConfig:Warning: Failed to saved backup for config[Compat]
+LogConfig:Warning: Failed to saved backup for config[Lightmass]
+LogConfig:Warning: Failed to saved backup for config[Scalability]
+LogConfig:Warning: Failed to saved backup for config[GameUserSettings]
 LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
 LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
@@ -13,285 +15,771 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.05.03-19.20.52:379][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.05.03-19.20.52:455][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.05.03-19.20.52:474][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.05.03-19.20.52:484][  0]LogInit: Object subsystem initialized
-[2015.05.03-19.20.52:486][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.05.03-19.20.52:486][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.03-19.20.52:486][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.05.03-19.20.52:486][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.03-19.20.52:486][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.05.03-19.20.52:486][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.05.03-19.20.52:487][  0]LogInit: Selected Device Profile: [Windows]
-[2015.05.03-19.20.52:487][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.05.03-19.20.52:738][  0]LogInit: Computer: FRED
-[2015.05.03-19.20.52:738][  0]LogInit: User: William
-[2015.05.03-19.20.52:738][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.05.03-19.20.52:738][  0]LogInit: High frequency timer resolution =2.923050 MHz
-[2015.05.03-19.20.52:738][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
-[2015.05.03-19.20.52:738][  0]LogMemory: Platform Memory Stats for Windows
-[2015.05.03-19.20.52:738][  0]LogMemory: Process Physical Memory: 45.63 MB used, 45.63 MB peak
-[2015.05.03-19.20.52:738][  0]LogMemory: Process Virtual Memory: 22.54 MB used, 22.54 MB peak
-[2015.05.03-19.20.52:738][  0]LogMemory: Physical Memory: 3325.61 MB used, 8174.32 MB total
-[2015.05.03-19.20.52:738][  0]LogMemory: Virtual Memory: 284.30 MB used, 134217728.00 MB total
-[2015.05.03-19.20.52:794][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 450    (Feature Level 11_0)
-[2015.05.03-19.20.52:794][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
-[2015.05.03-19.20.52:816][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.05.03-19.20.52:816][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.05.03-19.20.52:816][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.05.03-19.20.52:824][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
-[2015.05.03-19.20.52:832][  0]LogD3D11RHI: Async texture creation enabled
-[2015.05.03-19.20.54:885][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.05.03-19.20.55:066][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.05.03-19.21.02:182][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.03-19.21.03:606][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.03-19.21.03:673][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.05.03-19.21.04:684][  0]LogDerivedDataCache: Loaded boot cache 0.99s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.03-19.21.04:684][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.05.03-19.21.04:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file S:/GameDev/WilliamTheBrave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.05.03-19.21.04:685][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.05.03-19.21.04:991][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.05.03-19.21.05:019][  0]LogDerivedDataCache: Using Local data cache path C:/Users/William/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.05.03-19.21.11:539][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.05.03-19.21.11:539][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.05.03-19.21.15:547][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.05.03-19.21.16:294][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.05.03-19.21.47:098][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.05.03-19.21.47:812][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
-[2015.05.03-19.21.48:003][  0]SourceControl: Info Source control is disabled
-[2015.05.03-19.21.48:003][  0]SourceControl: Info Source control is disabled
-[2015.05.03-19.21.48:003][  0]SourceControl: Info Source control is disabled
-[2015.05.03-19.21.48:015][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.05.03-19.21.48:015][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.05.03-19.21.49:604][  0]LogObj: 24231 objects as part of root set at end of initial load.
-[2015.05.03-19.21.49:604][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
-[2015.05.03-19.21.50:013][  0]LogEngine: Initializing Engine...
-[2015.05.03-19.21.52:933][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.05.03-19.21.52:980][  0]LogInit: FAudioDevice initialized.
-[2015.05.03-19.21.53:049][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.05.03-19.21.53:054][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.05.03-19.21.53:063][  0]LogInit: Texture streaming: Enabled
-[2015.05.03-19.21.53:981][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.05.03-19.21.53:981][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
-[2015.05.03-19.21.53:981][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
-[2015.05.03-19.21.53:981][  0]LogAnalytics: SetUserId 36daed364a6088c1be5d00993336a085|9b9f7eefc88a4ce5a9f9ea0297ce6769|8ef09727-ec57-4232-a159-43540120937a
-[2015.05.03-19.21.53:981][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.05.03-19.21.54:175][  0]LogInit: Transaction tracking system initialized
-[2015.05.03-19.21.56:095][  0]BlueprintLog: New page: Editor Load
-[2015.05.03-19.21.56:290][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
-[2015.05.03-19.21.56:321][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.05.03-19.21.59:564][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.03-19.22.00:231][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.05.03-19.22.01:227][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.05.03-19.22.01:227][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.05.03-19.22.01:378][  0]LogConsoleResponse:Display: 
-[2015.05.03-19.22.04:252][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.05.03-19.22.06:673][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.05.03-19.22.06:673][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.05.03-19.22.06:673][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.05.03-19.22.06:718][  0]LightingResults: New page: Lighting Build
-[2015.05.03-19.22.06:798][  0]MapCheck: New page: Map Check
-[2015.05.03-19.22.06:798][  0]LightingResults: New page: Lighting Build
-[2015.05.03-19.22.07:223][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CEA8117B00
-[2015.05.03-19.22.09:427][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.05.03-19.22.09:427][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2015.05.03-19.22.09:428][  0]Cmd: MAP CHECKDEP
-[2015.05.03-19.22.09:451][  0]MapCheck: New page: Untitled_1 - May 3, 2015, 5:22:09 AM
-[2015.05.03-19.22.09:534][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.991ms to complete.
-[2015.05.03-19.22.09:534][  0]LogFileHelpers: Loading map 'Template_Default' took 2.860
-[2015.05.03-19.22.09:934][  0]LogCollectionManager: Loaded 0 collections in 0.002175 seconds
-[2015.05.03-19.22.09:965][  0]LogContentBrowser: Native class hierarchy populated in 0.0311 seconds. Added 1696 classes and 261 folders.
-[2015.05.03-19.22.10:077][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.05.03-19.22.10:855][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
-[2015.05.03-19.22.11:185][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.05.03-19.22.11:187][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.05.03-19.22.11:201][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.05.03-19.22.11:369][  0]LogLoad: Full Startup: 88.24 seconds (BP compile: 0.38 seconds)
-[2015.05.03-19.22.12:664][  0]LogRenderer:Warning: Reallocating scene render targets to support 712x616 (Frame:2).
-[2015.05.03-19.22.14:227][  5]LogAssetRegistry: Asset discovery search completed in 17.9489 seconds
-[2015.05.03-19.23.18:950][280]Cmd: QUIT_EDITOR
-[2015.05.03-19.23.19:352][280]LogExit: Preparing to exit.
-[2015.05.03-19.23.20:478][280]LogExit: Editor shut down
-[2015.05.03-19.23.20:479][280]LogExit: Transaction tracking system shut down
-[2015.05.03-19.23.20:479][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CEA14ADEE0
-[2015.05.03-19.23.20:479][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CE9F73D4E0
-[2015.05.03-19.23.21:039][280]LogExit: Object subsystem successfully closed.
-[2015.05.03-19.23.21:391][280]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.05.03-19.23.21:391][280]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.05.03-19.23.21:391][280]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.05.03-19.23.21:403][280]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.05.03-19.23.21:403][280]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.05.03-19.23.21:403][280]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.05.03-19.23.21:417][280]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.05.03-19.23.21:417][280]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.05.03-19.23.21:435][280]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.05.03-19.23.21:447][280]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.05.03-19.23.21:456][280]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.05.03-19.23.21:499][280]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.05.03-19.23.22:353][280]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.05.03-19.23.22:353][280]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.05.03-19.23.22:353][280]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.05.03-19.23.22:353][280]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.05.03-19.23.22:353][280]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.05.03-19.23.22:380][280]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.05.03-19.23.22:380][280]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.05.03-19.23.22:380][280]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.05.03-19.23.22:380][280]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.05.03-19.23.22:380][280]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.05.03-19.23.22:394][280]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.05.03-19.23.22:394][280]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.05.03-19.23.22:394][280]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.05.03-19.23.22:394][280]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.05.03-19.23.22:394][280]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.05.03-19.23.22:415][280]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.05.03-19.23.22:415][280]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.05.03-19.23.22:415][280]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.05.03-19.23.22:415][280]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.05.03-19.23.22:522][280]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.05.03-19.23.22:530][280]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.05.03-19.23.22:541][280]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.05.03-19.23.22:542][280]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.05.03-19.23.22:549][280]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.05.03-19.23.22:549][280]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.05.03-19.23.22:549][280]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.05.03-19.23.22:549][280]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.05.03-19.23.22:559][280]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.05.03-19.23.22:573][280]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.05.03-19.23.22:573][280]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.05.03-19.23.22:585][280]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.05.03-19.23.22:585][280]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.05.03-19.23.22:585][280]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.05.03-19.23.22:585][280]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.05.03-19.23.22:599][280]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.05.03-19.23.22:599][280]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.05.03-19.23.22:599][280]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.05.03-19.23.22:599][280]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.05.03-19.23.22:599][280]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.05.03-19.23.22:620][280]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.05.03-19.23.22:648][280]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.05.03-19.23.22:665][280]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.05.03-19.23.22:665][280]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.05.03-19.23.22:665][280]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.05.03-19.23.22:665][280]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.05.03-19.23.22:678][280]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.05.03-19.23.22:702][280]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.05.03-19.23.22:714][280]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.05.03-19.23.22:714][280]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.05.03-19.23.22:714][280]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.05.03-19.23.22:714][280]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.05.03-19.23.22:714][280]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.05.03-19.23.22:726][280]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.05.03-19.23.22:726][280]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.05.03-19.23.22:726][280]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.05.03-19.23.22:726][280]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.05.03-19.23.22:726][280]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.05.03-19.23.22:726][280]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.05.03-19.23.22:737][280]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.05.03-19.23.22:762][280]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.05.03-19.23.22:762][280]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.05.03-19.23.22:864][280]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.05.03-19.23.22:864][280]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.05.03-19.23.22:866][280]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.05.03-19.23.22:866][280]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.05.03-19.23.22:880][280]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.05.03-19.23.22:880][280]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.05.03-19.23.22:880][280]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.05.03-19.23.22:891][280]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.05.03-19.23.22:891][280]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.05.03-19.23.22:891][280]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.05.03-19.23.22:891][280]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.05.03-19.23.22:891][280]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.05.03-19.23.22:901][280]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.05.03-19.23.22:910][280]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.05.03-19.23.22:925][280]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.05.03-19.23.22:942][280]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.05.03-19.23.22:942][280]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.05.03-19.23.22:946][280]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.05.03-19.23.22:957][280]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.05.03-19.23.22:968][280]LogDerivedDataCache: Shutdown
-[2015.05.03-19.23.22:968][280]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.05.03-19.23.22:980][280]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.05.03-19.23.22:980][280]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.05.03-19.23.22:991][280]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.05.03-19.23.23:021][280]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.05.03-19.23.23:021][280]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.05.03-19.23.23:021][280]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.05.03-19.23.23:021][280]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.05.03-19.23.23:021][280]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.05.03-19.23.23:021][280]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.05.03-19.23.23:030][280]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.05.03-19.23.23:030][280]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.05.03-19.23.23:042][280]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.05.03-19.23.23:068][280]LogExit: Exiting.
-[2015.05.03-19.23.23:073][280]Log file closed, 05/03/15 12:23:23
+[2015.05.06-19.25.52:021][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.06-19.25.52:084][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.06-19.25.52:530][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.06-19.25.52:541][  0]LogInit: Object subsystem initialized
+[2015.05.06-19.25.52:543][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.06-19.25.52:543][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.06-19.25.52:543][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.06-19.25.52:543][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.06-19.25.52:543][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.06-19.25.52:543][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.06-19.25.52:543][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.06-19.25.52:543][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.06-19.25.52:587][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2015.05.06-19.25.52:590][  0]LogInit: Computer: FRED
+[2015.05.06-19.25.52:590][  0]LogInit: User: William
+[2015.05.06-19.25.52:590][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.06-19.25.52:591][  0]LogInit: High frequency timer resolution =2.923050 MHz
+[2015.05.06-19.25.52:591][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.05.06-19.25.52:591][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.06-19.25.52:591][  0]LogMemory: Process Physical Memory: 45.31 MB used, 45.31 MB peak
+[2015.05.06-19.25.52:591][  0]LogMemory: Process Virtual Memory: 24.49 MB used, 24.49 MB peak
+[2015.05.06-19.25.52:591][  0]LogMemory: Physical Memory: 3499.86 MB used, 8174.32 MB total
+[2015.05.06-19.25.52:591][  0]LogMemory: Virtual Memory: 286.23 MB used, 134217728.00 MB total
+[2015.05.06-19.25.52:685][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 450    (Feature Level 11_0)
+[2015.05.06-19.25.52:685][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.05.06-19.25.52:697][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.06-19.25.52:697][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.06-19.25.52:697][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.06-19.25.52:704][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.05.06-19.25.52:719][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.06-19.25.57:193][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.06-19.25.57:440][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.06-19.26.04:771][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.06-19.26.07:185][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.06-19.26.07:258][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.06-19.26.07:746][  0]LogDerivedDataCache: Loaded boot cache 0.36s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.06-19.26.07:746][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.06-19.26.07:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file S:/GameDev/WilliamTheBrave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.06-19.26.07:746][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.06-19.26.08:003][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.06-19.26.08:015][  0]LogDerivedDataCache: Using Local data cache path C:/Users/William/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.06-19.26.18:165][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.06-19.26.18:165][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.06-19.26.20:407][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.06-19.26.20:619][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.06-19.26.29:178][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.06-19.26.29:594][  0]SourceControl: Info Source control is disabled
+[2015.05.06-19.26.29:594][  0]SourceControl: Info Source control is disabled
+[2015.05.06-19.26.29:594][  0]SourceControl: Info Source control is disabled
+[2015.05.06-19.26.29:605][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-19.26.29:606][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-19.26.30:137][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.05.06-19.26.30:137][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.05.06-19.26.30:304][  0]LogEngine: Initializing Engine...
+[2015.05.06-19.26.32:948][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.06-19.26.33:004][  0]LogInit: FAudioDevice initialized.
+[2015.05.06-19.26.33:061][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.06-19.26.33:066][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.06-19.26.33:078][  0]LogInit: Texture streaming: Enabled
+[2015.05.06-19.26.33:698][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.06-19.26.33:698][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.05.06-19.26.33:698][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.05.06-19.26.33:698][  0]LogAnalytics: SetUserId 36daed364a6088c1be5d00993336a085|9b9f7eefc88a4ce5a9f9ea0297ce6769|8ef09727-ec57-4232-a159-43540120937a
+[2015.05.06-19.26.33:698][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.06-19.26.34:007][  0]LogInit: Transaction tracking system initialized
+[2015.05.06-19.26.34:318][  0]BlueprintLog: New page: Editor Load
+[2015.05.06-19.26.34:361][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.05.06-19.26.34:362][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.06-19.26.36:108][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.06-19.26.36:906][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.06-19.26.37:233][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.06-19.26.37:233][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.06-19.26.37:283][  0]LogConsoleResponse:Display: 
+[2015.05.06-19.26.38:831][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.06-19.26.39:271][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-19.26.39:271][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-19.26.39:271][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.06-19.26.39:283][  0]LightingResults: New page: Lighting Build
+[2015.05.06-19.26.39:299][  0]MapCheck: New page: Map Check
+[2015.05.06-19.26.39:299][  0]LightingResults: New page: Lighting Build
+[2015.05.06-19.26.39:317][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075B0D4BB00
+[2015.05.06-19.26.40:266][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.06-19.26.40:267][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.05.06-19.26.40:268][  0]Cmd: MAP CHECKDEP
+[2015.05.06-19.26.40:268][  0]MapCheck: New page: Untitled_1 - May 6, 2015, 5:26:40 AM
+[2015.05.06-19.26.40:357][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.493ms to complete.
+[2015.05.06-19.26.40:357][  0]LogFileHelpers: Loading map 'Template_Default' took 1.086
+[2015.05.06-19.26.40:484][  0]LogCollectionManager: Loaded 0 collections in 0.002015 seconds
+[2015.05.06-19.26.40:496][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 1696 classes and 261 folders.
+[2015.05.06-19.26.40:591][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2015.05.06-19.26.40:734][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.06-19.26.40:735][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.06-19.26.40:743][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.06-19.26.40:802][  0]LogLoad: Full Startup: 62.89 seconds (BP compile: 0.10 seconds)
+[2015.05.06-19.26.41:145][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-19.26.41:532][  0]LogRenderer:Warning: Reallocating scene render targets to support 712x616 (Frame:2).
+[2015.05.06-19.26.42:861][  4]LogAssetRegistry: Asset discovery search completed in 8.5116 seconds
+[2015.05.06-19.38.51:701][672]Cmd: MAP LOAD FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.06-19.38.51:701][672]LightingResults: New page: Lighting Build
+[2015.05.06-19.38.51:734][672]LoadErrors: New page: Loading map: Temple.umap
+[2015.05.06-19.38.51:734][672]MapCheck: New page: Map Check
+[2015.05.06-19.38.51:734][672]LightingResults: New page: Lighting Build
+[2015.05.06-19.38.51:742][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075AC4B20C0
+[2015.05.06-19.38.51:750][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.06-19.38.51:750][672]LogAIModule: Creating AISystem for world Temple
+[2015.05.06-19.38.51:769][672]Cmd: MAP CHECKDEP
+[2015.05.06-19.38.51:770][672]MapCheck: New page: Temple - May 6, 2015, 5:38:51 AM
+[2015.05.06-19.38.51:857][672]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.997ms to complete.
+[2015.05.06-19.38.51:857][672]LogFileHelpers: Loading map 'Temple' took 0.158
+[2015.05.06-19.45.25:453][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box40)
+[2015.05.06-19.45.38:703][617]Cmd: DELETE
+[2015.05.06-19.45.38:703][617]Cmd: ACTOR DELETE
+[2015.05.06-19.45.38:704][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:704][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:705][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:705][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:706][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:706][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:707][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:707][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:708][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:708][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:709][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:709][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:710][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:710][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:710][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:711][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:711][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:712][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:712][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:713][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:713][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:714][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:714][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:714][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-19.45.38:715][617]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2015.05.06-19.45.38:728][617]LogEditorActor: Deleted 25 Actors (0.025 secs)
+[2015.05.06-19.48.52:136][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-19.48.52:423][ 27]LogSavePackage: Save=281.458740ms
+[2015.05.06-19.48.52:423][ 27]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto18EB0D8B242D693BA418858B57FF96EEC.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto1.umap'
+[2015.05.06-19.48.52:429][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.361
+[2015.05.06-19.48.52:429][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.361
+[2015.05.06-20.08.51:049][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box005)
+[2015.05.06-20.08.51:539][169]Cmd: DELETE
+[2015.05.06-20.08.51:539][169]Cmd: ACTOR DELETE
+[2015.05.06-20.08.51:540][169]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.51:552][169]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.05.06-20.08.52:035][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box006)
+[2015.05.06-20.08.52:112][232]Cmd: DELETE
+[2015.05.06-20.08.52:112][232]Cmd: ACTOR DELETE
+[2015.05.06-20.08.52:113][232]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.52:123][232]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.05.06-20.08.52:654][264]Cmd: DELETE
+[2015.05.06-20.08.52:654][264]Cmd: ACTOR DELETE
+[2015.05.06-20.08.52:655][264]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-20.08.52:683][264]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2015.05.06-20.08.53:535][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box14)
+[2015.05.06-20.08.53:760][380]Cmd: DELETE
+[2015.05.06-20.08.53:760][380]Cmd: ACTOR DELETE
+[2015.05.06-20.08.53:761][380]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.53:772][380]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.05.06-20.08.54:500][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box15)
+[2015.05.06-20.08.54:618][477]Cmd: DELETE
+[2015.05.06-20.08.54:618][477]Cmd: ACTOR DELETE
+[2015.05.06-20.08.54:618][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.54:629][477]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.05.06-20.08.59:615][ 45]Cmd: DELETE
+[2015.05.06-20.08.59:615][ 45]Cmd: ACTOR DELETE
+[2015.05.06-20.08.59:615][ 45]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-20.08.59:616][ 45]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-20.08.59:617][ 45]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.05.06-20.08.59:618][ 45]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.05.06-20.08.59:619][ 45]LogEditorActor: Deleted Actor: PlayerStart
+[2015.05.06-20.08.59:620][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:620][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:621][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:621][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:621][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:622][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:622][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:623][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:623][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:623][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:624][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:624][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:625][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:625][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:625][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:626][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:626][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:626][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:627][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:627][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:628][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:628][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:628][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:629][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:629][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:629][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:630][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.08.59:652][ 45]LogEditorActor: Deleted 32 Actors (0.037 secs)
+[2015.05.06-20.09.01:247][220]Cmd: TRANSACTION UNDO
+[2015.05.06-20.09.01:247][220]LogEditorTransaction: Undo Delete Actors
+[2015.05.06-20.09.01:366][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-20.09.01:403][220]LogSavePackage: Save=31.668634ms
+[2015.05.06-20.09.01:403][220]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto219F41EB94F54D188664F6EB96171FF08.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto2.umap'
+[2015.05.06-20.09.01:413][220]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.182
+[2015.05.06-20.09.01:413][220]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2015.05.06-20.09.05:950][700]Cmd: DELETE
+[2015.05.06-20.09.05:950][700]Cmd: ACTOR DELETE
+[2015.05.06-20.09.05:951][700]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-20.09.05:952][700]LogEditorActor: Deleted Actor: Brush
+[2015.05.06-20.09.05:952][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:953][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:953][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:954][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:954][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:955][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:955][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:956][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:956][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:957][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:957][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:957][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:958][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:958][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:959][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:959][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:960][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:960][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:960][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:961][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:961][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:962][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:962][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:962][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:963][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:963][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:963][700]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.05:986][700]LogEditorActor: Deleted 29 Actors (0.035 secs)
+[2015.05.06-20.09.09:407][105]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.05.06-20.09.09:619][124]Cmd: DELETE
+[2015.05.06-20.09.09:619][124]Cmd: ACTOR DELETE
+[2015.05.06-20.09.09:619][124]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.05.06-20.09.09:631][124]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.05.06-20.09.11:505][349]Cmd: TRANSACTION UNDO
+[2015.05.06-20.09.11:506][349]LogEditorTransaction: Undo Delete Actors
+[2015.05.06-20.09.14:078][613]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.05.06-20.09.14:813][697]Cmd: DELETE
+[2015.05.06-20.09.14:813][697]Cmd: ACTOR DELETE
+[2015.05.06-20.09.14:813][697]LogEditorActor: Deleted Actor: PlayerStart
+[2015.05.06-20.09.14:825][697]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.05.06-20.09.19:096][161]Cmd: SELECT NONE
+[2015.05.06-20.09.29:549][382]LogActorFactory: Actor Factory created MapPieces_Box006
+[2015.05.06-20.09.29:640][391]LogActorFactory: Actor Factory created MapPieces_Box006
+[2015.05.06-20.09.31:319][591]LogActorFactory: Actor Factory created MapPieces_Box006
+[2015.05.06-20.09.46:084][284]Cmd: DELETE
+[2015.05.06-20.09.46:084][284]Cmd: ACTOR DELETE
+[2015.05.06-20.09.46:084][284]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.09.46:096][284]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.05.06-20.09.54:378][253]LogActorFactory: Actor Factory created MapPieces_Box006
+[2015.05.06-20.09.54:442][260]LogActorFactory: Actor Factory created MapPieces_Box006
+[2015.05.06-20.09.55:012][328]LogActorFactory: Actor Factory created MapPieces_Box006
+[2015.05.06-20.10.38:948][125]LogActorFactory: Actor Factory created MapPieces_Box001
+[2015.05.06-20.10.39:000][130]LogActorFactory: Actor Factory created MapPieces_Box001
+[2015.05.06-20.10.39:007][130]LogActorFactory: Actor Factory created MapPieces_Box001
+[2015.05.06-20.10.39:770][216]LogActorFactory: Actor Factory created MapPieces_Box001
+[2015.05.06-20.11.31:776][ 51]LogEditorViewport: Clicking Background
+[2015.05.06-20.11.32:324][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box001)
+[2015.05.06-20.11.43:682][369]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.06-20.11.45:555][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-20.14.00:687][583]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.00:688][583]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-20.14.01:207][645]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.01:208][645]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-20.14.01:208][645]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.01:210][645]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-20.14.01:307][657]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.05.06-20.14.04:504][963]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.04:506][963]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-20.14.04:506][963]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.04:508][963]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.06-20.14.11:869][222]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.11:969][222]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.05.06-20.14.12:398][273]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.12:406][273]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.05.06-20.14.12:406][273]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.06-20.14.12:413][273]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.05.06-20.14.12:512][285]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.05.06-20.14.12:838][324]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Saved/AutoScreenshot.png
+	modified:   Saved/Autosaves/Game/Maps/Temple/Temple_Auto1.umap
+	modified:   Saved/Autosaves/Game/Maps/Temple/Temple_Auto2.umap
+	modified:   Saved/Autosaves/PackageRestoreData.json
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Saved/Config/Windows/SourceControlSettings.ini
+	modified:   Saved/Logs/WilliamTheBrave.log
+	modified:   Saved/Logs/WilliamTheBrave_2.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Saved/Backup/Temple_2015-05-05-23-51-40.umap
+	Saved/Backup/Temple_2015-05-06-12-48-52.umap
+	Saved/Backup/Temple_2015-05-06-13-09-01.umap
+	Saved/Logs/WilliamTheBrave-backup-2015.05.06-12.25.47.log
+	Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-12.25.47.log
+	Saved/Logs/WilliamTheBrave_3.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+'
+[2015.05.06-20.14.12:838][324]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.05.06-20.14.12:845][325]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.05.06-20.14.12:848][325]SourceControl: Info master
+[2015.05.06-20.14.22:104][314]Cmd: SELECT NONE
+[2015.05.06-20.14.24:880][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box001)
+[2015.05.06-20.14.25:315][668]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box2)
+[2015.05.06-20.14.35:253][754]Cmd: SELECT NONE
+[2015.05.06-20.14.35:772][804]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box4)
+[2015.05.06-20.14.36:269][848]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box3)
+[2015.05.06-20.14.36:996][930]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box001)
+[2015.05.06-20.14.37:682][  8]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box2)
+[2015.05.06-20.14.50:625][496]Cmd: SELECT NONE
+[2015.05.06-20.14.59:412][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box006)
+[2015.05.06-20.15.18:675][683]Cmd: SELECT NONE
+[2015.05.06-20.15.27:074][632]LogRenderer:Warning: Reallocating scene render targets to support 744x616 (Frame:18876).
+[2015.05.06-20.15.28:720][823]LogRenderer:Warning: Reallocating scene render targets to support 808x616 (Frame:18925).
+[2015.05.06-20.16.20:090][939]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-20.16.21:104][ 59]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-20.16.21:112][ 60]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.16.21:605][119]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset"'
+[2015.05.06-20.16.21:612][120]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.16.22:796][262]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset"'
+[2015.05.06-20.16.22:811][264]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.16.25:114][534]LogActorFactory: Actor Factory created MapPieces_Box002
+[2015.05.06-20.16.25:967][634]LogActorFactory: Actor Factory created MapPieces_Box002
+[2015.05.06-20.16.41:714][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box002)
+[2015.05.06-20.16.46:707][949]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box002)
+[2015.05.06-20.16.50:410][353]LogActorFactory: Actor Factory created MapPieces_Box004
+[2015.05.06-20.16.50:637][374]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-20.16.50:647][375]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.16.50:910][399]LogActorFactory: Actor Factory created MapPieces_Box004
+[2015.05.06-20.17.12:773][974]Cmd: SELECT NONE
+[2015.05.06-20.17.12:848][983]Cmd: SELECT NONE
+[2015.05.06-20.17.16:051][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box5)
+[2015.05.06-20.17.23:589][168]Cmd: SELECT NONE
+[2015.05.06-20.17.34:979][520]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box001)
+[2015.05.06-20.17.35:463][558]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box2)
+[2015.05.06-20.17.35:868][601]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box3)
+[2015.05.06-20.17.37:097][739]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box4)
+[2015.05.06-20.17.49:237][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box12)
+[2015.05.06-20.17.53:040][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box11)
+[2015.05.06-20.17.57:295][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box10)
+[2015.05.06-20.18.09:104][346]LogActorFactory: Actor Factory created MapPieces_Box005
+[2015.05.06-20.18.09:653][399]LogActorFactory: Actor Factory created MapPieces_Box005
+[2015.05.06-20.18.23:536][ 15]Cmd: SELECT NONE
+[2015.05.06-20.18.25:114][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box14)
+[2015.05.06-20.18.27:847][517]Cmd: SELECT NONE
+[2015.05.06-20.19.46:783][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box2)
+[2015.05.06-20.19.51:624][929]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box001)
+[2015.05.06-20.19.53:094][ 56]Cmd: TRANSACTION UNDO
+[2015.05.06-20.19.53:094][ 56]LogEditorTransaction: Undo Move Actors
+[2015.05.06-20.19.53:622][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box3)
+[2015.05.06-20.19.54:015][108]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MapPieces_Box4)
+[2015.05.06-20.20.20:133][512]Cmd: SELECT NONE
+[2015.05.06-20.20.20:389][541]Cmd: SELECT NONE
+[2015.05.06-20.20.24:151][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box004)
+[2015.05.06-20.20.29:374][437]Cmd: SELECT NONE
+[2015.05.06-20.20.29:593][460]Cmd: SELECT NONE
+[2015.05.06-20.20.46:314][ 28]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-20.20.46:322][ 29]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.20.46:741][ 70]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.06-20.20.46:751][ 71]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.20.47:099][107]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.06-20.20.47:113][109]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.20.47:700][176]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.20.47:715][178]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.20.50:639][499]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-20.20.50:656][501]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.20.51:523][590]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-20.20.51:532][591]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.20.51:935][629]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-20.20.51:943][630]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.21.01:583][528]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.06-20.21.01:604][530]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.21.02:186][588]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.21.02:212][591]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.21.13:028][611]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.05.06-20.21.28:954][170]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.05.06-20.22.44:819][607]Cmd: SELECT NONE
+[2015.05.06-20.23.03:574][453]Cmd: SELECT NONE
+[2015.05.06-20.23.52:212][326]Cmd: DELETE
+[2015.05.06-20.23.52:212][326]Cmd: ACTOR DELETE
+[2015.05.06-20.23.52:213][326]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-20.23.52:225][326]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.05.06-20.23.54:176][533]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.05.06-20.25.14:062][904]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.25.14:079][904]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.25.14:168][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.06-20.25.14:461][904]LogSavePackage: Save=53.542019ms
+[2015.05.06-20.25.14:461][904]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/TempleFA5E57BF41174324BF5D2EBC2266DE09.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.06-20.25.14:498][905]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.25.14:511][906]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-20.25.16:958][139]SourceControl:Error: Error Operation 'Sync' not supported by source control provider 'Git'
+[2015.05.06-20.25.44:014][656]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.05.06-20.26.11:114][443]Cmd: SELECT NONE
+[2015.05.06-20.26.11:949][539]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.05.06-20.26.19:004][298]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.05.06-20.26.49:210][214]Cmd: SELECT NONE
+[2015.05.06-20.26.50:135][324]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.05.06-20.27.03:777][636]Cmd: SELECT NONE
+[2015.05.06-20.27.03:978][656]Cmd: SELECT NONE
+[2015.05.06-20.27.29:046][170]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Temple/Temple.Temple:PersistentLevel.BoxBrush3.Model_7 or Model /Game/Maps/Temple/Temple.Temple:PersistentLevel.BoxBrush2_7.Model_7
+[2015.05.06-20.27.43:351][592]LogEditorViewport: Clicking Background
+[2015.05.06-20.27.43:970][664]LogEditorViewport: Clicking Background
+[2015.05.06-20.27.44:781][751]LogEditorViewport: Clicking Background
+[2015.05.06-20.27.49:997][270]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.05.06-20.27.50:183][284]Cmd: DELETE
+[2015.05.06-20.27.50:185][284]Cmd: ACTOR DELETE
+[2015.05.06-20.27.50:185][284]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.05.06-20.27.50:198][284]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.05.06-20.27.53:902][667]Cmd: TRANSACTION UNDO
+[2015.05.06-20.27.53:902][667]LogEditorTransaction: Undo Delete Actors
+[2015.05.06-20.28.35:148][583]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Temple/Temple.Temple:PersistentLevel.BoxBrush4.Model_7 or Model /Game/Maps/Temple/Temple.Temple:PersistentLevel.BoxBrush3.Model_7
+[2015.05.06-20.28.35:148][583]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Temple/Temple.Temple:PersistentLevel.BoxBrush4.Model_7 or Model /Game/Maps/Temple/Temple.Temple:PersistentLevel.BoxBrush2_7.Model_7
+[2015.05.06-20.28.46:942][703]Cmd: SELECT NONE
+[2015.05.06-20.28.55:699][542]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.06-20.28.55:699][542]PIE: New page: PIE session: Temple (May 6, 2015, 6:28:55 AM)
+[2015.05.06-20.28.55:707][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007410s)
+[2015.05.06-20.28.55:707][542]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2015.05.06-20.28.55:707][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.008306s)
+[2015.05.06-20.28.55:789][542]LogWorld: Game class is 'GameMode'
+[2015.05.06-20.28.55:799][542]LogAIModule: Creating AISystem for world Temple
+[2015.05.06-20.28.55:803][542]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.06-13.28.55
+[2015.05.06-20.28.55:804][542]LogWorld: Bringing up level for play took: 0.004756
+[2015.05.06-20.28.55:807][542]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple -0.035
+[2015.05.06-20.28.57:134][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075BC703420
+[2015.05.06-20.28.58:464][826]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.06-20.28.58:464][826]PIE: New page: PIE session: Temple (May 6, 2015, 6:28:58 AM)
+[2015.05.06-20.28.58:480][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008782s)
+[2015.05.06-20.28.58:480][826]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2015.05.06-20.28.58:481][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.009623s)
+[2015.05.06-20.28.58:512][826]LogWorld: Game class is 'GameMode'
+[2015.05.06-20.28.58:514][826]LogAIModule: Creating AISystem for world Temple
+[2015.05.06-20.28.58:519][826]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.06-13.28.58
+[2015.05.06-20.28.58:519][826]LogWorld: Bringing up level for play took: 0.004518
+[2015.05.06-20.28.58:521][826]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.679
+[2015.05.06-20.29.56:161][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075B83ACCC0
+[2015.05.06-20.36.13:638][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-20.36.13:698][252]LogSavePackage: Save=38.549801ms
+[2015.05.06-20.36.13:698][252]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto304F7BE2B45A82B2407D63EAF74DE2D54.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto3.umap'
+[2015.05.06-20.36.13:705][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.147
+[2015.05.06-20.36.13:705][252]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.147
+[2015.05.06-20.49.48:802][280]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-20.49.48:817][282]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.49.49:368][318]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-20.49.49:373][318]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.49.53:421][438]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.49.53:434][438]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.49.53:450][438]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/LampPillar.FBX)
+[2015.05.06-20.49.53:714][438]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-20.49.53:714][438]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-20.49.53:714][438]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-20.49.53:714][438]LogFbx: ItemName: Model, ItemCount : 1
+[2015.05.06-20.49.53:714][438]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.06-20.50.00:481][438]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/LampPillar.FBX
+[2015.05.06-20.50.00:596][438]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-20.50.00:645][438]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.06-20.50.01:215][438]LogFbx: == Initial material list:
+[2015.05.06-20.50.01:215][438]LogFbx: 0: None
+[2015.05.06-20.50.01:215][438]LogFbx: == After sorting:
+[2015.05.06-20.50.01:215][438]LogFbx: 0: None
+[2015.05.06-20.50.01:215][438]LogFbx: == Mapping table:
+[2015.05.06-20.50.01:215][438]LogFbx:   sort 0 -> 0
+[2015.05.06-20.50.01:242][438]LogStaticMesh: Building static mesh LampPillar...
+[2015.05.06-20.50.01:308][438]LogStaticMesh: Built static mesh [66.218163ms] /Game/Maps/Temple/LampPillar.LampPillar
+[2015.05.06-20.50.01:466][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-20.50.01:466][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-20.50.01:623][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.011
+[2015.05.06-20.50.01:667][439]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/LampPillar] ([1] browsable assets)...
+[2015.05.06-20.50.01:728][439]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/LampPillar.LampPillar]
+[2015.05.06-20.50.01:728][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/LampPillar]
+[2015.05.06-20.50.01:730][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/LampPillar" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/LampPillar_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-20.50.01:938][439]LogSavePackage: Save=207.118591ms
+[2015.05.06-20.50.01:939][439]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/LampPillar_Auto4052AFBB5412DCB78AB7DE499C0F8BE36.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/LampPillar_Auto4.uasset'
+[2015.05.06-20.50.01:944][439]LogFileHelpers: Auto-saving content packages took 0.321
+[2015.05.06-20.50.02:941][544]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset"'
+[2015.05.06-20.50.02:948][545]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.50.03:058][551]LogActorFactory: Actor Factory created LampPillar
+[2015.05.06-20.50.03:890][632]LogActorFactory: Actor Factory created LampPillar
+[2015.05.06-20.51.00:038][ 63]Cmd: SELECT NONE
+[2015.05.06-20.51.06:151][628]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.06-20.51.06:151][628]PIE: New page: PIE session: Temple (May 6, 2015, 6:51:06 AM)
+[2015.05.06-20.51.06:159][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007406s)
+[2015.05.06-20.51.06:160][628]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2015.05.06-20.51.06:160][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.008439s)
+[2015.05.06-20.51.06:189][628]LogWorld: Game class is 'GameMode'
+[2015.05.06-20.51.06:191][628]LogAIModule: Creating AISystem for world Temple
+[2015.05.06-20.51.06:195][628]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.06-13.51.06
+[2015.05.06-20.51.06:196][628]LogWorld: Bringing up level for play took: 0.004762
+[2015.05.06-20.51.06:198][628]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.356
+[2015.05.06-20.51.29:462][223]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075AC313F60
+[2015.05.06-20.51.34:076][700]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.51.34:089][700]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.34:201][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/LampPillar" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" SILENT=true
+[2015.05.06-20.51.34:332][700]LogSavePackage: Save=128.850693ms
+[2015.05.06-20.51.34:332][700]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/LampPillarCC6B8FC54504A98B5AD1DE9C61931BBF.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset'
+[2015.05.06-20.51.34:362][700]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.51.34:466][700]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.34:466][700]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.51.34:490][700]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/LampPillar.uasset
+'
+[2015.05.06-20.51.34:527][700]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.51.34:545][700]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.34:545][700]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.51.34:565][700]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/LampPillar.uasset
+'
+[2015.05.06-20.51.34:577][701]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset"'
+[2015.05.06-20.51.34:610][705]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/LampPillar.uasset
+'
+[2015.05.06-20.51.44:516][144]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-20.51.44:533][146]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.44:885][185]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-20.51.44:900][187]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.45:979][305]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.06-20.51.45:999][307]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.46:032][311]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.06-20.51.46:040][312]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-20.51.46:181][322]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.51.46:204][325]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-20.51.47:522][445]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.51.47:535][445]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-20.51.47:718][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.06-20.51.47:833][445]LogSavePackage: Save=36.663757ms
+[2015.05.06-20.51.47:833][445]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple6ABFBE904BE6505C92315D934C4693F0.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.06-20.51.47:869][445]LogFileHelpers: Saving map 'Temple' took 0.241
+[2015.05.06-20.51.47:888][446]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-20.51.47:901][448]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-21.09.16:125][608]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-21.09.16:142][610]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.09.16:396][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-21.09.17:405][730]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset" "S:/GameDev/WilliamTheBrave/Content/Metal.uasset" "S:/GameDev/WilliamTheBrave/Content/Skin.uasset" "S:/GameDev/WilliamTheBrave/Content/Untitled.umap"'
+[2015.05.06-21.09.17:413][731]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.09.22:652][232]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.05.06-21.09.26:134][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.05.06-21.09.30:325][ 73]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.05.06-21.09.32:772][344]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Lamp'
+[2015.05.06-21.09.33:675][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.06-21.09.34:684][556]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/MainCharacter.uasset" "S:/GameDev/WilliamTheBrave/Content/Metal.uasset"'
+[2015.05.06-21.09.34:699][558]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.09.34:839][573]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.05.06-21.09.40:554][203]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.06-21.09.42:093][369]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.05.06-21.09.42:995][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Lamp'
+[2015.05.06-21.09.47:030][734]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.09.47:042][734]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.09.47:076][734]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/Lamp.FBX)
+[2015.05.06-21.09.47:104][734]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-21.09.47:104][734]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-21.09.47:104][734]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-21.09.47:104][734]LogFbx: ItemName: Model, ItemCount : 2
+[2015.05.06-21.09.47:104][734]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.05.06-21.09.50:326][734]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/Lamp.FBX
+[2015.05.06-21.09.50:398][734]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-21.09.50:401][734]LogFbx:Warning: Triangulating static mesh Cylinder006
+[2015.05.06-21.09.50:870][734]LogFbx: == Initial material list:
+[2015.05.06-21.09.50:870][734]LogFbx: 0: None
+[2015.05.06-21.09.50:870][734]LogFbx: == After sorting:
+[2015.05.06-21.09.50:870][734]LogFbx: 0: None
+[2015.05.06-21.09.50:870][734]LogFbx: == Mapping table:
+[2015.05.06-21.09.50:870][734]LogFbx:   sort 0 -> 0
+[2015.05.06-21.09.50:873][734]LogStaticMesh: Building static mesh Lamp_Cylinder006...
+[2015.05.06-21.09.50:928][734]LogStaticMesh: Built static mesh [54.834846ms] /Game/Assets/Lamp/Lamp_Cylinder006.Lamp_Cylinder006
+[2015.05.06-21.09.50:941][734]LogStaticMesh:Warning: Lamp_Cylinder006 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.09.54:275][734]LogFbx:Warning: Triangulating static mesh Torus001
+[2015.05.06-21.09.54:329][734]LogFbx: == Initial material list:
+[2015.05.06-21.09.54:329][734]LogFbx: 0: None
+[2015.05.06-21.09.54:329][734]LogFbx: == After sorting:
+[2015.05.06-21.09.54:329][734]LogFbx: 0: None
+[2015.05.06-21.09.54:329][734]LogFbx: == Mapping table:
+[2015.05.06-21.09.54:329][734]LogFbx:   sort 0 -> 0
+[2015.05.06-21.09.54:330][734]LogStaticMesh: Building static mesh Lamp_Torus001...
+[2015.05.06-21.09.54:337][734]LogStaticMesh: Built static mesh [7.096013ms] /Game/Assets/Lamp/Lamp_Torus001.Lamp_Torus001
+[2015.05.06-21.09.54:373][734]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-21.09.54:373][734]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Lamp'
+[2015.05.06-21.09.55:394][845]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp_Cylinder006.uasset" "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp_Torus001.uasset"'
+[2015.05.06-21.09.55:411][847]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.10.47:604][813]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.10.47:618][813]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.10.47:645][813]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/Lamp.FBX)
+[2015.05.06-21.10.47:682][813]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.06-21.10.47:682][813]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.06-21.10.47:682][813]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.06-21.10.47:682][813]LogFbx: ItemName: Model, ItemCount : 1
+[2015.05.06-21.10.47:682][813]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.06-21.10.55:065][813]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/Lamp.FBX
+[2015.05.06-21.10.55:165][813]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.06-21.10.55:172][813]LogFbx: == Initial material list:
+[2015.05.06-21.10.55:172][813]LogFbx: 0: None
+[2015.05.06-21.10.55:172][813]LogFbx: == After sorting:
+[2015.05.06-21.10.55:172][813]LogFbx: 0: None
+[2015.05.06-21.10.55:172][813]LogFbx: == Mapping table:
+[2015.05.06-21.10.55:172][813]LogFbx:   sort 0 -> 0
+[2015.05.06-21.10.55:176][813]LogStaticMesh: Building static mesh Lamp...
+[2015.05.06-21.10.55:232][813]LogStaticMesh: Built static mesh [56.745865ms] /Game/Assets/Lamp/Lamp.Lamp
+[2015.05.06-21.10.55:246][813]LogStaticMesh:Warning: Lamp has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.10.56:618][813]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.06-21.10.56:618][813]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Lamp'
+[2015.05.06-21.10.57:631][918]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.10.57:639][919]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.10.57:951][921]LogRenderer:Warning: Reallocating scene render targets to support 1016x616 (Frame:88156).
+[2015.05.06-21.11.19:021][907]LogEditorTransaction: Undo Translate Collision
+[2015.05.06-21.11.27:960][766]LogActorFactory: Actor Factory created Lamp
+[2015.05.06-21.11.29:527][905]LogActorFactory: Actor Factory created Lamp
+[2015.05.06-21.11.44:877][242]Cmd: DELETE
+[2015.05.06-21.11.44:879][242]Cmd: ACTOR DELETE
+[2015.05.06-21.11.44:880][242]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.06-21.11.44:895][242]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075B9A063E0
+[2015.05.06-21.11.44:898][242]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.05.06-21.11.45:378][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lamp)
+[2015.05.06-21.11.55:641][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LampPillar)
+[2015.05.06-21.11.56:697][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lamp)
+[2015.05.06-21.11.59:195][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.06-21.11.59:239][633]LogSavePackage: Save=34.877953ms
+[2015.05.06-21.11.59:239][633]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto5FE3D7BD34E56C20EAB38B6A7218BB764.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto5.umap'
+[2015.05.06-21.11.59:245][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.142
+[2015.05.06-21.11.59:245][633]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2015.05.06-21.11.59:281][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Lamp/Lamp] ([1] browsable assets)...
+[2015.05.06-21.11.59:319][633]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Lamp/Lamp.Lamp]
+[2015.05.06-21.11.59:319][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Lamp/Lamp]
+[2015.05.06-21.11.59:321][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lamp/Lamp" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Assets/Lamp/Lamp_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2015.05.06-21.11.59:631][633]LogSavePackage: Save=308.485992ms
+[2015.05.06-21.11.59:632][633]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Lamp_Auto5CB9A552141C8AE01F739D585AF785191.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Assets/Lamp/Lamp_Auto5.uasset'
+[2015.05.06-21.11.59:637][633]LogFileHelpers: Auto-saving content packages took 0.392
+[2015.05.06-21.12.20:203][886]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.12.20:217][886]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.12.20:308][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Lamp/Lamp" FILE="S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset" SILENT=true
+[2015.05.06-21.12.20:529][886]LogSavePackage: Save=218.633270ms
+[2015.05.06-21.12.20:529][886]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/LampC5864AA64DE68524A3D8D3AE9325A482.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset'
+[2015.05.06-21.12.20:562][886]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.12.20:611][886]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.12.20:611][886]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.12.20:637][886]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Assets/Lamp/Lamp.uasset
+'
+[2015.05.06-21.12.20:644][887]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.06-21.12.20:670][890]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Assets/Lamp/Lamp.uasset
+'
+[2015.05.06-21.12.22:935][978]LogStaticMesh: Building static mesh Lamp...
+[2015.05.06-21.12.22:993][978]LogStaticMesh: Built static mesh [58.620621ms] /Game/Assets/Lamp/Lamp.Lamp
+[2015.05.06-21.12.23:009][978]LogStaticMesh:Warning: Lamp has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.06-21.12.37:627][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box6)
+[2015.05.06-21.12.43:403][819]Cmd: MODE GRID=0
+[2015.05.06-21.12.45:467][ 32]Cmd: MODE GRID=1
+[2015.05.06-21.12.46:834][158]Cmd: SELECT NONE
+[2015.05.06-21.12.50:641][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lamp)
+[2015.05.06-21.13.00:089][357]Cmd: SELECT NONE
+[2015.05.06-21.13.05:296][837]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.05.06-21.13.13:106][622]Cmd: SELECT NONE
+[2015.05.06-21.13.15:186][794]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2015.05.06-21.13.15:652][837]Cmd: DELETE
+[2015.05.06-21.13.15:677][837]Cmd: ACTOR DELETE
+[2015.05.06-21.13.15:678][837]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.05.06-21.13.15:694][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075AA7FDA80
+[2015.05.06-21.13.15:694][837]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.05.06-21.13.17:092][  0]Cmd: TRANSACTION UNDO
+[2015.05.06-21.13.17:092][  0]LogEditorTransaction: Undo Delete Actors
+[2015.05.06-21.13.21:386][337]MapCheck: New page: Map Check
+[2015.05.06-21.13.21:426][337]LightingResults: New page: Lighting Build - May 6, 2015, 7:13:21 AM
+[2015.05.06-21.13.41:546][337]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.06-21.13.41:561][337]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.06-21.13.41:561][337]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.06-21.13.41:561][337]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.06-21.13.41:561][337]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.06-21.13.41:561][337]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.06-21.13.42:500][337]LogEditorBuildUtils: Build time 0:00:21
+[2015.05.06-21.13.48:626][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box8)
+[2015.05.06-21.14.17:532][548]LightingResults:Error: Error MapPieces_Box005 Object has overlapping UVs.
+[2015.05.06-21.14.17:532][548]LightingResults: Info MapPieces_Box005 Lightmap UV are overlapping by 1.7%. Please adjust content - Enable Error Coloring to visualize.
+[2015.05.06-21.14.18:029][600]Job is a success!
+[2015.05.06-21.14.19:048][601]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.06-21.14.19:358][601]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.05.06-21.14.19:380][601]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.05.06-21.14.19:418][601]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.05.06-21.14.19:454][601]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.05.06-21.14.19:515][601]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.05.06-21.14.19:623][601]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.05.06-21.14.19:763][601]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.05.06-21.14.19:842][601]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.05.06-21.14.20:348][601]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.05.06-21.14.20:434][601]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.05.06-21.14.20:946][601]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.05.06-21.14.21:032][601]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.05.06-21.14.21:389][601]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.05.06-21.14.21:487][601]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.06-21.14.22:077][601]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.05.06-21.14.22:723][601]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.05.06-21.14.23:402][601]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.05.06-21.14.23:687][601]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.05.06-21.14.23:821][601]Lightmass on FRED: 34.7 sec total, 288 ms importing, 18 ms setup, 2.69 sec photons, 31.6 sec processing, 0 ms extra exporting [43/43 mappings]. Threads: 2:06 min total, 1:16 min processing.
+[2015.05.06-21.14.23:947][601]LogStaticLightingSystem: Illumination: 1:02 min (5.14 sec encoding lightmaps)
+[2015.05.06-21.14.23:948][601]LogStaticLightingSystem: Lightmap texture memory:  8.2 MB (6.8 MB streaming, 1.3 MB non-streaming), 16 textures
+[2015.05.06-21.14.23:948][601]LogStaticLightingSystem: Shadowmap texture memory: 24.0 MB (21.3 MB streaming, 2.7 MB non-streaming), 3 textures
+[2015.05.06-21.14.24:628][602]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.06-21.14.24:628][602]MapCheck: New page: Temple - May 6, 2015, 7:14:24 AM
+[2015.05.06-21.14.25:341][602]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 713.091ms to complete.
+[2015.05.06-21.14.35:908][538]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.05.06-21.15.00:092][806]Cmd: SELECT NONE
+[2015.05.06-21.15.00:398][836]Cmd: SELECT NONE
+[2015.05.06-21.15.06:094][352]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.06-21.15.06:095][352]PIE: New page: PIE session: Temple (May 6, 2015, 7:15:06 AM)
+[2015.05.06-21.15.06:104][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008363s)
+[2015.05.06-21.15.06:104][352]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2015.05.06-21.15.06:104][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.009247s)
+[2015.05.06-21.15.06:132][352]LogWorld: Game class is 'GameMode'
+[2015.05.06-21.15.06:134][352]LogAIModule: Creating AISystem for world Temple
+[2015.05.06-21.15.06:138][352]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.06-14.15.06
+[2015.05.06-21.15.06:139][352]LogWorld: Bringing up level for play took: 0.004622
+[2015.05.06-21.15.06:141][352]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.3
+[2015.05.06-21.15.12:062][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075B9A07C40
+[2015.05.06-21.15.49:551][698]Cmd: SELECT NONE
+[2015.05.06-21.16.05:703][268]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.06-21.16.05:704][268]PIE: New page: PIE session: Temple (May 6, 2015, 7:16:05 AM)
+[2015.05.06-21.16.05:713][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008669s)
+[2015.05.06-21.16.05:713][268]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2015.05.06-21.16.05:714][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.009599s)
+[2015.05.06-21.16.05:741][268]LogWorld: Game class is 'GameMode'
+[2015.05.06-21.16.05:743][268]LogAIModule: Creating AISystem for world Temple
+[2015.05.06-21.16.05:748][268]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.06-14.16.05
+[2015.05.06-21.16.05:749][268]LogWorld: Bringing up level for play took: 0.004960
+[2015.05.06-21.16.05:751][268]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple -0.091
+[2015.05.06-21.16.46:178][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075C73F2F20
+[2015.05.06-21.17.25:341][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.06-21.17.28:006][640]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.06-21.17.29:023][730]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.06-21.17.29:033][731]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/LampPillar.uasset
+'
+[2015.05.06-21.17.36:230][154]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.06-21.17.36:241][155]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.36:511][176]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.06-21.17.36:523][177]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.36:551][180]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset"'
+[2015.05.06-21.17.36:564][181]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.38:815][350]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.06-21.17.38:828][351]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.38:896][355]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.06-21.17.38:907][356]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-21.17.38:922][358]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.06-21.17.38:922][358]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-21.17.42:808][658]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.06-21.17.42:821][658]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.06-21.17.43:011][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Templ
