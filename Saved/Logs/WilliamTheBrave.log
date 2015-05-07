@@ -1693,4 +1693,290 @@ A  Content/Textures/Water.uasset
 [2015.05.07-09.41.18:577][962]LogPlayLevel: PIE: World Init took: (0.000858s)
 [2015.05.07-09.41.18:577][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.012610s)
 [2015.05.07-09.41.18:616][962]LogWorld: Game class is 'TheBraveGameMode_C'
-[2015.05.07-09.41.18:61
+[2015.05.07-09.41.18:618][962]LogAIModule: Creating AISystem for world Temple
+[2015.05.07-09.41.18:629][962]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.07-02.41.18
+[2015.05.07-09.41.18:630][962]LogWorld: Bringing up level for play took: 0.011446
+[2015.05.07-09.41.18:635][962]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.794
+[2015.05.07-09.41.21:570][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000480FF61260
+[2015.05.07-09.43.46:860][727]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.07-09.43.46:861][727]PIE: New page: PIE session: Temple (May 6, 2015, 7:43:46 PM)
+[2015.05.07-09.43.46:872][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010971s)
+[2015.05.07-09.43.46:873][727]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2015.05.07-09.43.46:873][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.011946s)
+[2015.05.07-09.43.46:909][727]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.05.07-09.43.46:911][727]LogAIModule: Creating AISystem for world Temple
+[2015.05.07-09.43.46:921][727]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.07-02.43.46
+[2015.05.07-09.43.46:922][727]LogWorld: Bringing up level for play took: 0.011103
+[2015.05.07-09.43.46:928][727]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple -0.913
+[2015.05.07-09.43.59:713][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000483E8C96C0
+[2015.05.07-09.44.03:187][577]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-09.44.03:205][577]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-09.44.03:261][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.07-09.44.04:176][577]LogSavePackage: Save=881.100891ms
+[2015.05.07-09.44.04:177][577]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple190AE0BA4F39DD31CE9E01968DE7E05F.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.07-09.44.04:317][578]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-09.44.04:324][578]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-18.54.12:530][484]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MapPieces_Box5)
+[2015.05.07-20.32.46:564][819]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.07-20.32.46:564][819]PIE: New page: PIE session: Temple (May 7, 2015, 6:32:46 AM)
+[2015.05.07-20.32.46:893][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.327961s)
+[2015.05.07-20.32.46:894][819]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2015.05.07-20.32.46:894][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.329835s)
+[2015.05.07-20.32.46:937][819]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.05.07-20.32.46:939][819]LogAIModule: Creating AISystem for world Temple
+[2015.05.07-20.32.46:950][819]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.07-13.32.46
+[2015.05.07-20.32.46:951][819]LogWorld: Bringing up level for play took: 0.011583
+[2015.05.07-20.32.46:957][819]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 1.116
+[2015.05.07-20.33.02:451][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000483E944680
+[2015.05.07-20.33.08:688][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box5)
+[2015.05.07-20.33.09:765][978]Cmd: SELECT NONE
+[2015.05.07-20.33.09:939][994]Cmd: SELECT NONE
+[2015.05.07-20.33.17:327][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.07-20.33.21:188][461]LogSavePackage: Save=3639.112305ms
+[2015.05.07-20.33.21:189][461]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto3775EFA3445EA25687E69899282AF47FF.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto3.umap'
+[2015.05.07-20.33.21:195][461]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 4.026
+[2015.05.07-20.33.21:195][461]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.026
+[2015.05.07-20.37.35:929][968]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-20.37.36:320][968]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-20.37.41:553][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.07-20.37.42:488][968]LogSavePackage: Save=906.982422ms
+[2015.05.07-20.37.42:488][968]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple1450439B44D999C8DECFC88D9FA3FD17.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.07-20.37.42:534][968]LogFileHelpers: Saving map 'Temple' took 6.113
+[2015.05.07-20.37.42:628][968]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box007.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box011.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box010.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box009.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box008.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box006.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box012.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/BELLS.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/BELLS_Cue.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset"'
+[2015.05.07-20.37.42:701][968]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-20.37.48:888][969]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-20.37.48:965][978]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-20.37.52:324][289]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box002.uasset"'
+[2015.05.07-20.37.52:340][291]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-20.37.52:663][329]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box003.uasset"'
+[2015.05.07-20.37.52:679][331]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-20.37.52:964][365]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box004.uasset"'
+[2015.05.07-20.37.52:980][367]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-20.37.53:014][371]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box005.uasset"'
+[2015.05.07-20.37.53:023][372]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-20.39.01:315][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box34)
+[2015.05.07-20.39.20:063][580]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.07-20.39.20:063][580]PIE: New page: PIE session: Temple (May 7, 2015, 6:39:20 AM)
+[2015.05.07-20.39.20:107][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043109s)
+[2015.05.07-20.39.20:108][580]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2015.05.07-20.39.20:108][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.044044s)
+[2015.05.07-20.39.20:144][580]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.05.07-20.39.20:161][580]LogAIModule: Creating AISystem for world Temple
+[2015.05.07-20.39.20:172][580]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.07-13.39.20
+[2015.05.07-20.39.20:173][580]LogWorld: Bringing up level for play took: 0.011269
+[2015.05.07-20.39.20:179][580]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.337
+[2015.05.07-20.39.22:381][819]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048659458A0
+[2015.05.07-20.39.39:913][646]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.07-20.39.44:580][172]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.07-20.39.44:580][172]PIE: New page: PIE session: Temple (May 7, 2015, 6:39:44 AM)
+[2015.05.07-20.39.44:613][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032385s)
+[2015.05.07-20.39.44:620][172]LogPlayLevel: PIE: World Init took: (0.006943s)
+[2015.05.07-20.39.44:620][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.039521s)
+[2015.05.07-20.39.44:647][172]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.05.07-20.39.44:670][172]LogAIModule: Creating AISystem for world Temple
+[2015.05.07-20.39.44:682][172]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.07-13.39.44
+[2015.05.07-20.39.44:682][172]LogWorld: Bringing up level for play took: 0.011571
+[2015.05.07-20.39.44:685][172]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.843
+[2015.05.07-20.39.48:588][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-20.39.48:613][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004867583100
+[2015.05.07-20.39.54:312][207]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.05.07-20.39.55:247][289]Cmd: DELETE
+[2015.05.07-20.39.55:247][289]Cmd: ACTOR DELETE
+[2015.05.07-20.39.55:287][289]LogEditorActor: Deleted Actor: PlayerStart
+[2015.05.07-20.39.55:351][289]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.05.07-20.46.06:231][  4]Cmd: SELECT NONE
+[2015.05.07-20.47.39:982][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.07-20.47.40:929][749]LogSavePackage: Save=913.470520ms
+[2015.05.07-20.47.40:929][749]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto4AE25519549728192F56088ADE83C2533.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto4.umap'
+[2015.05.07-20.47.40:989][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 1.082
+[2015.05.07-20.47.40:989][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.082
+[2015.05.07-21.02.56:647][593]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target.uasset"'
+[2015.05.07-21.02.56:662][593]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.02.56:712][593]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/target.FBX)
+[2015.05.07-21.02.57:097][593]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.07-21.02.57:097][593]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.07-21.02.57:097][593]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.07-21.02.57:097][593]LogFbx: ItemName: Model, ItemCount : 2
+[2015.05.07-21.02.57:097][593]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.05.07-21.03.14:484][593]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/target.FBX
+[2015.05.07-21.03.14:677][593]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.07-21.03.14:717][593]LogFbx:Warning: Triangulating static mesh Cylinder001
+[2015.05.07-21.03.15:250][593]LogFbx: == Initial material list:
+[2015.05.07-21.03.15:250][593]LogFbx: 0: None
+[2015.05.07-21.03.15:250][593]LogFbx: == After sorting:
+[2015.05.07-21.03.15:250][593]LogFbx: 0: None
+[2015.05.07-21.03.15:250][593]LogFbx: == Mapping table:
+[2015.05.07-21.03.15:250][593]LogFbx:   sort 0 -> 0
+[2015.05.07-21.03.15:352][593]LogStaticMesh: Building static mesh target_Cylinder001...
+[2015.05.07-21.03.15:424][593]LogStaticMesh: Built static mesh [121.897331ms] /Game/Maps/Temple/target_Cylinder001.target_Cylinder001
+[2015.05.07-21.03.15:506][593]LogFbx:Warning: Triangulating static mesh Cylinder002
+[2015.05.07-21.03.15:981][593]LogFbx: == Initial material list:
+[2015.05.07-21.03.15:981][593]LogFbx: 0: None
+[2015.05.07-21.03.15:981][593]LogFbx: == After sorting:
+[2015.05.07-21.03.15:981][593]LogFbx: 0: None
+[2015.05.07-21.03.15:981][593]LogFbx: == Mapping table:
+[2015.05.07-21.03.15:981][593]LogFbx:   sort 0 -> 0
+[2015.05.07-21.03.16:001][593]LogStaticMesh: Building static mesh target_Cylinder002...
+[2015.05.07-21.03.16:049][593]LogStaticMesh: Built static mesh [65.085098ms] /Game/Maps/Temple/target_Cylinder002.target_Cylinder002
+[2015.05.07-21.03.16:426][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.07-21.03.16:426][593]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.07-21.03.16:594][594]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 0.019
+[2015.05.07-21.03.16:626][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/target_Cylinder001] ([1] browsable assets)...
+[2015.05.07-21.03.16:660][594]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/target_Cylinder001.target_Cylinder001]
+[2015.05.07-21.03.16:660][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/target_Cylinder001]
+[2015.05.07-21.03.16:662][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/target_Cylinder001" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/target_Cylinder001_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2015.05.07-21.03.16:891][594]LogSavePackage: Save=226.943771ms
+[2015.05.07-21.03.16:891][594]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/target_Cylinder001_Auto54D66700547AB519E2056D487D1E57F21.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/target_Cylinder001_Auto5.uasset'
+[2015.05.07-21.03.16:936][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Temple/target_Cylinder002] ([1] browsable assets)...
+[2015.05.07-21.03.16:959][594]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Maps/Temple/target_Cylinder002.target_Cylinder002]
+[2015.05.07-21.03.16:959][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Temple/target_Cylinder002]
+[2015.05.07-21.03.16:961][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/target_Cylinder002" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/target_Cylinder002_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2015.05.07-21.03.17:350][594]LogSavePackage: Save=386.656403ms
+[2015.05.07-21.03.17:351][594]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/target_Cylinder002_Auto506CD6305421D093FB70460AA2E2C9606.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/target_Cylinder002_Auto5.uasset'
+[2015.05.07-21.03.17:356][594]LogFileHelpers: Auto-saving content packages took 0.761
+[2015.05.07-21.03.18:357][646]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_StraightStair001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder002.uasset"'
+[2015.05.07-21.03.18:433][648]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.03.22:179][ 69]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-21.03.22:254][ 78]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-21.03.35:903][398]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Cylinder001.uasset"'
+[2015.05.07-21.03.35:919][398]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.03.48:377][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004818391620
+[2015.05.07-21.03.48:431][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048101222A0
+[2015.05.07-21.04.20:311][317]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-21.04.23:897][535]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset"'
+[2015.05.07-21.04.23:978][535]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-21.04.24:177][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.07-21.04.25:087][535]LogSavePackage: Save=876.428711ms
+[2015.05.07-21.04.25:087][535]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple405211504C023B778E68AE84286AD12A.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.07-21.04.25:159][535]LogFileHelpers: Saving map 'Temple' took 1.118
+[2015.05.07-21.04.25:195][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/target_Cylinder001" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset" SILENT=true
+[2015.05.07-21.04.25:354][535]LogSavePackage: Save=158.198807ms
+[2015.05.07-21.04.25:355][535]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/target_Cylinder0019DD01A1D4391998A20365183A7270288.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset'
+[2015.05.07-21.04.25:422][535]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset"'
+[2015.05.07-21.04.25:488][535]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.04.25:488][535]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset"'
+[2015.05.07-21.04.25:510][535]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Maps/Temple/target_Cylinder001.uasset
+'
+[2015.05.07-21.04.25:538][538]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/target_Cylinder001.uasset"'
+[2015.05.07-21.04.25:621][548]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+A  Content/Maps/Temple/target_Cylinder001.uasset
+'
+[2015.05.07-21.04.30:196][ 67]LogActorFactory: Actor Factory created target_Cylinder001
+[2015.05.07-21.04.31:579][223]LogActorFactory: Actor Factory created target_Cylinder001
+[2015.05.07-21.04.55:235][588]Cmd: SELECT NONE
+[2015.05.07-21.04.58:975][  4]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (target_Cylinder001)
+[2015.05.07-21.05.04:264][606]Cmd: SELECT NONE
+[2015.05.07-21.05.06:817][887]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.05.07-21.05.07:828][994]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Textures/SectaursRock.uasset" "S:/GameDev/WilliamTheBrave/Content/Textures/Smooth_Stone-1.uasset" "S:/GameDev/WilliamTheBrave/Content/Textures/Temp_Mat.uasset" "S:/GameDev/WilliamTheBrave/Content/Textures/Water.uasset"'
+[2015.05.07-21.05.07:847][996]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.05.11:335][371]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Textures/DarkRocks.uasset"'
+[2015.05.07-21.05.11:345][372]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.05.27:125][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-21.05.27:182][204]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-21.05.27:260][204]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-21.05.27:463][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.07-21.05.28:365][204]LogSavePackage: Save=877.272034ms
+[2015.05.07-21.05.28:365][204]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple573D94D545C805D1621CB8B755CC392A.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.07-21.05.28:440][204]LogFileHelpers: Saving map 'Temple' took 1.118
+[2015.05.07-21.05.28:454][205]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-21.05.28:464][206]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-21.06.35:325][779]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.05.07-21.06.36:333][897]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Blueprints/Bowab.uasset" "S:/GameDev/WilliamTheBrave/Content/Blueprints/TheBraveGameMode.uasset" "S:/GameDev/WilliamTheBrave/Content/Blueprints/William.uasset"'
+[2015.05.07-21.06.36:349][899]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.06.39:803][313]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.05.07-21.06.41:147][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Lamp'
+[2015.05.07-21.06.42:157][591]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Lamp/Lamp.uasset"'
+[2015.05.07-21.06.42:173][593]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.06.42:411][621]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.05.07-21.06.45:078][884]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
+[2015.05.07-21.06.50:323][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Bowab'
+[2015.05.07-21.06.56:550][930]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.06.56:564][930]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.06.56:566][930]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/Bowab.FBX)
+[2015.05.07-21.06.56:574][930]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.07-21.06.56:574][930]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.07-21.06.56:574][930]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.07-21.06.56:574][930]LogFbx: ItemName: Model, ItemCount : 2
+[2015.05.07-21.06.56:574][930]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.05.07-21.07.00:214][930]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/Bowab.FBX
+[2015.05.07-21.07.00:255][930]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.07-21.07.00:258][930]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.07-21.07.00:280][930]LogFbx: == Initial material list:
+[2015.05.07-21.07.00:280][930]LogFbx: 0: None
+[2015.05.07-21.07.00:280][930]LogFbx: == After sorting:
+[2015.05.07-21.07.00:280][930]LogFbx: 0: None
+[2015.05.07-21.07.00:280][930]LogFbx: == Mapping table:
+[2015.05.07-21.07.00:280][930]LogFbx:   sort 0 -> 0
+[2015.05.07-21.07.00:281][930]LogStaticMesh: Building static mesh Bowab_Box001...
+[2015.05.07-21.07.00:287][930]LogStaticMesh: Built static mesh [5.938660ms] /Game/Assets/Bowab/Bowab_Box001.Bowab_Box001
+[2015.05.07-21.07.00:323][930]LogStaticMesh:Warning: Bowab_Box001 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.07-21.07.01:756][930]LogFbx: == Initial material list:
+[2015.05.07-21.07.01:756][930]LogFbx: 0: None
+[2015.05.07-21.07.01:756][930]LogFbx: == After sorting:
+[2015.05.07-21.07.01:756][930]LogFbx: 0: None
+[2015.05.07-21.07.01:756][930]LogFbx: == Mapping table:
+[2015.05.07-21.07.01:756][930]LogFbx:   sort 0 -> 0
+[2015.05.07-21.07.01:777][930]LogStaticMesh: Building static mesh Bowab_Object001...
+[2015.05.07-21.07.01:787][930]LogStaticMesh: Built static mesh [29.858881ms] /Game/Assets/Bowab/Bowab_Object001.Bowab_Object001
+[2015.05.07-21.07.01:802][930]LogStaticMesh:Warning: Bowab_Object001 has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.07-21.07.03:188][930]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.07-21.07.03:188][930]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Bowab'
+[2015.05.07-21.07.04:203][ 50]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab_Box001.uasset" "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab_Object001.uasset"'
+[2015.05.07-21.07.04:219][ 52]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.07.05:838][246]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-21.07.19:395][394]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.07.19:409][394]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.07.19:435][394]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 S:/GameDev/WTBASSETS/Bowab.FBX)
+[2015.05.07-21.07.19:443][394]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.07-21.07.19:443][394]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.05.07-21.07.19:443][394]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.05.07-21.07.19:443][394]LogFbx: ItemName: Model, ItemCount : 2
+[2015.05.07-21.07.19:443][394]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.05.07-21.07.28:215][394]LogFbx: Loading FBX Scene from S:/GameDev/WTBASSETS/Bowab.FBX
+[2015.05.07-21.07.28:235][394]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.07-21.07.28:250][394]LogFbx:Warning: Triangulating static mesh Box001
+[2015.05.07-21.07.28:272][394]LogFbx: == Initial material list:
+[2015.05.07-21.07.28:272][394]LogFbx: 0: None
+[2015.05.07-21.07.28:272][394]LogFbx: 1: None
+[2015.05.07-21.07.28:272][394]LogFbx:   remap 1 -> 0
+[2015.05.07-21.07.28:272][394]LogFbx: == After sorting:
+[2015.05.07-21.07.28:272][394]LogFbx: 0: None
+[2015.05.07-21.07.28:272][394]LogFbx: == Mapping table:
+[2015.05.07-21.07.28:272][394]LogFbx:   sort 0 -> 0
+[2015.05.07-21.07.28:272][394]LogFbx:   sort 1 -> 0
+[2015.05.07-21.07.28:291][394]LogStaticMesh: Building static mesh Bowab...
+[2015.05.07-21.07.28:305][394]LogStaticMesh: Built static mesh [32.352165ms] /Game/Assets/Bowab/Bowab.Bowab
+[2015.05.07-21.07.28:315][394]LogStaticMesh:Warning: Bowab has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.07-21.07.31:323][394]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.07-21.07.31:323][394]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Bowab'
+[2015.05.07-21.07.32:336][510]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.07.32:352][512]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.07.36:828][996]LogActorFactory: Actor Factory created Bowab
+[2015.05.07-21.07.37:317][ 50]LogActorFactory: Actor Factory created Bowab
+[2015.05.07-21.08.18:955][838]LogStaticMesh: Building static mesh Bowab...
+[2015.05.07-21.08.18:968][838]LogStaticMesh: Built static mesh [24.019089ms] /Game/Assets/Bowab/Bowab.Bowab
+[2015.05.07-21.08.18:992][838]LogStaticMesh:Warning: Bowab has degenerate tangent bases which will result in incorrect shading. 
+[2015.05.07-21.08.31:093][140]Cmd: SELECT NONE
+[2015.05.07-21.08.34:061][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.07-21.08.36:667][699]Cmd: SELECT NONE
+[2015.05.07-21.08.42:596][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.07-21.08.46:834][752]Cmd: SELECT NONE
+[2015.05.07-21.08.56:459][860]Cmd: SELECT NONE
+[2015.05.07-21.09.10:002][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.07-21.09.10:020][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048657B9120
+[2015.05.07-21.09.10:060][396]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-21.09.10:075][396]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-21.09.10:075][396]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.09.10:098][396]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.09.10:291][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.07-21.09.11:191][396]LogSavePackage: Save=874.997375ms
+[2015.05.07-21.09.11:191][396]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/TempleB8F350684
