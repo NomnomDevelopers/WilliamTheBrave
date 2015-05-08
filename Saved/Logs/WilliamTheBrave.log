@@ -1979,4 +1979,293 @@ A  Content/Maps/Temple/target_Cylinder001.uasset
 [2015.05.07-21.09.10:098][396]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
 [2015.05.07-21.09.10:291][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2015.05.07-21.09.11:191][396]LogSavePackage: Save=874.997375ms
-[2015.05.07-21.09.11:191][396]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/TempleB8F350684
+[2015.05.07-21.09.11:191][396]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/TempleB8F350684E2EEB2D4260388BD5545BD2.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.07-21.09.11:272][396]LogFileHelpers: Saving map 'Temple' took 1.118
+[2015.05.07-21.09.11:288][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Bowab/Bowab" FILE="S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset" SILENT=true
+[2015.05.07-21.09.11:456][396]LogSavePackage: Save=166.940689ms
+[2015.05.07-21.09.11:456][396]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/BowabFF0C394745A751F738214B8E584BC79E.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset'
+[2015.05.07-21.09.11:491][396]LogSourceControl: RunCommandInternalRaw: 'git add "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.09.11:515][396]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.07-21.09.11:515][396]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.09.11:534][396]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Assets/Bowab/Bowab.uasset
+'
+[2015.05.07-21.09.11:545][397]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.07-21.09.11:561][399]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.07-21.09.11:561][399]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Assets/Bowab/Bowab.uasset"'
+[2015.05.07-21.09.11:585][402]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Assets/Bowab/Bowab.uasset
+'
+[2015.05.08-06.37.11:867][358]SourceControl:Error: Error Operation 'Sync' not supported by source control provider 'Git'
+[2015.05.08-06.37.13:336][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-06.37.14:786][651]Cmd: SELECT NONE
+[2015.05.08-06.37.26:076][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-06.47.18:354][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.08-06.47.19:275][639]LogSavePackage: Save=881.112183ms
+[2015.05.08-06.47.19:275][639]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple_Auto6D7CC3D91417F1974328898952E00737E.tmp' to 'S:/GameDev/WilliamTheBrave/Saved/Autosaves/Game/Maps/Temple/Temple_Auto6.umap'
+[2015.05.08-06.47.19:348][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Temple/Temple' took 1.088
+[2015.05.08-06.47.19:348][639]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.088
+[2015.05.08-06.47.58:032][997]Cmd: SELECT NONE
+[2015.05.08-07.00.52:816][797]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Lamp'
+[2015.05.08-07.00.53:306][855]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.05.08-07.00.53:842][918]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.05.08-07.00.54:855][ 39]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/TestCubePlisIgnor.umap"'
+[2015.05.08-07.00.54:869][ 41]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.08-07.00.54:874][ 41]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Temple'
+[2015.05.08-07.00.55:877][102]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/BELLS.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/BELLS_Cue.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/LampPillar.uasset" "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/MapPieces_Box001.uasset"'
+[2015.05.08-07.00.55:894][104]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.08-07.18.14:177][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box008)
+[2015.05.08-07.18.16:815][410]Cmd: SELECT NONE
+[2015.05.08-07.38.32:989][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lamp)
+[2015.05.08-07.38.36:841][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MapPieces_Box26)
+[2015.05.08-07.38.37:235][665]Cmd: SELECT NONE
+[2015.05.08-07.39.15:662][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.39.24:842][934]Cmd: SELECT NONE
+[2015.05.08-07.41.31:227][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.41.32:396][275]Cmd: SELECT NONE
+[2015.05.08-07.43.25:723][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.44.13:025][294]Cmd: SELECT NONE
+[2015.05.08-07.44.14:599][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.44.18:306][824]Cmd: SELECT NONE
+[2015.05.08-07.44.52:875][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.44.54:305][ 14]Cmd: SELECT NONE
+[2015.05.08-07.44.55:270][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.45.11:239][746]Cmd: SELECT NONE
+[2015.05.08-07.45.13:125][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.45.25:058][262]Cmd: SELECT NONE
+[2015.05.08-07.46.20:449][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.46.26:228][ 72]Cmd: SELECT NONE
+[2015.05.08-07.47.36:274][232]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.08-07.47.36:274][232]PIE: New page: PIE session: Temple (May 7, 2015, 5:47:36 PM)
+[2015.05.08-07.47.36:286][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011721s)
+[2015.05.08-07.47.36:287][232]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2015.05.08-07.47.36:287][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.012774s)
+[2015.05.08-07.47.36:322][232]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.05.08-07.47.36:324][232]LogAIModule: Creating AISystem for world Temple
+[2015.05.08-07.47.36:335][232]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.08-00.47.36
+[2015.05.08-07.47.36:336][232]LogWorld: Bringing up level for play took: 0.011487
+[2015.05.08-07.47.36:346][232]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.504
+[2015.05.08-07.47.36:802][279]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.08-07.47.36:820][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004867D48400
+[2015.05.08-07.52.06:663][ 51]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.08-07.52.06:664][ 51]PIE: New page: SIE session: Temple (May 7, 2015, 5:52:06 PM)
+[2015.05.08-07.52.06:675][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010993s)
+[2015.05.08-07.52.06:676][ 51]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2015.05.08-07.52.06:676][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Temple/Temple.Temple to /Game/Maps/Temple/UEDPIE_0_Temple.Temple (0.011918s)
+[2015.05.08-07.52.06:708][ 51]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.05.08-07.52.06:710][ 51]LogAIModule: Creating AISystem for world Temple
+[2015.05.08-07.52.06:733][ 51]LogWorld: Bringing World /Game/Maps/Temple/UEDPIE_0_Temple.Temple up for play (max tick rate 0) at 2015.05.08-00.52.06
+[2015.05.08-07.52.06:747][ 51]LogWorld: Bringing up level for play took: 0.036432
+[2015.05.08-07.52.06:748][ 51]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.05.08-07.52.06:749][ 51]PIE: Info Play in editor start time for /Game/Maps/Temple/UEDPIE_0_Temple 0.907
+[2015.05.08-07.52.15:571][998]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MapPieces_Box17)
+[2015.05.08-07.52.15:571][998]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/Temple/UEDPIE_0_Temple.Temple:PersistentLevel.MapPieces_Box17"
+[2015.05.08-07.52.16:617][ 32]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/Temple/UEDPIE_0_Temple.Temple:PersistentLevel.BoxBrush4"
+[2015.05.08-07.52.16:738][ 35]Cmd: SELECT NONE
+[2015.05.08-07.55.11:236][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bowab)
+[2015.05.08-07.55.11:236][110]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/Temple/UEDPIE_0_Temple.Temple:PersistentLevel.Bowab_73"
+[2015.05.08-07.55.14:103][272]Cmd: SELECT NONE
+[2015.05.08-08.00.10:499][ 93]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/Temple/UEDPIE_0_Temple.Temple:PersistentLevel.BoxBrush4"
+[2015.05.08-08.00.11:798][235]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/Temple/UEDPIE_0_Temple.Temple:PersistentLevel.BoxBrush4"
+[2015.05.08-08.00.13:130][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000483E97D9E0
+[2015.05.08-08.00.13:148][357]LogRenderer:Warning: Reallocating scene render targets to support 1312x616 (Frame:464735).
+[2015.05.08-08.06.47:660][577]Cmd: SELECT NONE
+[2015.05.08-08.28.19:190][862]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.08-08.28.19:205][862]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.05.08-08.28.20:479][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Temple/Temple" FILE="S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.08-08.28.21:412][862]LogSavePackage: Save=899.366089ms
+[2015.05.08-08.28.21:412][862]LogSavePackage: Moving 'S:/GameDev/WilliamTheBrave/Saved/Temple2169C21C446FCAA6EF99DE980F6D7046.tmp' to 'S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap'
+[2015.05.08-08.28.21:460][862]LogFileHelpers: Saving map 'Temple' took 2.169
+[2015.05.08-08.28.22:574][863]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WilliamTheBrave/Content/Maps/Temple/Temple.umap"'
+[2015.05.08-08.28.22:574][863]Cmd: QUIT_EDITOR
+[2015.05.08-08.28.22:775][863]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Temple/Temple.umap
+'
+[2015.05.08-08.28.23:274][863]LogExit: Preparing to exit.
+[2015.05.08-08.28.27:058][863]LogExit: Editor shut down
+[2015.05.08-08.28.27:059][863]LogExit: Transaction tracking system shut down
+[2015.05.08-08.28.27:581][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004876CF9260
+[2015.05.08-08.28.27:582][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004874AFD120
+[2015.05.08-08.28.35:022][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004869198860
+[2015.05.08-08.28.35:022][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004867D4A8E0
+[2015.05.08-08.28.35:022][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004874CE6CA0
+[2015.05.08-08.28.35:022][863]LogExit: Object subsystem successfully closed.
+[2015.05.08-08.28.36:892][863]LogModuleManager: Shutting down and abandoning module SoundCueEditor (180)
+[2015.05.08-08.28.36:909][863]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (179)
+[2015.05.08-08.28.36:909][863]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.05.08-08.28.36:924][863]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.08-08.28.36:924][863]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.08-08.28.36:924][863]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.08-08.28.36:924][863]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.08-08.28.36:924][863]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.08-08.28.36:937][863]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.08-08.28.36:960][863]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.08-08.28.36:960][863]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.08-08.28.36:971][863]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.08-08.28.37:052][863]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.08-08.28.37:058][863]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.08-08.28.37:081][863]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.08-08.28.37:090][863]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.08-08.28.37:091][863]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.08-08.28.37:107][863]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.08-08.28.37:118][863]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.08-08.28.37:118][863]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.08-08.28.37:118][863]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.08-08.28.37:133][863]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.08-08.28.37:133][863]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.08-08.28.37:133][863]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.08-08.28.37:133][863]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.08-08.28.38:120][863]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.08-08.28.38:120][863]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.08-08.28.38:120][863]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.08-08.28.38:173][863]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.08-08.28.38:174][863]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.08-08.28.38:283][863]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.08-08.28.38:283][863]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.08-08.28.38:300][863]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.08-08.28.38:334][863]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.08-08.28.38:346][863]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.08-08.28.38:386][863]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.08-08.28.38:386][863]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.08-08.28.38:397][863]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.08-08.28.38:423][863]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.08-08.28.38:442][863]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.08-08.28.38:531][863]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.08-08.28.38:531][863]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.08-08.28.38:531][863]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.08-08.28.38:531][863]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.08-08.28.39:589][863]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.08-08.28.39:694][863]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.08-08.28.39:728][863]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.08-08.28.39:808][863]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.08-08.28.39:808][863]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.08-08.28.39:819][863]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.08-08.28.39:819][863]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.08-08.28.39:819][863]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.08-08.28.39:834][863]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.08-08.28.39:870][863]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.08-08.28.39:870][863]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.08-08.28.39:885][863]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.08-08.28.39:885][863]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.08-08.28.39:900][863]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.08-08.28.39:944][863]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.08-08.28.39:945][863]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.08-08.28.39:945][863]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.08-08.28.39:945][863]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.08-08.28.39:955][863]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.08-08.28.39:955][863]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.08-08.28.40:011][863]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.08-08.28.40:225][863]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.08-08.28.40:249][863]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.08-08.28.40:249][863]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.08-08.28.40:249][863]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.08-08.28.40:249][863]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.08-08.28.40:258][863]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.08-08.28.40:279][863]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.08-08.28.40:295][863]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.08-08.28.40:295][863]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.08-08.28.40:308][863]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.08-08.28.40:308][863]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.08-08.28.40:321][863]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.08-08.28.40:345][863]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.08-08.28.40:347][863]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.08-08.28.40:354][863]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.08-08.28.40:354][863]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.08-08.28.40:354][863]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.08-08.28.40:368][863]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.08-08.28.40:383][863]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.08-08.28.40:389][863]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.08-08.28.40:389][863]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.08-08.28.40:389][863]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.08-08.28.40:389][863]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.08-08.28.40:389][863]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.08-08.28.40:398][863]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.08-08.28.40:416][863]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.08-08.28.40:424][863]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.08-08.28.40:524][863]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.08-08.28.40:540][863]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.08-08.28.40:557][863]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.08-08.28.40:557][863]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.08-08.28.40:577][863]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.08-08.28.40:577][863]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.08-08.28.40:577][863]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.08-08.28.40:684][863]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.08-08.28.40:704][863]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.08-08.28.40:741][863]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.08-08.28.40:742][863]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.08-08.28.40:742][863]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.08-08.28.40:926][863]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.08-08.28.40:988][863]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.08-08.28.41:050][863]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.08-08.28.41:058][863]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.08-08.28.41:058][863]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.08-08.28.41:522][863]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.08-08.28.41:522][863]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.08-08.28.41:522][863]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.08-08.28.41:548][863]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.08-08.28.41:548][863]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.08-08.28.41:548][863]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.08-08.28.41:548][863]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.08-08.28.41:554][863]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.08-08.28.41:554][863]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.08-08.28.41:570][863]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.08-08.28.41:597][863]LogDerivedDataCache: Shutdown
+[2015.05.08-08.28.41:597][863]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.08-08.28.41:638][863]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.08-08.28.41:652][863]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.08-08.28.41:665][863]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.08-08.28.41:665][863]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.08-08.28.41:677][863]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.08-08.28.41:684][863]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.08-08.28.41:684][863]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.08-08.28.41:684][863]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.08-08.28.41:689][863]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.08-08.28.41:689][863]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.08-08.28.41:706][863]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.08-08.28.41:720][863]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.08-08.28.41:720][863]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.08-08.28.41:720][863]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.08-08.28.41:729][863]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.08-08.28.41:744][863]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.08-08.28.41:744][863]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.08-08.28.41:744][863]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.08-08.28.41:760][863]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.08-08.28.41:769][863]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.08-08.28.41:783][863]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.08-08.28.41:783][863]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.08-08.28.41:797][863]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.08-08.28.41:797][863]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.08-08.28.41:809][863]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.08-08.28.41:809][863]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.08-08.28.41:824][863]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.08-08.28.41:824][863]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.08-08.28.41:839][863]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.08-08.28.41:867][863]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.08-08.28.41:879][863]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.08-08.28.41:879][863]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.08-08.28.41:879][863]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.08-08.28.42:027][863]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.08-08.28.42:047][863]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.08-08.28.42:047][863]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.08-08.28.42:064][863]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.08-08.28.42:064][863]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.08-08.28.42:064][863]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.08-08.28.42:079][863]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.08-08.28.42:091][863]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.08-08.28.42:091][863]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.08-08.28.42:185][863]LogExit: Exiting.
+[2015.05.08-08.28.43:152][863]Log file closed, 05/08/15 01:28:43
