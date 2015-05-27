@@ -1,0 +1,43 @@
+﻿Log file open, 05/06/15 23:43:02
+LogInit:Display: Running engine for game: WilliamTheBrave
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/Temple/UEDPCTemple -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.07-06.43.02:964][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.07-06.43.03:021][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.07-06.43.03:036][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.07-06.43.03:047][  0]LogInit: Object subsystem initialized
+[2015.05.07-06.43.03:049][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.07-06.43.03:049][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-06.43.03:049][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.07-06.43.03:049][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-06.43.03:049][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.07-06.43.03:049][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.07-06.43.03:049][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.07-06.43.03:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.07-06.43.03:053][  0]LogInit: Computer: FRED
+[2015.05.07-06.43.03:053][  0]LogInit: User: William
+[2015.05.07-06.43.03:053][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.07-06.43.03:053][  0]LogInit: High frequency timer resolution =2.923050 MHz
+[2015.05.07-06.43.03:053][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.05.07-06.43.03:054][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.07-06.43.03:054][  0]LogMemory: Process Physical Memory: 45.65 MB used, 45.65 MB peak
+[2015.05.07-06.43.03:054][  0]LogMemory: Process Virtual Memory: 24.49 MB used, 24.50 MB peak
+[2015.05.07-06.43.03:054][  0]LogMemory: Physical Memory: 3878.10 MB used, 8174.32 MB total
+[2015.05.07-06.43.03:054][  0]LogMemory: Virtual Memory: 286.23 MB used, 134217728.00 MB total
+[2015.05.07-06.43.03:071][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 450    (Feature Level 11_0)
+[2015.05.07-06.43.03:071][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.05.07-06.43.03:073][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.07-06.43.03:073][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.07-06.43.03:073][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.07-06.43.03:077][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.05.07-06.43.03:085][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.07-06.43.03:141][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.07-06.43.03:290][  0]LogContentStreaming: Texture pool size is 400.000000MB
+[2015.05.07-06.43.05:720][  0]LogTa
