@@ -1,0 +1,584 @@
+﻿Log file open, 09/10/15 11:09:27
+LogInit:Display: Running engine for game: WilliamTheBrave
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: S:/Programs/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.09.10-18.09.27:642][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.09.10-18.09.27:697][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.10-18.09.27:730][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.10-18.09.27:742][  0]LogInit: Object subsystem initialized
+[2015.09.10-18.09.27:744][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.10-18.09.27:744][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.10-18.09.27:744][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.10-18.09.27:744][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.10-18.09.27:744][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.10-18.09.27:744][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.10-18.09.27:745][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.10-18.09.27:745][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.10-18.09.27:760][  0]LogInit: Computer: FRED
+[2015.09.10-18.09.27:760][  0]LogInit: User: William
+[2015.09.10-18.09.27:760][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.10-18.09.27:760][  0]LogInit: High frequency timer resolution =2.923061 MHz
+[2015.09.10-18.09.27:760][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.09.10-18.09.27:760][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.10-18.09.27:760][  0]LogMemory: Process Physical Memory: 47.71 MB used, 47.71 MB peak
+[2015.09.10-18.09.27:760][  0]LogMemory: Process Virtual Memory: 26.62 MB used, 26.62 MB peak
+[2015.09.10-18.09.27:760][  0]LogMemory: Physical Memory: 4816.80 MB used, 8174.32 MB total
+[2015.09.10-18.09.27:760][  0]LogMemory: Virtual Memory: 306.71 MB used, 134217728.00 MB total
+[2015.09.10-18.09.27:937][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 450    (Feature Level 11_0)
+[2015.09.10-18.09.27:937][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2015.09.10-18.09.27:939][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.10-18.09.27:939][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2015.09.10-18.09.27:939][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.10-18.09.27:944][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2015.09.10-18.09.27:958][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.10-18.09.28:045][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.10-18.09.28:126][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.09.10-18.09.28:126][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.09.10-18.09.28:227][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.10-18.09.36:613][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.10-18.09.37:335][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.10-18.09.37:451][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.10-18.09.38:534][  0]LogDerivedDataCache: Loaded boot cache 1.07s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.09.10-18.09.38:534][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.09.10-18.09.38:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/WTB/WTBREPO/WilliamTheBrave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.10-18.09.38:534][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.10-18.09.38:850][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.10-18.09.38:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/William/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.10-18.09.43:356][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.10-18.09.43:356][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.10-18.09.43:799][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.10-18.09.44:040][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.09.10-18.09.53:078][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.10-18.09.53:568][  0]SourceControl: Info Source control is disabled
+[2015.09.10-18.09.53:568][  0]SourceControl: Info Source control is disabled
+[2015.09.10-18.09.53:568][  0]SourceControl: Info Source control is disabled
+[2015.09.10-18.09.53:578][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.09.10-18.09.53:596][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.09.10-18.09.54:231][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.09.10-18.09.54:231][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.09.10-18.09.54:375][  0]LogEngine: Initializing Engine...
+[2015.09.10-18.09.56:602][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.10-18.09.56:640][  0]LogInit: FAudioDevice initialized.
+[2015.09.10-18.09.56:713][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.10-18.09.56:746][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.09.10-18.09.56:757][  0]LogInit: Texture streaming: Enabled
+[2015.09.10-18.09.56:919][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.10-18.09.56:919][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.09.10-18.09.56:919][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.09.10-18.09.56:919][  0]LogAnalytics: SetUserId e1f12e4e4b01753ffd441f8b02ce5521|9b9f7eefc88a4ce5a9f9ea0297ce6769|8ef09727-ec57-4232-a159-43540120937a
+[2015.09.10-18.09.56:926][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.09.10-18.09.57:024][  0]LogInit: Transaction tracking system initialized
+[2015.09.10-18.09.58:691][  0]BlueprintLog: New page: Editor Load
+[2015.09.10-18.09.58:742][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.09.10-18.09.58:743][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.10-18.09.59:549][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.10-18.09.59:947][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.10-18.10.00:463][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.09.10-18.10.00:463][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.09.10-18.10.00:581][  0]LogConsoleResponse:Display: 
+[2015.09.10-18.10.01:053][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.10-18.10.01:636][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.09.10-18.10.01:648][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.09.10-18.10.01:649][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.10-18.10.01:691][  0]LightingResults: New page: Lighting Build
+[2015.09.10-18.10.01:705][  0]MapCheck: New page: Map Check
+[2015.09.10-18.10.01:705][  0]LightingResults: New page: Lighting Build
+[2015.09.10-18.10.01:714][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000840E6A7380
+[2015.09.10-18.10.02:768][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.10-18.10.02:774][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.09.10-18.10.02:774][  0]Cmd: MAP CHECKDEP
+[2015.09.10-18.10.02:774][  0]MapCheck: New page: Untitled_1 - Sep 10, 2015, 4:10:02 AM
+[2015.09.10-18.10.02:857][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.153ms to complete.
+[2015.09.10-18.10.02:857][  0]LogFileHelpers: Loading map 'Template_Default' took 1.209
+[2015.09.10-18.10.03:275][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.09.10-18.10.03:275][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Content/Blueprints/TheBraveGameMode.uasset
+	modified:   Content/Maps/Water/Materials/Water.uasset
+	modified:   Content/Maps/Water/Materials/Waterfall.uasset
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+	modified:   Saved/AutoScreenshot.png
+	modified:   Saved/Autosaves/PackageRestoreData.json
+	modified:   Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+	deleted:    Saved/Backup/01_-_Default_2015-05-27-12-29-44.uasset
+	deleted:    Saved/Backup/02_-_Default_2015-05-27-12-29-44.uasset
+	deleted:    Saved/Backup/Lamp_2015-05-06-14-17-56.uasset
+	deleted:    Saved/Backup/MainCharacter_2015-05-03-03-25-26.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-06-14-37-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-06-14-58-24.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-07-00-17-07.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-07-02-37-52.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-06-14-37-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-06-14-37-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-06-14-58-24.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-06-14-37-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-06-14-37-58.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-06-14-37-58.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-07-00-17-07.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-07-02-37-52.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box007_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box007_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box008_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box008_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box009_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box009_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box010_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box010_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box011_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box011_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box012_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box012_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box013_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box013_2015-05-27-12-24-33.uasset
+	deleted:    Saved/Backup/MapPieces_Box014_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box014_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_Box015_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box015_2015-05-27-12-29-49.uasset
+	deleted:    Saved/Backup/MapPieces_Box016_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box016_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box017_2015-05-27-12-29-49.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-06-14-37-56.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-06-14-58-24.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_Object001_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_Object001_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair001_2015-05-06-14-37-59.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair001_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair002_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair002_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair003_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair003_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/Metal_2015-05-03-03-45-01.uasset
+	deleted:    Saved/Backup/Skin_2015-05-03-13-00-10.uasset
+	deleted:    Saved/Backup/Temple1_Wall_2015-05-27-12-29-49.uasset
+	deleted:    Saved/Backup/Temple_2015-05-05-23-15-09.umap
+	deleted:    Saved/Backup/Temple_2015-05-05-23-33-12.umap
+	deleted:    Saved/Backup/Temple_2015-05-05-23-39-09.umap
+	deleted:    Saved/Backup/Temple_2015-05-05-23-51-40.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-12-48-52.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-09-01.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-25-14.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-36-13.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-51-47.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-11-59.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-17-43.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-37-55.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-48-22.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-58-24.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-15-25-44.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-15-36-26.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-15-46-26.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-17-37-16.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-22-41-23.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-23-36-36.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-23-42-47.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-23-57-03.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-00-17-05.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-00-27-15.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-00-37-16.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-15-03.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-25-04.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-35-06.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-45-24.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-55-32.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-05-34.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-26-45.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-37-51.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-44-03.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-13-33-17.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-13-47-39.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-14-04-24.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-23-47-18.umap
+	deleted:    Saved/Backup/Temple_2015-05-08-01-28-20.umap
+	deleted:    Saved/Backup/Temple_2015-05-26-18-49-17.umap
+	deleted:    Saved/Backup/Temple_2015-05-27-12-24-32.umap
+	deleted:    Saved/Backup/Temple_2015-05-27-12-29-41.umap
+	deleted:    Saved/Backup/William_2015-05-06-17-47-34.uasset
+	deleted:    Saved/Backup/William_2015-05-06-17-58-12.uasset
+	modified:   Saved/Config/Windows/EditorLayout.ini
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Saved/Config/Windows/Engine.ini
+	modified:   Saved/Config/Windows/SourceControlSettings.ini
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.03-03.13.47.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.03-03.49.58.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.03-12.20.48.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.05-22.55.36.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-12.25.47.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-15.13.15.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-17.26.58.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-18.26.08.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.26-18.36.54.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.27-11.59.46.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.27-12.21.07.log
+	modified:   Saved/Logs/WilliamTheBrave.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-12.25.47.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-23.42.52.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-23.43.02.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.27-12.12.56.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Saved/Autosaves/Game/Blueprints/AngryCamel_Auto1.uasset
+	Saved/Autosaves/Game/Blueprints/AngryCamel_Auto3.uasset
+	Saved/Autosaves/Game/Blueprints/TheBraveGameMode_Auto1.uasset
+	Saved/Autosaves/Game/Blueprints/TheBraveGameMode_Auto2.uasset
+	Saved/Autosaves/Game/Blueprints/TheBraveGameMode_Auto3.uasset
+	Saved/Autosaves/Game/Blueprints/TheBraveGameMode_Auto4.uasset
+	Saved/Autosaves/Game/Blueprints/Water_Auto2.uasset
+	Saved/Autosaves/Game/Blueprints/William_Auto3.uasset
+	Saved/Autosaves/Game/Maps/Courtyard/
+	Saved/Autosaves/Game/Maps/MultiplayerMap_Water_Auto3.umap
+	Saved/Autosaves/Game/Maps/Water/
+	Saved/Autosaves/Game/Textures/Water_temple/
+	Saved/Backup/AngryCamel_2015-09-08-09-35-50.uasset
+	Saved/Backup/AngryCamel_2015-09-08-10-45-19.uasset
+	Saved/Backup/Makya_2015-09-09-12-49-31.uasset
+	Saved/Backup/MapPieces_Box003_2015-09-08-10-50-04.uasset
+	Saved/Backup/MapPieces_Cylinder001_2015-09-08-10-50-05.uasset
+	Saved/Backup/MultiplayerMap_Water_2015-09-07-06-02-27.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-07-05-34-29.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-07-19-00-00.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-08-06-29-51.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-08-06-51-51.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-08-09-35-47.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-08-10-27-14.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-08-10-45-17.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-08-13-44-34.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-09-08-27-16.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-09-12-49-29.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-09-13-13-48.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-09-14-30-04.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-10-09-59-14.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-10-10-18-06.umap
+	Saved/Backup/Temple_Modables_1_Box014_2015-09-08-13-44-37.uasset
+	Saved/Backup/Temple_Modables_1_Box014_2015-09-09-08-27-02.uasset
+	Saved/Backup/Temple_Modables_1_Box016_2015-09-08-13-44-37.uasset
+	Saved/Backup/Temple_Modables_1_Box016_2015-09-09-08-27-03.uasset
+	Saved/Backup/Temple_Modables_1_Box019_2015-09-08-13-44-38.uasset
+	Saved/Backup/Temple_Modables_1_Box019_2015-09-09-08-27-03.uasset
+	Saved/Backup/Temple_Modables_1_Box024_2015-09-08-13-44-39.uasset
+	Saved/Backup/Temple_Modables_1_Box024_2015-09-09-08-27-03.uasset
+	Saved/Backup/Temple_Modables_1_Box042_2015-09-08-13-44-39.uasset
+	Saved/Backup/Temple_Modables_1_Box042_2015-09-09-08-27-03.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-08-06-29-56.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-08-06-51-57.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-08-09-35-51.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-08-10-27-17.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-08-10-45-20.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-10-11-08-51.uasset
+	Saved/Backup/Water_2015-09-08-04-27-47.uasset
+	Saved/Backup/Water_2015-09-08-04-37-48.uasset
+	Saved/Backup/Water_2015-09-08-05-12-37.uasset
+	Saved/Backup/Water_2015-09-10-09-59-18.uasset
+	Saved/Backup/Water_2015-09-10-11-08-52.uasset
+	Saved/Backup/Waterfall_2015-09-08-06-29-56.uasset
+	Saved/Backup/Waterfall_2015-09-08-06-51-58.uasset
+	Saved/Backup/Waterfall_2015-09-10-10-18-09.uasset
+	Saved/Backup/Waterfall_2015-09-10-11-08-52.uasset
+	Saved/Backup/William_2015-09-08-10-45-20.uasset
+	Saved/Config/WorldState/1202140250.json
+	Saved/Config/WorldState/2808729003.json
+	Saved/Config/WorldState/3407274137.json
+	Saved/HardwareSurvey/
+	Saved/Logs/Dump373326560.dmp
+	Saved/Logs/WilliamTheBrave-backup-2015.09.06-08.42.52.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.06-09.55.45.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.07-04.00.47.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.07-18.36.28.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.08-03.52.47.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.08-07.55.42.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.08-13.21.44.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.09-11.17.02.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.09-12.51.56.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.10-09.41.07.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.10-11.09.27.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+'
+[2015.09.10-18.10.03:276][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.09.10-18.10.03:276][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.09.10-18.10.03:276][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.10-18.10.03:277][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.09.10-18.10.03:330][  0]LogCollectionManager: Loaded 0 collections in 0.001597 seconds
+[2015.09.10-18.10.03:341][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1696 classes and 261 folders.
+[2015.09.10-18.10.03:369][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.10-18.10.03:399][  0]LogLoad: Full Startup: 38.22 seconds (BP compile: 0.12 seconds)
+[2015.09.10-18.10.03:773][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Water/Materials'
+[2015.09.10-18.10.03:890][  0]SourceControl: Info master
+[2015.09.10-18.10.03:970][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.09.10-18.10.04:024][  0]LogRenderer:Warning: Reallocating scene render targets to support 1000x592 (Frame:5).
+[2015.09.10-18.10.05:967][  6]LogAssetRegistry: Asset discovery search completed in 7.2363 seconds
+[2015.09.10-18.10.06:978][ 10]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/WIP_MAT.uasset"'
+[2015.09.10-18.10.06:978][ 10]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.09.10-18.10.11:306][ 23]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/4WayChaos.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Fire.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Fire2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Makya.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Waterfall.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Archway2_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Archway_Mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_base.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_lank2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Platform2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Wall1_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_wall2_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_wall3_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_water.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_windowHigh.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_window_low.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_window_mat.uasset"'
+[2015.09.10-18.10.11:648][ 24]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Water/Materials/Water.uasset
+ M Content/Maps/Water/Materials/Waterfall.uasset
+'
+[2015.09.10-18.13.29:624][  8]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.09.10-18.13.29:695][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.09.10-18.13.29:823][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.09.10-18.13.29:823][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.09.10-18.13.29:858][  8]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.09.10-18.13.29:870][  8]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.10-18.13.29:924][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.09.10-18.13.29:926][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.10-18.13.29:952][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.10-18.13.29:954][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.10-18.13.29:957][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2015.09.10-18.13.36:954][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.09.10-18.13.36:954][394]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.09.10-18.13.46:610][ 57]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.09.10-18.13.46:610][ 57]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2015.09.10-18.13.46:610][ 57]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2015.09.10-18.13.46:610][ 57]MaterialEditorStats: Info Vertex shader: 67 instructions
+[2015.09.10-18.13.46:610][ 57]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.09.10-18.14.09:719][727]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.10-18.14.09:720][727]PIE: New page: PIE session: Untitled_1 (Sep 10, 2015, 4:14:09 AM)
+[2015.09.10-18.14.09:722][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001975s)
+[2015.09.10-18.14.09:723][727]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2015.09.10-18.14.09:723][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003043s)
+[2015.09.10-18.14.11:847][727]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.10-18.14.11:849][727]LogAIModule: Creating AISystem for world Untitled_1
+[2015.09.10-18.14.11:852][727]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.09.10-11.14.11
+[2015.09.10-18.14.11:853][727]LogWorld: Bringing up level for play took: 0.002883
+[2015.09.10-18.14.11:859][727]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 2.51
+[2015.09.10-18.14.19:190][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000841BDBE8E0
+[2015.09.10-18.14.19:190][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000843F929940
+[2015.09.10-18.14.31:570][849]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.10-18.14.31:570][849]PIE: New page: PIE session: Untitled_1 (Sep 10, 2015, 4:14:31 AM)
+[2015.09.10-18.14.31:574][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003240s)
+[2015.09.10-18.14.31:576][849]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2015.09.10-18.14.31:576][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004727s)
+[2015.09.10-18.14.31:612][849]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.10-18.14.31:615][849]LogAIModule: Creating AISystem for world Untitled_1
+[2015.09.10-18.14.31:617][849]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.09.10-11.14.31
+[2015.09.10-18.14.31:618][849]LogWorld: Bringing up level for play took: 0.002706
+[2015.09.10-18.14.31:622][849]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.273
+[2015.09.10-18.15.10:057][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084419705E0
+[2015.09.10-18.15.15:868][876]Cmd: QUIT_EDITOR
+[2015.09.10-18.15.16:131][876]LogExit: Preparing to exit.
+[2015.09.10-18.15.16:321][876]LogExit: Editor shut down
+[2015.09.10-18.15.16:321][876]LogExit: Transaction tracking system shut down
+[2015.09.10-18.15.16:322][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008419BE9F80
+[2015.09.10-18.15.16:322][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000842C38C4A0
+[2015.09.10-18.15.16:322][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000842EE09260
+[2015.09.10-18.15.16:322][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000842EE09080
+[2015.09.10-18.15.16:389][876]LogExit: Object subsystem successfully closed.
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module MaterialEditor (177)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module EditorWidgets (176)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module CollectionManager (175)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module CrashTracker (174)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module SuperSearch (173)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.09.10-18.15.16:437][876]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.09.10-18.15.16:438][876]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.09.10-18.15.17:279][876]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.09.10-18.15.17:280][876]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.09.10-18.15.17:280][876]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.09.10-18.15.17:280][876]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.09.10-18.15.17:357][876]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.09.10-18.15.17:357][876]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.09.10-18.15.17:357][876]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.09.10-18.15.17:358][876]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.09.10-18.15.17:455][876]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.09.10-18.15.17:456][876]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.10-18.15.17:457][876]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.10-18.15.17:457][876]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.09.10-18.15.17:457][876]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.09.10-18.15.17:558][876]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.09.10-18.15.17:562][876]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.09.10-18.15.17:562][876]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.09.10-18.15.17:562][876]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.09.10-18.15.17:562][876]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.09.10-18.15.17:562][876]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.09.10-18.15.17:562][876]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.09.10-18.15.17:563][876]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.09.10-18.15.17:563][876]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.09.10-18.15.17:563][876]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.09.10-18.15.17:563][876]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.09.10-18.15.17:568][876]LogDerivedDataCache: Shutdown
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.10-18.15.17:568][876]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.09.10-18.15.17:569][876]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.10-18.15.17:569][876]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.10-18.15.17:569][876]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.10-18.15.17:569][876]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.10-18.15.17:569][876]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.10-18.15.17:572][876]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.10-18.15.17:573][876]LogExit: Exiting.
+[2015.09.10-18.15.17:578][876]Log file closed, 09/10/15 11:15:17

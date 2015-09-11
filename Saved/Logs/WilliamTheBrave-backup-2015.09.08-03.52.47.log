@@ -1,0 +1,1289 @@
+﻿Log file open, 09/07/15 18:36:28
+LogInit:Display: Running engine for game: WilliamTheBrave
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: S:/Programs/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.09.08-01.36.28:625][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.09.08-01.36.28:680][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.08-01.36.28:769][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.08-01.36.28:780][  0]LogInit: Object subsystem initialized
+[2015.09.08-01.36.28:782][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.08-01.36.28:782][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.08-01.36.28:782][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.08-01.36.28:782][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.08-01.36.28:782][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.08-01.36.28:782][  0]LogConsoleResponse:Warning:   Found in ini file 'S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.08-01.36.28:782][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.08-01.36.28:782][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.08-01.36.28:798][  0]LogInit: Computer: FRED
+[2015.09.08-01.36.28:798][  0]LogInit: User: William
+[2015.09.08-01.36.28:798][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.08-01.36.28:798][  0]LogInit: High frequency timer resolution =2.923061 MHz
+[2015.09.08-01.36.28:798][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.09.08-01.36.28:798][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.08-01.36.28:798][  0]LogMemory: Process Physical Memory: 47.65 MB used, 47.65 MB peak
+[2015.09.08-01.36.28:798][  0]LogMemory: Process Virtual Memory: 26.57 MB used, 26.57 MB peak
+[2015.09.08-01.36.28:798][  0]LogMemory: Physical Memory: 4761.73 MB used, 8174.32 MB total
+[2015.09.08-01.36.28:798][  0]LogMemory: Virtual Memory: 306.71 MB used, 134217728.00 MB total
+[2015.09.08-01.36.28:919][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 450    (Feature Level 11_0)
+[2015.09.08-01.36.28:919][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2015.09.08-01.36.28:920][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.08-01.36.28:920][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2015.09.08-01.36.28:920][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.08-01.36.28:925][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2015.09.08-01.36.28:937][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.08-01.36.29:545][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.08-01.36.29:625][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.09.08-01.36.29:625][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (S:/Programs/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.09.08-01.36.29:709][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.08-01.36.38:950][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.08-01.36.40:017][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.08-01.36.40:153][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.08-01.36.41:310][  0]LogDerivedDataCache: Loaded boot cache 1.15s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.09.08-01.36.41:311][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.09.08-01.36.41:311][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/WTB/WTBREPO/WilliamTheBrave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.08-01.36.41:311][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.08-01.36.41:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.08-01.36.41:528][  0]LogDerivedDataCache: Using Local data cache path C:/Users/William/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.08-01.36.49:669][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.08-01.36.49:669][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.08-01.36.53:202][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.08-01.36.53:662][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.09.08-01.37.03:464][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.08-01.37.04:344][  0]SourceControl: Info Source control is disabled
+[2015.09.08-01.37.04:349][  0]SourceControl: Info Source control is disabled
+[2015.09.08-01.37.04:349][  0]SourceControl: Info Source control is disabled
+[2015.09.08-01.37.04:358][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.09.08-01.37.04:564][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.09.08-01.37.05:633][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.09.08-01.37.05:633][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.09.08-01.37.06:334][  0]LogEngine: Initializing Engine...
+[2015.09.08-01.37.09:021][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.08-01.37.09:047][  0]LogInit: FAudioDevice initialized.
+[2015.09.08-01.37.09:564][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.08-01.37.09:695][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/William/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.09.08-01.37.09:712][  0]LogInit: Texture streaming: Enabled
+[2015.09.08-01.37.10:369][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.08-01.37.10:369][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.09.08-01.37.10:369][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.09.08-01.37.10:369][  0]LogAnalytics: SetUserId e1f12e4e4b01753ffd441f8b02ce5521|9b9f7eefc88a4ce5a9f9ea0297ce6769|8ef09727-ec57-4232-a159-43540120937a
+[2015.09.08-01.37.10:407][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.09.08-01.37.10:630][  0]LogInit: Transaction tracking system initialized
+[2015.09.08-01.37.11:582][  0]BlueprintLog: New page: Editor Load
+[2015.09.08-01.37.11:660][  0]LogAssetRegistry: FAssetRegistry took 0.0133 seconds to start up
+[2015.09.08-01.37.11:660][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.08-01.37.13:927][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.08-01.37.14:228][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.08-01.37.15:162][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.09.08-01.37.15:163][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.09.08-01.37.15:247][  0]LogConsoleResponse:Display: 
+[2015.09.08-01.37.17:081][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.08-01.37.18:111][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.09.08-01.37.18:120][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.09.08-01.37.18:158][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.08-01.37.18:193][  0]LightingResults: New page: Lighting Build
+[2015.09.08-01.37.18:399][  0]MapCheck: New page: Map Check
+[2015.09.08-01.37.18:399][  0]LightingResults: New page: Lighting Build
+[2015.09.08-01.37.18:669][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C27603380
+[2015.09.08-01.37.21:109][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.08-01.37.21:157][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.09.08-01.37.21:174][  0]Cmd: MAP CHECKDEP
+[2015.09.08-01.37.21:182][  0]MapCheck: New page: Untitled_1 - Sep 7, 2015, 11:37:21 AM
+[2015.09.08-01.37.21:276][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.131ms to complete.
+[2015.09.08-01.37.21:276][  0]LogFileHelpers: Loading map 'Template_Default' took 3.137
+[2015.09.08-01.37.24:250][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.09.08-01.37.24:250][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Content/Maps/Water/Materials/Water.uasset
+	new file:   Content/Maps/Water/Materials/Waterfall.uasset
+	new file:   Content/Textures/Water_temple/Displacement_map.uasset
+	new file:   Content/Textures/Water_temple/Photo-Normal.uasset
+	new file:   Content/Textures/Water_temple/tornado.uasset
+	new file:   Content/Textures/Water_temple/waterfall.uasset
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Content/Maps/Water/Map/SinglePlayer_Final.umap
+	modified:   Content/Maps/Water/Materials/Water.uasset
+	modified:   Content/Maps/Water/Materials/Waterfall.uasset
+	modified:   Content/Textures/Water_temple/tornado.uasset
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+	modified:   Saved/AutoScreenshot.png
+	modified:   Saved/Autosaves/PackageRestoreData.json
+	deleted:    Saved/Backup/01_-_Default_2015-05-27-12-29-44.uasset
+	deleted:    Saved/Backup/02_-_Default_2015-05-27-12-29-44.uasset
+	deleted:    Saved/Backup/Lamp_2015-05-06-14-17-56.uasset
+	deleted:    Saved/Backup/MainCharacter_2015-05-03-03-25-26.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-06-14-37-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-06-14-58-24.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-07-00-17-07.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-07-02-37-52.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box001_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-06-14-37-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box002_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-06-14-37-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-06-14-58-24.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box003_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-06-14-37-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-27-12-10-54.uasset
+	deleted:    Saved/Backup/MapPieces_Box004_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-06-14-37-58.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box005_2015-05-27-12-29-45.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-06-14-37-58.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-07-00-17-07.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-07-02-37-52.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box006_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box007_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box007_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box008_2015-05-27-12-10-55.uasset
+	deleted:    Saved/Backup/MapPieces_Box008_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box009_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box009_2015-05-27-12-29-46.uasset
+	deleted:    Saved/Backup/MapPieces_Box010_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box010_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box011_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box011_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box012_2015-05-27-12-10-56.uasset
+	deleted:    Saved/Backup/MapPieces_Box012_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box013_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box013_2015-05-27-12-24-33.uasset
+	deleted:    Saved/Backup/MapPieces_Box014_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box014_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_Box015_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box015_2015-05-27-12-29-49.uasset
+	deleted:    Saved/Backup/MapPieces_Box016_2015-05-27-12-10-57.uasset
+	deleted:    Saved/Backup/MapPieces_Box016_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/MapPieces_Box017_2015-05-27-12-29-49.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-06-14-37-56.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-06-14-58-24.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_Cylinder001_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_Object001_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_Object001_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair001_2015-05-06-14-37-59.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair001_2015-05-06-14-58-25.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair002_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair002_2015-05-27-12-29-48.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair003_2015-05-27-12-10-58.uasset
+	deleted:    Saved/Backup/MapPieces_StraightStair003_2015-05-27-12-29-47.uasset
+	deleted:    Saved/Backup/Metal_2015-05-03-03-45-01.uasset
+	deleted:    Saved/Backup/Skin_2015-05-03-13-00-10.uasset
+	deleted:    Saved/Backup/Temple1_Wall_2015-05-27-12-29-49.uasset
+	deleted:    Saved/Backup/Temple_2015-05-05-23-15-09.umap
+	deleted:    Saved/Backup/Temple_2015-05-05-23-33-12.umap
+	deleted:    Saved/Backup/Temple_2015-05-05-23-39-09.umap
+	deleted:    Saved/Backup/Temple_2015-05-05-23-51-40.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-12-48-52.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-09-01.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-25-14.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-36-13.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-13-51-47.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-11-59.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-17-43.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-37-55.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-48-22.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-14-58-24.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-15-25-44.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-15-36-26.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-15-46-26.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-17-37-16.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-22-41-23.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-23-36-36.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-23-42-47.umap
+	deleted:    Saved/Backup/Temple_2015-05-06-23-57-03.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-00-17-05.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-00-27-15.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-00-37-16.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-15-03.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-25-04.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-35-06.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-45-24.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-01-55-32.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-05-34.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-26-45.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-37-51.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-02-44-03.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-13-33-17.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-13-47-39.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-14-04-24.umap
+	deleted:    Saved/Backup/Temple_2015-05-07-23-47-18.umap
+	deleted:    Saved/Backup/Temple_2015-05-08-01-28-20.umap
+	deleted:    Saved/Backup/Temple_2015-05-26-18-49-17.umap
+	deleted:    Saved/Backup/Temple_2015-05-27-12-24-32.umap
+	deleted:    Saved/Backup/Temple_2015-05-27-12-29-41.umap
+	deleted:    Saved/Backup/William_2015-05-06-17-47-34.uasset
+	deleted:    Saved/Backup/William_2015-05-06-17-58-12.uasset
+	modified:   Saved/Config/Windows/EditorLayout.ini
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Saved/Config/Windows/Engine.ini
+	modified:   Saved/Config/Windows/GameUserSettings.ini
+	modified:   Saved/Config/Windows/SourceControlSettings.ini
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.03-03.13.47.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.03-03.49.58.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.03-12.20.48.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.05-22.55.36.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-12.25.47.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-15.13.15.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-17.26.58.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.06-18.26.08.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.26-18.36.54.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.27-11.59.46.log
+	deleted:    Saved/Logs/WilliamTheBrave-backup-2015.05.27-12.21.07.log
+	modified:   Saved/Logs/WilliamTheBrave.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-12.25.47.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-23.42.52.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.06-23.43.02.log
+	deleted:    Saved/Logs/WilliamTheBrave_2-backup-2015.05.27-12.12.56.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Saved/Autosaves/Game/Blueprints/TheBraveGameMode_Auto2.uasset
+	Saved/Autosaves/Game/Maps/Courtyard/
+	Saved/Autosaves/Game/Maps/MultiplayerMap_Water_Auto3.umap
+	Saved/Autosaves/Game/Maps/Water/
+	Saved/Autosaves/Game/Textures/Water_temple/
+	Saved/Backup/Makya_2015-08-31-21-03-49.uasset
+	Saved/Backup/MultiplayerMap_Water_2015-09-07-06-02-27.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-01-14-05-29.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-01-14-15-36.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-03-16-30-50.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-03-16-58-54.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-03-17-12-21.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-03-17-37-59.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-03-17-58-47.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-03-18-15-14.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-06-10-10-14.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-06-10-32-41.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-06-10-56-50.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-06-11-12-13.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-06-11-54-36.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-07-04-15-55.umap
+	Saved/Backup/SinglePlayer_Final_2015-09-07-05-34-29.umap
+	Saved/Backup/TestCubePlisIgnor_2015-08-31-21-03-50.umap
+	Saved/Backup/TheBraveGameMode_2015-09-03-16-58-58.uasset
+	Saved/Backup/TheBraveGameMode_2015-09-03-18-15-14.uasset
+	Saved/Backup/Water_2015-09-03-16-58-57.uasset
+	Saved/Backup/Water_2015-09-03-18-15-16.uasset
+	Saved/Backup/Water_2015-09-06-10-10-17.uasset
+	Saved/Backup/Water_2015-09-06-11-12-16.uasset
+	Saved/Backup/Water_2015-09-06-11-54-38.uasset
+	Saved/Backup/Waterfall_2015-09-03-17-38-17.uasset
+	Saved/Backup/Waterfall_2015-09-03-17-58-49.uasset
+	Saved/Backup/Waterfall_2015-09-03-18-15-24.uasset
+	Saved/Backup/Waterfall_2015-09-06-10-32-44.uasset
+	Saved/Backup/Waterfall_2015-09-06-11-12-17.uasset
+	Saved/Backup/Waterfall_2015-09-06-11-54-38.uasset
+	Saved/Backup/tornado_2015-09-03-16-58-57.uasset
+	Saved/Backup/tornado_2015-09-03-18-15-26.uasset
+	Saved/Backup/tornado_2015-09-06-09-58-08.uasset
+	Saved/Backup/tornado_2015-09-06-10-10-17.uasset
+	Saved/Backup/tornado_2015-09-06-11-54-39.uasset
+	Saved/Config/WorldState/1202140250.json
+	Saved/Config/WorldState/2808729003.json
+	Saved/Config/WorldState/3407274137.json
+	Saved/Logs/Dump373326560.dmp
+	Saved/Logs/WilliamTheBrave-backup-2015.09.03-00.32.26.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.03-00.48.32.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.03-16.18.27.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.06-08.42.52.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.06-09.55.45.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.07-04.00.47.log
+	Saved/Logs/WilliamTheBrave-backup-2015.09.07-18.36.28.log
+
+'
+[2015.09.08-01.37.24:251][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.09.08-01.37.24:251][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.09.08-01.37.24:251][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.08-01.37.24:292][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.09.08-01.37.24:480][  0]LogCollectionManager: Loaded 0 collections in 0.002805 seconds
+[2015.09.08-01.37.24:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0302 seconds. Added 1697 classes and 263 folders.
+[2015.09.08-01.37.24:739][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.08-01.37.24:843][  0]LogLoad: Full Startup: 59.96 seconds (BP compile: 0.48 seconds)
+[2015.09.08-01.37.25:319][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.09.08-01.37.25:651][  0]SourceControl: Info master
+[2015.09.08-01.37.25:911][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.09.08-01.37.26:292][  0]LogRenderer:Warning: Reallocating scene render targets to support 904x592 (Frame:3).
+[2015.09.08-01.37.29:356][ 10]LogAssetRegistry: Asset discovery search completed in 17.7083 seconds
+[2015.09.08-01.37.32:317][ 52]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Arena.umap" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/MultiplayerMap_Water.umap" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/TestCubePlisIgnor.umap"'
+[2015.09.08-01.37.32:350][ 56]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.09.08-01.37.38:595][574]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Water'
+[2015.09.08-01.37.40:146][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Water/Map'
+[2015.09.08-01.37.41:161][750]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Map/SinglePlayer_Final.umap" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Map/Temple.umap"'
+[2015.09.08-01.37.41:170][751]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Water/Map/SinglePlayer_Final.umap
+'
+[2015.09.08-01.37.50:850][794]LogTexture:Display: Building textures: HQ_Lightmap0_240 (AutoDXT)
+[2015.09.08-01.37.50:919][794]LogTexture:Display: Building textures: HQ_Lightmap0_243 (AutoDXT)
+[2015.09.08-01.37.50:933][794]LogTexture:Display: Building textures: HQ_Lightmap0_251 (AutoDXT)
+[2015.09.08-01.37.50:952][794]LogTexture:Display: Building textures: HQ_Lightmap0_253 (AutoDXT)
+[2015.09.08-01.37.50:956][794]LogTexture:Display: Building textures: HQ_Lightmap0_254 (AutoDXT)
+[2015.09.08-01.37.50:974][794]LogTexture:Display: Building textures: HQ_Lightmap0_255 (AutoDXT)
+[2015.09.08-01.37.50:992][794]LogTexture:Display: Building textures: HQ_Lightmap0_256 (AutoDXT)
+[2015.09.08-01.37.51:011][794]LogTexture:Display: Building textures: HQ_Lightmap0_259 (AutoDXT)
+[2015.09.08-01.37.51:026][794]LogTexture:Display: Building textures: HQ_Lightmap0_260 (AutoDXT)
+[2015.09.08-01.37.51:045][794]LogTexture:Display: Building textures: HQ_Lightmap0_252 (AutoDXT)
+[2015.09.08-01.38.00:434][794]LogTexture:Display: Building textures: HQ_Lightmap0_110 (AutoDXT)
+[2015.09.08-01.38.00:461][794]LogTexture:Display: Building textures: HQ_Lightmap0_111 (AutoDXT)
+[2015.09.08-01.38.00:483][794]LogTexture:Display: Building textures: HQ_Lightmap0_143 (AutoDXT)
+[2015.09.08-01.38.00:494][794]LogTexture:Display: Building textures: HQ_Lightmap0_173 (AutoDXT)
+[2015.09.08-01.38.00:529][794]LogTexture:Display: Building textures: HQ_Lightmap0_176 (AutoDXT)
+[2015.09.08-01.38.00:541][794]LogTexture:Display: Building textures: HQ_Lightmap0_232 (AutoDXT)
+[2015.09.08-01.38.00:555][794]LogTexture:Display: Building textures: HQ_Lightmap0_233 (AutoDXT)
+[2015.09.08-01.38.00:569][794]LogTexture:Display: Building textures: HQ_Lightmap0_236 (AutoDXT)
+[2015.09.08-01.38.00:583][794]LogTexture:Display: Building textures: HQ_Lightmap0_263 (AutoDXT)
+[2015.09.08-01.38.00:603][794]LogTexture:Display: Building textures: HQ_Lightmap0_264 (AutoDXT)
+[2015.09.08-01.38.00:633][794]LogTexture:Display: Building textures: HQ_Lightmap0_265 (AutoDXT)
+[2015.09.08-01.38.00:662][794]LogTexture:Display: Building textures: HQ_Lightmap0_270 (AutoDXT)
+[2015.09.08-01.38.00:677][794]LogTexture:Display: Building textures: HQ_Lightmap0_271 (AutoDXT)
+[2015.09.08-01.38.00:705][794]LogTexture:Display: Building textures: HQ_Lightmap0_272 (AutoDXT)
+[2015.09.08-01.38.00:734][794]LogTexture:Display: Building textures: HQ_Lightmap0_273 (AutoDXT)
+[2015.09.08-01.38.00:765][794]LogTexture:Display: Building textures: HQ_Lightmap0_274 (AutoDXT)
+[2015.09.08-01.38.00:795][794]LogTexture:Display: Building textures: HQ_Lightmap0_275 (AutoDXT)
+[2015.09.08-01.38.00:811][794]LogTexture:Display: Building textures: HQ_Lightmap0_276 (AutoDXT)
+[2015.09.08-01.38.00:826][794]LogTexture:Display: Building textures: HQ_Lightmap0_277 (AutoDXT)
+[2015.09.08-01.38.00:835][794]LogTexture:Display: Building textures: HQ_Lightmap0_278 (AutoDXT)
+[2015.09.08-01.38.00:839][794]LogTexture:Display: Building textures: HQ_Lightmap0_281 (AutoDXT)
+[2015.09.08-01.38.00:858][794]LogTexture:Display: Building textures: HQ_Lightmap0_288 (AutoDXT)
+[2015.09.08-01.38.00:887][794]LogTexture:Display: Building textures: HQ_Lightmap0_289 (AutoDXT)
+[2015.09.08-01.38.00:916][794]LogTexture:Display: Building textures: HQ_Lightmap0_291 (AutoDXT)
+[2015.09.08-01.38.00:922][794]LogTexture:Display: Building textures: HQ_Lightmap0_292 (AutoDXT)
+[2015.09.08-01.38.00:927][794]LogTexture:Display: Building textures: HQ_Lightmap0_293 (AutoDXT)
+[2015.09.08-01.38.00:933][794]LogTexture:Display: Building textures: HQ_Lightmap0_294 (AutoDXT)
+[2015.09.08-01.38.00:939][794]LogTexture:Display: Building textures: HQ_Lightmap0_295 (AutoDXT)
+[2015.09.08-01.38.00:944][794]LogTexture:Display: Building textures: HQ_Lightmap0_296 (AutoDXT)
+[2015.09.08-01.38.00:950][794]LogTexture:Display: Building textures: HQ_Lightmap0_297 (AutoDXT)
+[2015.09.08-01.38.00:956][794]LogTexture:Display: Building textures: HQ_Lightmap0_298 (AutoDXT)
+[2015.09.08-01.38.00:961][794]LogTexture:Display: Building textures: HQ_Lightmap0_299 (AutoDXT)
+[2015.09.08-01.38.00:967][794]LogTexture:Display: Building textures: HQ_Lightmap0_300 (AutoDXT)
+[2015.09.08-01.38.00:972][794]LogTexture:Display: Building textures: HQ_Lightmap0_301 (AutoDXT)
+[2015.09.08-01.38.00:979][794]LogTexture:Display: Building textures: HQ_Lightmap0_302 (AutoDXT)
+[2015.09.08-01.38.00:984][794]LogTexture:Display: Building textures: HQ_Lightmap0_303 (AutoDXT)
+[2015.09.08-01.38.00:990][794]LogTexture:Display: Building textures: HQ_Lightmap0_304 (AutoDXT)
+[2015.09.08-01.38.00:995][794]LogTexture:Display: Building textures: HQ_Lightmap0_305 (AutoDXT)
+[2015.09.08-01.38.01:001][794]LogTexture:Display: Building textures: HQ_Lightmap0_306 (AutoDXT)
+[2015.09.08-01.38.01:007][794]LogTexture:Display: Building textures: HQ_Lightmap0_307 (AutoDXT)
+[2015.09.08-01.38.01:013][794]LogTexture:Display: Building textures: HQ_Lightmap0_308 (AutoDXT)
+[2015.09.08-01.38.01:019][794]LogTexture:Display: Building textures: HQ_Lightmap0_309 (AutoDXT)
+[2015.09.08-01.38.01:025][794]LogTexture:Display: Building textures: HQ_Lightmap0_310 (AutoDXT)
+[2015.09.08-01.38.01:031][794]LogTexture:Display: Building textures: HQ_Lightmap0_311 (AutoDXT)
+[2015.09.08-01.38.01:038][794]LogTexture:Display: Building textures: HQ_Lightmap0_312 (AutoDXT)
+[2015.09.08-01.38.01:044][794]LogTexture:Display: Building textures: HQ_Lightmap0_313 (AutoDXT)
+[2015.09.08-01.38.01:050][794]LogTexture:Display: Building textures: HQ_Lightmap0_314 (AutoDXT)
+[2015.09.08-01.38.01:056][794]LogTexture:Display: Building textures: HQ_Lightmap0_315 (AutoDXT)
+[2015.09.08-01.38.01:061][794]LogTexture:Display: Building textures: HQ_Lightmap0_316 (AutoDXT)
+[2015.09.08-01.38.01:067][794]LogTexture:Display: Building textures: HQ_Lightmap0_317 (AutoDXT)
+[2015.09.08-01.38.01:072][794]LogTexture:Display: Building textures: HQ_Lightmap0_319 (AutoDXT)
+[2015.09.08-01.38.01:078][794]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2015.09.08-01.38.01:089][794]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2015.09.08-01.38.01:099][794]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2015.09.08-01.38.01:111][794]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2015.09.08-01.38.01:120][794]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2015.09.08-01.38.01:137][794]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2015.09.08-01.38.01:161][794]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.09.08-01.38.01:664][794]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.09.08-01.38.01:684][794]LogTexture:Display: Building textures: HQ_Lightmap1_101 (AutoDXT)
+[2015.09.08-01.38.01:697][794]LogTexture:Display: Building textures: HQ_Lightmap1_102 (AutoDXT)
+[2015.09.08-01.38.01:710][794]LogTexture:Display: Building textures: HQ_Lightmap1_103 (AutoDXT)
+[2015.09.08-01.38.01:723][794]LogTexture:Display: Building textures: HQ_Lightmap1_104 (AutoDXT)
+[2015.09.08-01.38.01:764][794]LogTexture:Display: Building textures: HQ_Lightmap1_106 (AutoDXT)
+[2015.09.08-01.38.01:775][794]LogTexture:Display: Building textures: HQ_Lightmap1_107 (AutoDXT)
+[2015.09.08-01.38.01:789][794]LogTexture:Display: Building textures: HQ_Lightmap1_108 (AutoDXT)
+[2015.09.08-01.38.01:802][794]LogTexture:Display: Building textures: HQ_Lightmap1_109 (AutoDXT)
+[2015.09.08-01.38.01:814][794]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.09.08-01.38.01:826][794]LogTexture:Display: Building textures: HQ_Lightmap1_112 (AutoDXT)
+[2015.09.08-01.38.01:840][794]LogTexture:Display: Building textures: HQ_Lightmap1_113 (AutoDXT)
+[2015.09.08-01.38.01:854][794]LogTexture:Display: Building textures: HQ_Lightmap1_114 (AutoDXT)
+[2015.09.08-01.38.01:867][794]LogTexture:Display: Building textures: HQ_Lightmap1_115 (AutoDXT)
+[2015.09.08-01.38.01:880][794]LogTexture:Display: Building textures: HQ_Lightmap1_116 (AutoDXT)
+[2015.09.08-01.38.01:891][794]LogTexture:Display: Building textures: HQ_Lightmap1_117 (AutoDXT)
+[2015.09.08-01.38.01:901][794]LogTexture:Display: Building textures: HQ_Lightmap1_118 (AutoDXT)
+[2015.09.08-01.38.01:914][794]LogTexture:Display: Building textures: HQ_Lightmap1_119 (AutoDXT)
+[2015.09.08-01.38.01:926][794]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.09.08-01.38.01:938][794]LogTexture:Display: Building textures: HQ_Lightmap1_120 (AutoDXT)
+[2015.09.08-01.38.01:950][794]LogTexture:Display: Building textures: HQ_Lightmap1_121 (AutoDXT)
+[2015.09.08-01.38.01:963][794]LogTexture:Display: Building textures: HQ_Lightmap1_122 (AutoDXT)
+[2015.09.08-01.38.01:974][794]LogTexture:Display: Building textures: HQ_Lightmap1_123 (AutoDXT)
+[2015.09.08-01.38.01:986][794]LogTexture:Display: Building textures: HQ_Lightmap1_124 (AutoDXT)
+[2015.09.08-01.38.01:997][794]LogTexture:Display: Building textures: HQ_Lightmap1_125 (AutoDXT)
+[2015.09.08-01.38.02:008][794]LogTexture:Display: Building textures: HQ_Lightmap1_126 (AutoDXT)
+[2015.09.08-01.38.02:019][794]LogTexture:Display: Building textures: HQ_Lightmap1_127 (AutoDXT)
+[2015.09.08-01.38.02:029][794]LogTexture:Display: Building textures: HQ_Lightmap1_128 (AutoDXT)
+[2015.09.08-01.38.02:040][794]LogTexture:Display: Building textures: HQ_Lightmap1_129 (AutoDXT)
+[2015.09.08-01.38.02:051][794]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.09.08-01.38.02:062][794]LogTexture:Display: Building textures: HQ_Lightmap1_130 (AutoDXT)
+[2015.09.08-01.38.02:076][794]LogTexture:Display: Building textures: HQ_Lightmap1_131 (AutoDXT)
+[2015.09.08-01.38.02:089][794]LogTexture:Display: Building textures: HQ_Lightmap1_132 (AutoDXT)
+[2015.09.08-01.38.02:101][794]LogTexture:Display: Building textures: HQ_Lightmap1_133 (AutoDXT)
+[2015.09.08-01.38.02:113][794]LogTexture:Display: Building textures: HQ_Lightmap1_134 (AutoDXT)
+[2015.09.08-01.38.02:126][794]LogTexture:Display: Building textures: HQ_Lightmap1_135 (AutoDXT)
+[2015.09.08-01.38.02:133][794]LogTexture:Display: Building textures: HQ_Lightmap1_136 (AutoDXT)
+[2015.09.08-01.38.02:143][794]LogTexture:Display: Building textures: HQ_Lightmap1_137 (AutoDXT)
+[2015.09.08-01.38.02:156][794]LogTexture:Display: Building textures: HQ_Lightmap1_138 (AutoDXT)
+[2015.09.08-01.38.02:168][794]LogTexture:Display: Building textures: HQ_Lightmap1_139 (AutoDXT)
+[2015.09.08-01.38.02:179][794]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.09.08-01.38.02:190][794]LogTexture:Display: Building textures: HQ_Lightmap1_140 (AutoDXT)
+[2015.09.08-01.38.02:204][794]LogTexture:Display: Building textures: HQ_Lightmap1_141 (AutoDXT)
+[2015.09.08-01.38.02:214][794]LogTexture:Display: Building textures: HQ_Lightmap1_142 (AutoDXT)
+[2015.09.08-01.38.02:226][794]LogTexture:Display: Building textures: HQ_Lightmap1_144 (AutoDXT)
+[2015.09.08-01.38.02:238][794]LogTexture:Display: Building textures: HQ_Lightmap1_145 (AutoDXT)
+[2015.09.08-01.38.02:251][794]LogTexture:Display: Building textures: HQ_Lightmap1_146 (AutoDXT)
+[2015.09.08-01.38.02:265][794]LogTexture:Display: Building textures: HQ_Lightmap1_147 (AutoDXT)
+[2015.09.08-01.38.02:278][794]LogTexture:Display: Building textures: HQ_Lightmap1_148 (AutoDXT)
+[2015.09.08-01.38.02:288][794]LogTexture:Display: Building textures: HQ_Lightmap1_149 (AutoDXT)
+[2015.09.08-01.38.02:300][794]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.09.08-01.38.02:313][794]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.09.08-01.38.02:324][794]LogTexture:Display: Building textures: HQ_Lightmap1_163 (AutoDXT)
+[2015.09.08-01.38.02:338][794]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.09.08-01.38.02:349][794]LogTexture:Display: Building textures: HQ_Lightmap1_177 (AutoDXT)
+[2015.09.08-01.38.02:360][794]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2015.09.08-01.38.02:372][794]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2015.09.08-01.38.02:385][794]LogTexture:Display: Building textures: HQ_Lightmap1_196 (AutoDXT)
+[2015.09.08-01.38.02:409][794]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.09.08-01.38.02:916][794]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2015.09.08-01.38.02:928][794]LogTexture:Display: Building textures: HQ_Lightmap1_201 (AutoDXT)
+[2015.09.08-01.38.02:940][794]LogTexture:Display: Building textures: HQ_Lightmap1_208 (AutoDXT)
+[2015.09.08-01.38.02:961][794]LogTexture:Display: Building textures: HQ_Lightmap1_209 (AutoDXT)
+[2015.09.08-01.38.02:982][794]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2015.09.08-01.38.02:995][794]LogTexture:Display: Building textures: HQ_Lightmap1_210 (AutoDXT)
+[2015.09.08-01.38.03:015][794]LogTexture:Display: Building textures: HQ_Lightmap1_211 (AutoDXT)
+[2015.09.08-01.38.03:035][794]LogTexture:Display: Building textures: HQ_Lightmap1_214 (AutoDXT)
+[2015.09.08-01.38.03:046][794]LogTexture:Display: Building textures: HQ_Lightmap1_215 (AutoDXT)
+[2015.09.08-01.38.03:059][794]LogTexture:Display: Building textures: HQ_Lightmap1_216 (AutoDXT)
+[2015.09.08-01.38.03:086][794]LogTexture:Display: Building textures: HQ_Lightmap1_217 (AutoDXT)
+[2015.09.08-01.38.03:113][794]LogTexture:Display: Building textures: HQ_Lightmap1_218 (AutoDXT)
+[2015.09.08-01.38.03:141][794]LogTexture:Display: Building textures: HQ_Lightmap1_219 (AutoDXT)
+[2015.09.08-01.38.03:168][794]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2015.09.08-01.38.03:180][794]LogTexture:Display: Building textures: HQ_Lightmap1_221 (AutoDXT)
+[2015.09.08-01.38.03:199][794]LogTexture:Display: Building textures: HQ_Lightmap1_222 (AutoDXT)
+[2015.09.08-01.38.03:218][794]LogTexture:Display: Building textures: HQ_Lightmap1_223 (AutoDXT)
+[2015.09.08-01.38.03:246][794]LogTexture:Display: Building textures: HQ_Lightmap1_224 (AutoDXT)
+[2015.09.08-01.38.03:270][794]LogTexture:Display: Building textures: HQ_Lightmap1_225 (AutoDXT)
+[2015.09.08-01.38.03:282][794]LogTexture:Display: Building textures: HQ_Lightmap1_226 (AutoDXT)
+[2015.09.08-01.38.03:308][794]LogTexture:Display: Building textures: HQ_Lightmap1_227 (AutoDXT)
+[2015.09.08-01.38.03:335][794]LogTexture:Display: Building textures: HQ_Lightmap1_229 (AutoDXT)
+[2015.09.08-01.38.03:364][794]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2015.09.08-01.38.03:377][794]LogTexture:Display: Building textures: HQ_Lightmap1_231 (AutoDXT)
+[2015.09.08-01.38.03:405][794]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2015.09.08-01.38.03:417][794]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2015.09.08-01.38.03:425][794]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2015.09.08-01.38.03:433][794]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2015.09.08-01.38.03:453][794]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2015.09.08-01.38.03:467][794]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2015.09.08-01.38.03:489][794]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.09.08-01.38.03:876][794]LogTexture:Display: Building textures: HQ_Lightmap1_318 (AutoDXT)
+[2015.09.08-01.38.03:882][794]LogTexture:Display: Building textures: HQ_Lightmap1_320 (AutoDXT)
+[2015.09.08-01.38.03:888][794]LogTexture:Display: Building textures: HQ_Lightmap1_321 (AutoDXT)
+[2015.09.08-01.38.03:894][794]LogTexture:Display: Building textures: HQ_Lightmap1_322 (AutoDXT)
+[2015.09.08-01.38.03:899][794]LogTexture:Display: Building textures: HQ_Lightmap1_323 (AutoDXT)
+[2015.09.08-01.38.03:905][794]LogTexture:Display: Building textures: HQ_Lightmap1_324 (AutoDXT)
+[2015.09.08-01.38.03:911][794]LogTexture:Display: Building textures: HQ_Lightmap1_325 (AutoDXT)
+[2015.09.08-01.38.03:917][794]LogTexture:Display: Building textures: HQ_Lightmap1_326 (AutoDXT)
+[2015.09.08-01.38.03:923][794]LogTexture:Display: Building textures: HQ_Lightmap1_327 (AutoDXT)
+[2015.09.08-01.38.03:929][794]LogTexture:Display: Building textures: HQ_Lightmap1_328 (AutoDXT)
+[2015.09.08-01.38.03:934][794]LogTexture:Display: Building textures: HQ_Lightmap1_329 (AutoDXT)
+[2015.09.08-01.38.03:939][794]LogTexture:Display: Building textures: HQ_Lightmap1_330 (AutoDXT)
+[2015.09.08-01.38.03:945][794]LogTexture:Display: Building textures: HQ_Lightmap1_331 (AutoDXT)
+[2015.09.08-01.38.03:951][794]LogTexture:Display: Building textures: HQ_Lightmap1_332 (AutoDXT)
+[2015.09.08-01.38.03:956][794]LogTexture:Display: Building textures: HQ_Lightmap1_333 (AutoDXT)
+[2015.09.08-01.38.03:962][794]LogTexture:Display: Building textures: HQ_Lightmap1_334 (AutoDXT)
+[2015.09.08-01.38.03:968][794]LogTexture:Display: Building textures: HQ_Lightmap1_335 (AutoDXT)
+[2015.09.08-01.38.03:974][794]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2015.09.08-01.38.03:984][794]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2015.09.08-01.38.03:995][794]LogTexture:Display: Building textures: HQ_Lightmap1_36 (AutoDXT)
+[2015.09.08-01.38.04:014][794]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.09.08-01.38.04:524][794]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2015.09.08-01.38.04:535][794]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2015.09.08-01.38.04:548][794]LogTexture:Display: Building textures: HQ_Lightmap1_43 (AutoDXT)
+[2015.09.08-01.38.04:560][794]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2015.09.08-01.38.04:593][794]LogTexture:Display: Building textures: HQ_Lightmap1_48 (AutoDXT)
+[2015.09.08-01.38.04:605][794]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
+[2015.09.08-01.38.04:626][794]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.09.08-01.38.05:074][794]LogTexture:Display: Building textures: HQ_Lightmap1_50 (AutoDXT)
+[2015.09.08-01.38.05:085][794]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2015.09.08-01.38.05:096][794]LogTexture:Display: Building textures: HQ_Lightmap1_54 (AutoDXT)
+[2015.09.08-01.38.05:105][794]LogTexture:Display: Building textures: HQ_Lightmap1_55 (AutoDXT)
+[2015.09.08-01.38.05:112][794]LogTexture:Display: Building textures: HQ_Lightmap1_56 (AutoDXT)
+[2015.09.08-01.38.05:123][794]LogTexture:Display: Building textures: HQ_Lightmap1_57 (AutoDXT)
+[2015.09.08-01.38.05:146][794]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.09.08-01.38.05:677][794]LogTexture:Display: Building textures: HQ_Lightmap1_64 (AutoDXT)
+[2015.09.08-01.38.05:690][794]LogTexture:Display: Building textures: HQ_Lightmap1_65 (AutoDXT)
+[2015.09.08-01.38.05:701][794]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.09.08-01.38.05:713][794]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2015.09.08-01.38.05:723][794]LogTexture:Display: Building textures: HQ_Lightmap1_78 (AutoDXT)
+[2015.09.08-01.38.05:735][794]LogTexture:Display: Building textures: HQ_Lightmap1_79 (AutoDXT)
+[2015.09.08-01.38.05:747][794]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.09.08-01.38.05:765][794]LogTexture:Display: Building textures: HQ_Lightmap1_80 (AutoDXT)
+[2015.09.08-01.38.05:777][794]LogTexture:Display: Building textures: HQ_Lightmap1_82 (AutoDXT)
+[2015.09.08-01.38.05:790][794]LogTexture:Display: Building textures: HQ_Lightmap1_85 (AutoDXT)
+[2015.09.08-01.38.05:801][794]LogTexture:Display: Building textures: HQ_Lightmap1_86 (AutoDXT)
+[2015.09.08-01.38.05:810][794]LogTexture:Display: Building textures: HQ_Lightmap1_87 (AutoDXT)
+[2015.09.08-01.38.05:821][794]LogTexture:Display: Building textures: HQ_Lightmap1_88 (AutoDXT)
+[2015.09.08-01.38.05:829][794]LogTexture:Display: Building textures: HQ_Lightmap1_89 (AutoDXT)
+[2015.09.08-01.38.05:839][794]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.09.08-01.38.05:862][794]LogTexture:Display: Building textures: HQ_Lightmap1_92 (AutoDXT)
+[2015.09.08-01.38.05:884][794]LogTexture:Display: Building textures: HQ_Lightmap1_93 (AutoDXT)
+[2015.09.08-01.38.05:896][794]LogTexture:Display: Building textures: HQ_Lightmap1_94 (AutoDXT)
+[2015.09.08-01.38.05:933][794]LogTexture:Display: Building textures: HQ_Lightmap1_98 (AutoDXT)
+[2015.09.08-01.38.05:942][794]LogTexture:Display: Building textures: HQ_Lightmap1_99 (AutoDXT)
+[2015.09.08-01.38.05:954][794]LogTexture:Display: Building textures: LQ_Lightmap_0_110 (DXT1)
+[2015.09.08-01.38.05:964][794]LogTexture:Display: Building textures: LQ_Lightmap_0_111 (DXT1)
+[2015.09.08-01.38.05:970][794]LogTexture:Display: Building textures: LQ_Lightmap_0_143 (DXT1)
+[2015.09.08-01.38.05:975][794]LogTexture:Display: Building textures: LQ_Lightmap_0_159 (DXT1)
+[2015.09.08-01.38.05:977][794]LogTexture:Display: Building textures: LQ_Lightmap_0_161 (DXT1)
+[2015.09.08-01.38.05:982][794]LogTexture:Display: Building textures: LQ_Lightmap_0_165 (DXT1)
+[2015.09.08-01.38.05:988][794]LogTexture:Display: Building textures: LQ_Lightmap_0_166 (DXT1)
+[2015.09.08-01.38.05:995][794]LogTexture:Display: Building textures: LQ_Lightmap_0_167 (DXT1)
+[2015.09.08-01.38.06:002][794]LogTexture:Display: Building textures: LQ_Lightmap_0_168 (DXT1)
+[2015.09.08-01.38.06:010][794]LogTexture:Display: Building textures: LQ_Lightmap_0_169 (DXT1)
+[2015.09.08-01.38.06:017][794]LogTexture:Display: Building textures: LQ_Lightmap_0_170 (DXT1)
+[2015.09.08-01.38.06:022][794]LogTexture:Display: Building textures: LQ_Lightmap_0_171 (DXT1)
+[2015.09.08-01.38.06:029][794]LogTexture:Display: Building textures: LQ_Lightmap_0_172 (DXT1)
+[2015.09.08-01.38.06:035][794]LogTexture:Display: Building textures: LQ_Lightmap_0_173 (DXT1)
+[2015.09.08-01.38.06:051][794]LogTexture:Display: Building textures: LQ_Lightmap_0_174 (DXT1)
+[2015.09.08-01.38.06:059][794]LogTexture:Display: Building textures: LQ_Lightmap_0_175 (DXT1)
+[2015.09.08-01.38.06:066][794]LogTexture:Display: Building textures: LQ_Lightmap_0_176 (DXT1)
+[2015.09.08-01.38.06:070][794]LogTexture:Display: Building textures: LQ_Lightmap_0_184 (DXT1)
+[2015.09.08-01.38.06:072][794]LogTexture:Display: Building textures: LQ_Lightmap_0_191 (DXT1)
+[2015.09.08-01.38.06:078][794]LogTexture:Display: Building textures: LQ_Lightmap_0_213 (DXT1)
+[2015.09.08-01.38.06:085][794]LogTexture:Display: Building textures: LQ_Lightmap_0_230 (DXT1)
+[2015.09.08-01.38.06:091][794]LogTexture:Display: Building textures: LQ_Lightmap_0_232 (DXT1)
+[2015.09.08-01.38.06:098][794]LogTexture:Display: Building textures: LQ_Lightmap_0_233 (DXT1)
+[2015.09.08-01.38.06:104][794]LogTexture:Display: Building textures: LQ_Lightmap_0_234 (DXT1)
+[2015.09.08-01.38.06:110][794]LogTexture:Display: Building textures: LQ_Lightmap_0_235 (DXT1)
+[2015.09.08-01.38.06:114][794]LogTexture:Display: Building textures: LQ_Lightmap_0_236 (DXT1)
+[2015.09.08-01.38.06:121][794]LogTexture:Display: Building textures: LQ_Lightmap_0_237 (DXT1)
+[2015.09.08-01.38.06:129][794]LogTexture:Display: Building textures: LQ_Lightmap_0_238 (DXT1)
+[2015.09.08-01.38.06:137][794]LogTexture:Display: Building textures: LQ_Lightmap_0_239 (DXT1)
+[2015.09.08-01.38.06:146][794]LogTexture:Display: Building textures: LQ_Lightmap_0_240 (DXT1)
+[2015.09.08-01.38.06:152][794]LogTexture:Display: Building textures: LQ_Lightmap_0_241 (DXT1)
+[2015.09.08-01.38.06:170][794]LogTexture:Display: Building textures: LQ_Lightmap_0_242 (DXT1)
+[2015.09.08-01.38.06:187][794]LogTexture:Display: Building textures: LQ_Lightmap_0_243 (DXT1)
+[2015.09.08-01.38.06:191][794]LogTexture:Display: Building textures: LQ_Lightmap_0_244 (DXT1)
+[2015.09.08-01.38.06:201][794]LogTexture:Display: Building textures: LQ_Lightmap_0_245 (DXT1)
+[2015.09.08-01.38.06:208][794]LogTexture:Display: Building textures: LQ_Lightmap_0_246 (DXT1)
+[2015.09.08-01.38.06:215][794]LogTexture:Display: Building textures: LQ_Lightmap_0_247 (DXT1)
+[2015.09.08-01.38.06:225][794]LogTexture:Display: Building textures: LQ_Lightmap_0_248 (DXT1)
+[2015.09.08-01.38.06:235][794]LogTexture:Display: Building textures: LQ_Lightmap_0_249 (DXT1)
+[2015.09.08-01.38.06:241][794]LogTexture:Display: Building textures: LQ_Lightmap_0_250 (DXT1)
+[2015.09.08-01.38.06:247][794]LogTexture:Display: Building textures: LQ_Lightmap_0_251 (DXT1)
+[2015.09.08-01.38.06:261][794]LogTexture:Display: Building textures: LQ_Lightmap_0_252 (DXT1)
+[2015.09.08-01.38.06:263][794]LogTexture:Display: Building textures: LQ_Lightmap_0_253 (DXT1)
+[2015.09.08-01.38.06:264][794]LogTexture:Display: Building textures: LQ_Lightmap_0_254 (DXT1)
+[2015.09.08-01.38.06:275][794]LogTexture:Display: Building textures: LQ_Lightmap_0_255 (DXT1)
+[2015.09.08-01.38.06:284][794]LogTexture:Display: Building textures: LQ_Lightmap_0_256 (DXT1)
+[2015.09.08-01.38.06:299][794]LogTexture:Display: Building textures: LQ_Lightmap_0_257 (DXT1)
+[2015.09.08-01.38.06:307][794]LogTexture:Display: Building textures: LQ_Lightmap_0_258 (DXT1)
+[2015.09.08-01.38.06:317][794]LogTexture:Display: Building textures: LQ_Lightmap_0_259 (DXT1)
+[2015.09.08-01.38.06:327][794]LogTexture:Display: Building textures: LQ_Lightmap_0_260 (DXT1)
+[2015.09.08-01.38.06:337][794]LogTexture:Display: Building textures: LQ_Lightmap_0_261 (DXT1)
+[2015.09.08-01.38.06:344][794]LogTexture:Display: Building textures: LQ_Lightmap_0_262 (DXT1)
+[2015.09.08-01.38.06:352][794]LogTexture:Display: Building textures: LQ_Lightmap_0_263 (DXT1)
+[2015.09.08-01.38.06:367][794]LogTexture:Display: Building textures: LQ_Lightmap_0_264 (DXT1)
+[2015.09.08-01.38.06:385][794]LogTexture:Display: Building textures: LQ_Lightmap_0_265 (DXT1)
+[2015.09.08-01.38.06:405][794]LogTexture:Display: Building textures: LQ_Lightmap_0_266 (DXT1)
+[2015.09.08-01.38.06:413][794]LogTexture:Display: Building textures: LQ_Lightmap_0_267 (DXT1)
+[2015.09.08-01.38.06:432][794]LogTexture:Display: Building textures: LQ_Lightmap_0_268 (DXT1)
+[2015.09.08-01.38.06:440][794]LogTexture:Display: Building textures: LQ_Lightmap_0_269 (DXT1)
+[2015.09.08-01.38.06:447][794]LogTexture:Display: Building textures: LQ_Lightmap_0_270 (DXT1)
+[2015.09.08-01.38.06:455][794]LogTexture:Display: Building textures: LQ_Lightmap_0_271 (DXT1)
+[2015.09.08-01.38.06:471][794]LogTexture:Display: Building textures: LQ_Lightmap_0_272 (DXT1)
+[2015.09.08-01.38.06:489][794]LogTexture:Display: Building textures: LQ_Lightmap_0_273 (DXT1)
+[2015.09.08-01.38.06:513][794]LogTexture:Display: Building textures: LQ_Lightmap_0_274 (DXT1)
+[2015.09.08-01.38.06:534][794]LogTexture:Display: Building textures: LQ_Lightmap_0_275 (DXT1)
+[2015.09.08-01.38.06:544][794]LogTexture:Display: Building textures: LQ_Lightmap_0_276 (DXT1)
+[2015.09.08-01.38.06:553][794]LogTexture:Display: Building textures: LQ_Lightmap_0_277 (DXT1)
+[2015.09.08-01.38.06:554][794]LogTexture:Display: Building textures: LQ_Lightmap_0_278 (DXT1)
+[2015.09.08-01.38.06:556][794]LogTexture:Display: Building textures: LQ_Lightmap_0_279 (DXT1)
+[2015.09.08-01.38.06:563][794]LogTexture:Display: Building textures: LQ_Lightmap_0_280 (DXT1)
+[2015.09.08-01.38.06:572][794]LogTexture:Display: Building textures: LQ_Lightmap_0_281 (DXT1)
+[2015.09.08-01.38.06:586][794]LogTexture:Display: Building textures: LQ_Lightmap_0_282 (DXT1)
+[2015.09.08-01.38.06:592][794]LogTexture:Display: Building textures: LQ_Lightmap_0_283 (DXT1)
+[2015.09.08-01.38.06:601][794]LogTexture:Display: Building textures: LQ_Lightmap_0_284 (DXT1)
+[2015.09.08-01.38.06:610][794]LogTexture:Display: Building textures: LQ_Lightmap_0_285 (DXT1)
+[2015.09.08-01.38.06:616][794]LogTexture:Display: Building textures: LQ_Lightmap_0_286 (DXT1)
+[2015.09.08-01.38.06:625][794]LogTexture:Display: Building textures: LQ_Lightmap_0_287 (DXT1)
+[2015.09.08-01.38.06:633][794]LogTexture:Display: Building textures: LQ_Lightmap_0_288 (DXT1)
+[2015.09.08-01.38.06:652][794]LogTexture:Display: Building textures: LQ_Lightmap_0_289 (DXT1)
+[2015.09.08-01.38.06:670][794]LogTexture:Display: Building textures: LQ_Lightmap_0_290 (DXT1)
+[2015.09.08-01.38.06:676][794]LogTexture:Display: Building textures: LQ_Lightmap_0_291 (DXT1)
+[2015.09.08-01.38.06:681][794]LogTexture:Display: Building textures: LQ_Lightmap_0_292 (DXT1)
+[2015.09.08-01.38.06:685][794]LogTexture:Display: Building textures: LQ_Lightmap_0_293 (DXT1)
+[2015.09.08-01.38.06:688][794]LogTexture:Display: Building textures: LQ_Lightmap_0_294 (DXT1)
+[2015.09.08-01.38.06:692][794]LogTexture:Display: Building textures: LQ_Lightmap_0_295 (DXT1)
+[2015.09.08-01.38.06:696][794]LogTexture:Display: Building textures: LQ_Lightmap_0_296 (DXT1)
+[2015.09.08-01.38.06:700][794]LogTexture:Display: Building textures: LQ_Lightmap_0_297 (DXT1)
+[2015.09.08-01.38.06:704][794]LogTexture:Display: Building textures: LQ_Lightmap_0_298 (DXT1)
+[2015.09.08-01.38.06:708][794]LogTexture:Display: Building textures: LQ_Lightmap_0_299 (DXT1)
+[2015.09.08-01.38.06:713][794]LogTexture:Display: Building textures: LQ_Lightmap_0_300 (DXT1)
+[2015.09.08-01.38.06:717][794]LogTexture:Display: Building textures: LQ_Lightmap_0_301 (DXT1)
+[2015.09.08-01.38.06:721][794]LogTexture:Display: Building textures: LQ_Lightmap_0_302 (DXT1)
+[2015.09.08-01.38.06:725][794]LogTexture:Display: Building textures: LQ_Lightmap_0_303 (DXT1)
+[2015.09.08-01.38.06:728][794]LogTexture:Display: Building textures: LQ_Lightmap_0_304 (DXT1)
+[2015.09.08-01.38.06:732][794]LogTexture:Display: Building textures: LQ_Lightmap_0_305 (DXT1)
+[2015.09.08-01.38.06:736][794]LogTexture:Display: Building textures: LQ_Lightmap_0_306 (DXT1)
+[2015.09.08-01.38.06:740][794]LogTexture:Display: Building textures: LQ_Lightmap_0_307 (DXT1)
+[2015.09.08-01.38.06:744][794]LogTexture:Display: Building textures: LQ_Lightmap_0_308 (DXT1)
+[2015.09.08-01.38.06:748][794]LogTexture:Display: Building textures: LQ_Lightmap_0_309 (DXT1)
+[2015.09.08-01.38.06:753][794]LogTexture:Display: Building textures: LQ_Lightmap_0_310 (DXT1)
+[2015.09.08-01.38.06:757][794]LogTexture:Display: Building textures: LQ_Lightmap_0_311 (DXT1)
+[2015.09.08-01.38.06:761][794]LogTexture:Display: Building textures: LQ_Lightmap_0_312 (DXT1)
+[2015.09.08-01.38.06:765][794]LogTexture:Display: Building textures: LQ_Lightmap_0_313 (DXT1)
+[2015.09.08-01.38.06:768][794]LogTexture:Display: Building textures: LQ_Lightmap_0_314 (DXT1)
+[2015.09.08-01.38.06:772][794]LogTexture:Display: Building textures: LQ_Lightmap_0_315 (DXT1)
+[2015.09.08-01.38.06:776][794]LogTexture:Display: Building textures: LQ_Lightmap_0_316 (DXT1)
+[2015.09.08-01.38.06:780][794]LogTexture:Display: Building textures: LQ_Lightmap_0_317 (DXT1)
+[2015.09.08-01.38.06:783][794]LogTexture:Display: Building textures: LQ_Lightmap_0_319 (DXT1)
+[2015.09.08-01.38.06:787][794]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2015.09.08-01.38.06:793][794]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2015.09.08-01.38.06:796][794]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2015.09.08-01.38.06:801][794]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2015.09.08-01.38.06:806][794]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2015.09.08-01.38.06:815][794]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2015.09.08-01.38.06:821][794]LogTexture:Display: Building textures: LQ_Lightmap_0_81 (DXT1)
+[2015.09.08-01.38.06:835][794]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.09.08-01.38.06:967][794]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.09.08-01.38.06:976][794]LogTexture:Display: Building textures: LQ_Lightmap_1_100 (DXT1)
+[2015.09.08-01.38.06:981][794]LogTexture:Display: Building textures: LQ_Lightmap_1_101 (DXT1)
+[2015.09.08-01.38.06:990][794]LogTexture:Display: Building textures: LQ_Lightmap_1_102 (DXT1)
+[2015.09.08-01.38.06:998][794]LogTexture:Display: Building textures: LQ_Lightmap_1_103 (DXT1)
+[2015.09.08-01.38.07:006][794]LogTexture:Display: Building textures: LQ_Lightmap_1_104 (DXT1)
+[2015.09.08-01.38.07:030][794]LogTexture:Display: Building textures: LQ_Lightmap_1_105 (DXT1)
+[2015.09.08-01.38.07:052][794]LogTexture:Display: Building textures: LQ_Lightmap_1_106 (DXT1)
+[2015.09.08-01.38.07:058][794]LogTexture:Display: Building textures: LQ_Lightmap_1_107 (DXT1)
+[2015.09.08-01.38.07:066][794]LogTexture:Display: Building textures: LQ_Lightmap_1_108 (DXT1)
+[2015.09.08-01.38.07:075][794]LogTexture:Display: Building textures: LQ_Lightmap_1_109 (DXT1)
+[2015.09.08-01.38.07:081][794]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.09.08-01.38.07:087][794]LogTexture:Display: Building textures: LQ_Lightmap_1_112 (DXT1)
+[2015.09.08-01.38.07:098][794]LogTexture:Display: Building textures: LQ_Lightmap_1_113 (DXT1)
+[2015.09.08-01.38.07:108][794]LogTexture:Display: Building textures: LQ_Lightmap_1_114 (DXT1)
+[2015.09.08-01.38.07:115][794]LogTexture:Display: Building textures: LQ_Lightmap_1_115 (DXT1)
+[2015.09.08-01.38.07:122][794]LogTexture:Display: Building textures: LQ_Lightmap_1_116 (DXT1)
+[2015.09.08-01.38.07:127][794]LogTexture:Display: Building textures: LQ_Lightmap_1_117 (DXT1)
+[2015.09.08-01.38.07:132][794]LogTexture:Display: Building textures: LQ_Lightmap_1_118 (DXT1)
+[2015.09.08-01.38.07:140][794]LogTexture:Display: Building textures: LQ_Lightmap_1_119 (DXT1)
+[2015.09.08-01.38.07:147][794]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.09.08-01.38.07:155][794]LogTexture:Display: Building textures: LQ_Lightmap_1_120 (DXT1)
+[2015.09.08-01.38.07:161][794]LogTexture:Display: Building textures: LQ_Lightmap_1_121 (DXT1)
+[2015.09.08-01.38.07:169][794]LogTexture:Display: Building textures: LQ_Lightmap_1_122 (DXT1)
+[2015.09.08-01.38.07:176][794]LogTexture:Display: Building textures: LQ_Lightmap_1_123 (DXT1)
+[2015.09.08-01.38.07:182][794]LogTexture:Display: Building textures: LQ_Lightmap_1_124 (DXT1)
+[2015.09.08-01.38.07:187][794]LogTexture:Display: Building textures: LQ_Lightmap_1_125 (DXT1)
+[2015.09.08-01.38.07:194][794]LogTexture:Display: Building textures: LQ_Lightmap_1_126 (DXT1)
+[2015.09.08-01.38.07:199][794]LogTexture:Display: Building textures: LQ_Lightmap_1_127 (DXT1)
+[2015.09.08-01.38.07:205][794]LogTexture:Display: Building textures: LQ_Lightmap_1_128 (DXT1)
+[2015.09.08-01.38.07:210][794]LogTexture:Display: Building textures: LQ_Lightmap_1_129 (DXT1)
+[2015.09.08-01.38.07:214][794]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.09.08-01.38.07:221][794]LogTexture:Display: Building textures: LQ_Lightmap_1_130 (DXT1)
+[2015.09.08-01.38.07:227][794]LogTexture:Display: Building textures: LQ_Lightmap_1_131 (DXT1)
+[2015.09.08-01.38.07:233][794]LogTexture:Display: Building textures: LQ_Lightmap_1_132 (DXT1)
+[2015.09.08-01.38.07:239][794]LogTexture:Display: Building textures: LQ_Lightmap_1_133 (DXT1)
+[2015.09.08-01.38.07:246][794]LogTexture:Display: Building textures: LQ_Lightmap_1_134 (DXT1)
+[2015.09.08-01.38.07:252][794]LogTexture:Display: Building textures: LQ_Lightmap_1_135 (DXT1)
+[2015.09.08-01.38.07:256][794]LogTexture:Display: Building textures: LQ_Lightmap_1_136 (DXT1)
+[2015.09.08-01.38.07:261][794]LogTexture:Display: Building textures: LQ_Lightmap_1_137 (DXT1)
+[2015.09.08-01.38.07:269][794]LogTexture:Display: Building textures: LQ_Lightmap_1_138 (DXT1)
+[2015.09.08-01.38.07:275][794]LogTexture:Display: Building textures: LQ_Lightmap_1_139 (DXT1)
+[2015.09.08-01.38.07:282][794]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.09.08-01.38.07:287][794]LogTexture:Display: Building textures: LQ_Lightmap_1_140 (DXT1)
+[2015.09.08-01.38.07:293][794]LogTexture:Display: Building textures: LQ_Lightmap_1_141 (DXT1)
+[2015.09.08-01.38.07:298][794]LogTexture:Display: Building textures: LQ_Lightmap_1_142 (DXT1)
+[2015.09.08-01.38.07:304][794]LogTexture:Display: Building textures: LQ_Lightmap_1_144 (DXT1)
+[2015.09.08-01.38.07:310][794]LogTexture:Display: Building textures: LQ_Lightmap_1_145 (DXT1)
+[2015.09.08-01.38.07:318][794]LogTexture:Display: Building textures: LQ_Lightmap_1_146 (DXT1)
+[2015.09.08-01.38.07:325][794]LogTexture:Display: Building textures: LQ_Lightmap_1_147 (DXT1)
+[2015.09.08-01.38.07:332][794]LogTexture:Display: Building textures: LQ_Lightmap_1_148 (DXT1)
+[2015.09.08-01.38.07:336][794]LogTexture:Display: Building textures: LQ_Lightmap_1_149 (DXT1)
+[2015.09.08-01.38.07:342][794]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.09.08-01.38.07:349][794]LogTexture:Display: Building textures: LQ_Lightmap_1_150 (DXT1)
+[2015.09.08-01.38.07:351][794]LogTexture:Display: Building textures: LQ_Lightmap_1_151 (DXT1)
+[2015.09.08-01.38.07:353][794]LogTexture:Display: Building textures: LQ_Lightmap_1_152 (DXT1)
+[2015.09.08-01.38.07:354][794]LogTexture:Display: Building textures: LQ_Lightmap_1_153 (DXT1)
+[2015.09.08-01.38.07:356][794]LogTexture:Display: Building textures: LQ_Lightmap_1_154 (DXT1)
+[2015.09.08-01.38.07:357][794]LogTexture:Display: Building textures: LQ_Lightmap_1_155 (DXT1)
+[2015.09.08-01.38.07:359][794]LogTexture:Display: Building textures: LQ_Lightmap_1_156 (DXT1)
+[2015.09.08-01.38.07:361][794]LogTexture:Display: Building textures: LQ_Lightmap_1_157 (DXT1)
+[2015.09.08-01.38.07:363][794]LogTexture:Display: Building textures: LQ_Lightmap_1_158 (DXT1)
+[2015.09.08-01.38.07:364][794]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.09.08-01.38.07:371][794]LogTexture:Display: Building textures: LQ_Lightmap_1_160 (DXT1)
+[2015.09.08-01.38.07:374][794]LogTexture:Display: Building textures: LQ_Lightmap_1_162 (DXT1)
+[2015.09.08-01.38.07:379][794]LogTexture:Display: Building textures: LQ_Lightmap_1_163 (DXT1)
+[2015.09.08-01.38.07:388][794]LogTexture:Display: Building textures: LQ_Lightmap_1_164 (DXT1)
+[2015.09.08-01.38.07:395][794]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2015.09.08-01.38.07:401][794]LogTexture:Display: Building textures: LQ_Lightmap_1_177 (DXT1)
+[2015.09.08-01.38.07:405][794]LogTexture:Display: Building textures: LQ_Lightmap_1_178 (DXT1)
+[2015.09.08-01.38.07:411][794]LogTexture:Display: Building textures: LQ_Lightmap_1_179 (DXT1)
+[2015.09.08-01.38.07:419][794]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2015.09.08-01.38.07:425][794]LogTexture:Display: Building textures: LQ_Lightmap_1_180 (DXT1)
+[2015.09.08-01.38.07:432][794]LogTexture:Display: Building textures: LQ_Lightmap_1_181 (DXT1)
+[2015.09.08-01.38.07:440][794]LogTexture:Display: Building textures: LQ_Lightmap_1_182 (DXT1)
+[2015.09.08-01.38.07:447][794]LogTexture:Display: Building textures: LQ_Lightmap_1_183 (DXT1)
+[2015.09.08-01.38.07:455][794]LogTexture:Display: Building textures: LQ_Lightmap_1_185 (DXT1)
+[2015.09.08-01.38.07:461][794]LogTexture:Display: Building textures: LQ_Lightmap_1_186 (DXT1)
+[2015.09.08-01.38.07:468][794]LogTexture:Display: Building textures: LQ_Lightmap_1_187 (DXT1)
+[2015.09.08-01.38.07:474][794]LogTexture:Display: Building textures: LQ_Lightmap_1_188 (DXT1)
+[2015.09.08-01.38.07:481][794]LogTexture:Display: Building textures: LQ_Lightmap_1_189 (DXT1)
+[2015.09.08-01.38.07:487][794]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2015.09.08-01.38.07:495][794]LogTexture:Display: Building textures: LQ_Lightmap_1_190 (DXT1)
+[2015.09.08-01.38.07:501][794]LogTexture:Display: Building textures: LQ_Lightmap_1_192 (DXT1)
+[2015.09.08-01.38.07:509][794]LogTexture:Display: Building textures: LQ_Lightmap_1_193 (DXT1)
+[2015.09.08-01.38.07:515][794]LogTexture:Display: Building textures: LQ_Lightmap_1_194 (DXT1)
+[2015.09.08-01.38.07:522][794]LogTexture:Display: Building textures: LQ_Lightmap_1_195 (DXT1)
+[2015.09.08-01.38.07:530][794]LogTexture:Display: Building textures: LQ_Lightmap_1_196 (DXT1)
+[2015.09.08-01.38.07:537][794]LogTexture:Display: Building textures: LQ_Lightmap_1_197 (DXT1)
+[2015.09.08-01.38.07:544][794]LogTexture:Display: Building textures: LQ_Lightmap_1_198 (DXT1)
+[2015.09.08-01.38.07:551][794]LogTexture:Display: Building textures: LQ_Lightmap_1_199 (DXT1)
+[2015.09.08-01.38.07:571][794]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.09.08-01.38.07:793][794]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2015.09.08-01.38.07:800][794]LogTexture:Display: Building textures: LQ_Lightmap_1_200 (DXT1)
+[2015.09.08-01.38.07:807][794]LogTexture:Display: Building textures: LQ_Lightmap_1_201 (DXT1)
+[2015.09.08-01.38.07:814][794]LogTexture:Display: Building textures: LQ_Lightmap_1_202 (DXT1)
+[2015.09.08-01.38.07:819][794]LogTexture:Display: Building textures: LQ_Lightmap_1_203 (DXT1)
+[2015.09.08-01.38.07:825][794]LogTexture:Display: Building textures: LQ_Lightmap_1_204 (DXT1)
+[2015.09.08-01.38.07:831][794]LogTexture:Display: Building textures: LQ_Lightmap_1_205 (DXT1)
+[2015.09.08-01.38.07:834][794]LogTexture:Display: Building textures: LQ_Lightmap_1_206 (DXT1)
+[2015.09.08-01.38.07:841][794]LogTexture:Display: Building textures: LQ_Lightmap_1_207 (DXT1)
+[2015.09.08-01.38.07:860][794]LogTexture:Display: Building textures: LQ_Lightmap_1_208 (DXT1)
+[2015.09.08-01.38.07:877][794]LogTexture:Display: Building textures: LQ_Lightmap_1_209 (DXT1)
+[2015.09.08-01.38.07:893][794]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2015.09.08-01.38.07:899][794]LogTexture:Display: Building textures: LQ_Lightmap_1_210 (DXT1)
+[2015.09.08-01.38.07:910][794]LogTexture:Display: Building textures: LQ_Lightmap_1_211 (DXT1)
+[2015.09.08-01.38.07:920][794]LogTexture:Display: Building textures: LQ_Lightmap_1_212 (DXT1)
+[2015.09.08-01.38.07:925][794]LogTexture:Display: Building textures: LQ_Lightmap_1_214 (DXT1)
+[2015.09.08-01.38.07:929][794]LogTexture:Display: Building textures: LQ_Lightmap_1_215 (DXT1)
+[2015.09.08-01.38.07:934][794]LogTexture:Display: Building textures: LQ_Lightmap_1_216 (DXT1)
+[2015.09.08-01.38.07:950][794]LogTexture:Display: Building textures: LQ_Lightmap_1_217 (DXT1)
+[2015.09.08-01.38.07:965][794]LogTexture:Display: Building textures: LQ_Lightmap_1_218 (DXT1)
+[2015.09.08-01.38.07:979][794]LogTexture:Display: Building textures: LQ_Lightmap_1_219 (DXT1)
+[2015.09.08-01.38.07:993][794]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2015.09.08-01.38.08:000][794]LogTexture:Display: Building textures: LQ_Lightmap_1_220 (DXT1)
+[2015.09.08-01.38.08:005][794]LogTexture:Display: Building textures: LQ_Lightmap_1_221 (DXT1)
+[2015.09.08-01.38.08:015][794]LogTexture:Display: Building textures: LQ_Lightmap_1_222 (DXT1)
+[2015.09.08-01.38.08:024][794]LogTexture:Display: Building textures: LQ_Lightmap_1_223 (DXT1)
+[2015.09.08-01.38.08:039][794]LogTexture:Display: Building textures: LQ_Lightmap_1_224 (DXT1)
+[2015.09.08-01.38.08:050][794]LogTexture:Display: Building textures: LQ_Lightmap_1_225 (DXT1)
+[2015.09.08-01.38.08:055][794]LogTexture:Display: Building textures: LQ_Lightmap_1_226 (DXT1)
+[2015.09.08-01.38.08:070][794]LogTexture:Display: Building textures: LQ_Lightmap_1_227 (DXT1)
+[2015.09.08-01.38.08:083][794]LogTexture:Display: Building textures: LQ_Lightmap_1_228 (DXT1)
+[2015.09.08-01.38.08:091][794]LogTexture:Display: Building textures: LQ_Lightmap_1_229 (DXT1)
+[2015.09.08-01.38.08:106][794]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2015.09.08-01.38.08:112][794]LogTexture:Display: Building textures: LQ_Lightmap_1_231 (DXT1)
+[2015.09.08-01.38.08:125][794]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2015.09.08-01.38.08:132][794]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2015.09.08-01.38.08:135][794]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2015.09.08-01.38.08:139][794]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2015.09.08-01.38.08:150][794]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2015.09.08-01.38.08:158][794]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2015.09.08-01.38.08:176][794]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.09.08-01.38.08:358][794]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2015.09.08-01.38.08:373][794]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2015.09.08-01.38.08:387][794]LogTexture:Display: Building textures: LQ_Lightmap_1_318 (DXT1)
+[2015.09.08-01.38.08:390][794]LogTexture:Display: Building textures: LQ_Lightmap_1_320 (DXT1)
+[2015.09.08-01.38.08:394][794]LogTexture:Display: Building textures: LQ_Lightmap_1_321 (DXT1)
+[2015.09.08-01.38.08:398][794]LogTexture:Display: Building textures: LQ_Lightmap_1_322 (DXT1)
+[2015.09.08-01.38.08:402][794]LogTexture:Display: Building textures: LQ_Lightmap_1_323 (DXT1)
+[2015.09.08-01.38.08:406][794]LogTexture:Display: Building textures: LQ_Lightmap_1_324 (DXT1)
+[2015.09.08-01.38.08:410][794]LogTexture:Display: Building textures: LQ_Lightmap_1_325 (DXT1)
+[2015.09.08-01.38.08:414][794]LogTexture:Display: Building textures: LQ_Lightmap_1_326 (DXT1)
+[2015.09.08-01.38.08:418][794]LogTexture:Display: Building textures: LQ_Lightmap_1_327 (DXT1)
+[2015.09.08-01.38.08:422][794]LogTexture:Display: Building textures: LQ_Lightmap_1_328 (DXT1)
+[2015.09.08-01.38.08:426][794]LogTexture:Display: Building textures: LQ_Lightmap_1_329 (DXT1)
+[2015.09.08-01.38.08:429][794]LogTexture:Display: Building textures: LQ_Lightmap_1_330 (DXT1)
+[2015.09.08-01.38.08:433][794]LogTexture:Display: Building textures: LQ_Lightmap_1_331 (DXT1)
+[2015.09.08-01.38.08:437][794]LogTexture:Display: Building textures: LQ_Lightmap_1_332 (DXT1)
+[2015.09.08-01.38.08:441][794]LogTexture:Display: Building textures: LQ_Lightmap_1_333 (DXT1)
+[2015.09.08-01.38.08:445][794]LogTexture:Display: Building textures: LQ_Lightmap_1_334 (DXT1)
+[2015.09.08-01.38.08:448][794]LogTexture:Display: Building textures: LQ_Lightmap_1_335 (DXT1)
+[2015.09.08-01.38.08:453][794]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2015.09.08-01.38.08:458][794]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2015.09.08-01.38.08:464][794]LogTexture:Display: Building textures: LQ_Lightmap_1_36 (DXT1)
+[2015.09.08-01.38.08:467][794]LogTexture:Display: Building textures: LQ_Lightmap_1_37 (DXT1)
+[2015.09.08-01.38.08:473][794]LogTexture:Display: Building textures: LQ_Lightmap_1_38 (DXT1)
+[2015.09.08-01.38.08:491][794]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.09.08-01.38.08:663][794]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2015.09.08-01.38.08:670][794]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2015.09.08-01.38.08:679][794]LogTexture:Display: Building textures: LQ_Lightmap_1_43 (DXT1)
+[2015.09.08-01.38.08:686][794]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2015.09.08-01.38.08:701][794]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2015.09.08-01.38.08:723][794]LogTexture:Display: Building textures: LQ_Lightmap_1_48 (DXT1)
+[2015.09.08-01.38.08:728][794]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
+[2015.09.08-01.38.08:745][794]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.09.08-01.38.08:903][794]LogTexture:Display: Building textures: LQ_Lightmap_1_50 (DXT1)
+[2015.09.08-01.38.08:908][794]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2015.09.08-01.38.08:913][794]LogTexture:Display: Building textures: LQ_Lightmap_1_52 (DXT1)
+[2015.09.08-01.38.08:918][794]LogTexture:Display: Building textures: LQ_Lightmap_1_53 (DXT1)
+[2015.09.08-01.38.08:921][794]LogTexture:Display: Building textures: LQ_Lightmap_1_54 (DXT1)
+[2015.09.08-01.38.08:924][794]LogTexture:Display: Building textures: LQ_Lightmap_1_55 (DXT1)
+[2015.09.08-01.38.08:926][794]LogTexture:Display: Building textures: LQ_Lightmap_1_56 (DXT1)
+[2015.09.08-01.38.08:933][794]LogTexture:Display: Building textures: LQ_Lightmap_1_57 (DXT1)
+[2015.09.08-01.38.08:940][794]LogTexture:Display: Building textures: LQ_Lightmap_1_58 (DXT1)
+[2015.09.08-01.38.08:945][794]LogTexture:Display: Building textures: LQ_Lightmap_1_59 (DXT1)
+[2015.09.08-01.38.08:962][794]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.09.08-01.38.09:182][794]LogTexture:Display: Building textures: LQ_Lightmap_1_60 (DXT1)
+[2015.09.08-01.38.09:187][794]LogTexture:Display: Building textures: LQ_Lightmap_1_61 (DXT1)
+[2015.09.08-01.38.09:193][794]LogTexture:Display: Building textures: LQ_Lightmap_1_62 (DXT1)
+[2015.09.08-01.38.09:197][794]LogTexture:Display: Building textures: LQ_Lightmap_1_63 (DXT1)
+[2015.09.08-01.38.09:201][794]LogTexture:Display: Building textures: LQ_Lightmap_1_64 (DXT1)
+[2015.09.08-01.38.09:208][794]LogTexture:Display: Building textures: LQ_Lightmap_1_65 (DXT1)
+[2015.09.08-01.38.09:213][794]LogTexture:Display: Building textures: LQ_Lightmap_1_66 (DXT1)
+[2015.09.08-01.38.09:220][794]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2015.09.08-01.38.09:227][794]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2015.09.08-01.38.09:243][794]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2015.09.08-01.38.09:251][794]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.09.08-01.38.09:258][794]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2015.09.08-01.38.09:263][794]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2015.09.08-01.38.09:264][794]LogTexture:Display: Building textures: LQ_Lightmap_1_72 (DXT1)
+[2015.09.08-01.38.09:267][794]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2015.09.08-01.38.09:280][794]LogTexture:Display: Building textures: LQ_Lightmap_1_74 (DXT1)
+[2015.09.08-01.38.09:283][794]LogTexture:Display: Building textures: LQ_Lightmap_1_75 (DXT1)
+[2015.09.08-01.38.09:288][794]LogTexture:Display: Building textures: LQ_Lightmap_1_76 (DXT1)
+[2015.09.08-01.38.09:305][794]LogTexture:Display: Building textures: LQ_Lightmap_1_77 (DXT1)
+[2015.09.08-01.38.09:322][794]LogTexture:Display: Building textures: LQ_Lightmap_1_78 (DXT1)
+[2015.09.08-01.38.09:329][794]LogTexture:Display: Building textures: LQ_Lightmap_1_79 (DXT1)
+[2015.09.08-01.38.09:336][794]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.09.08-01.38.09:345][794]LogTexture:Display: Building textures: LQ_Lightmap_1_80 (DXT1)
+[2015.09.08-01.38.09:353][794]LogTexture:Display: Building textures: LQ_Lightmap_1_82 (DXT1)
+[2015.09.08-01.38.09:360][794]LogTexture:Display: Building textures: LQ_Lightmap_1_83 (DXT1)
+[2015.09.08-01.38.09:368][794]LogTexture:Display: Building textures: LQ_Lightmap_1_84 (DXT1)
+[2015.09.08-01.38.09:372][794]LogTexture:Display: Building textures: LQ_Lightmap_1_85 (DXT1)
+[2015.09.08-01.38.09:377][794]LogTexture:Display: Building textures: LQ_Lightmap_1_86 (DXT1)
+[2015.09.08-01.38.09:383][794]LogTexture:Display: Building textures: LQ_Lightmap_1_87 (DXT1)
+[2015.09.08-01.38.09:388][794]LogTexture:Display: Building textures: LQ_Lightmap_1_88 (DXT1)
+[2015.09.08-01.38.09:391][794]LogTexture:Display: Building textures: LQ_Lightmap_1_89 (DXT1)
+[2015.09.08-01.38.09:394][794]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.09.08-01.38.09:405][794]LogTexture:Display: Building textures: LQ_Lightmap_1_90 (DXT1)
+[2015.09.08-01.38.09:410][794]LogTexture:Display: Building textures: LQ_Lightmap_1_91 (DXT1)
+[2015.09.08-01.38.09:417][794]LogTexture:Display: Building textures: LQ_Lightmap_1_92 (DXT1)
+[2015.09.08-01.38.09:426][794]LogTexture:Display: Building textures: LQ_Lightmap_1_93 (DXT1)
+[2015.09.08-01.38.09:432][794]LogTexture:Display: Building textures: LQ_Lightmap_1_94 (DXT1)
+[2015.09.08-01.38.09:451][794]LogTexture:Display: Building textures: LQ_Lightmap_1_95 (DXT1)
+[2015.09.08-01.38.09:457][794]LogTexture:Display: Building textures: LQ_Lightmap_1_96 (DXT1)
+[2015.09.08-01.38.09:464][794]LogTexture:Display: Building textures: LQ_Lightmap_1_97 (DXT1)
+[2015.09.08-01.38.09:473][794]LogTexture:Display: Building textures: LQ_Lightmap_1_98 (DXT1)
+[2015.09.08-01.38.09:478][794]LogTexture:Display: Building textures: LQ_Lightmap_1_99 (DXT1)
+[2015.09.08-01.38.19:106][794]LogMaterial:Warning: Material /Game/Maps/Water/Materials/Fire2.Fire2 needed to have new flag set bUsedWithStaticLighting !
+[2015.09.08-01.38.19:137][794]LogMaterial: Missing cached shader map for material Fire2, compiling. 
+[2015.09.08-01.38.19:240][794]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.08-01.38.20:426][794]Cmd: MAP LOAD FILE="../../../../../../GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Map/SinglePlayer_Final.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.08-01.38.20:428][794]LightingResults: New page: Lighting Build
+[2015.09.08-01.38.20:482][794]LoadErrors: New page: Loading map: SinglePlayer_Final.umap
+[2015.09.08-01.38.20:510][794]MapCheck: New page: Map Check
+[2015.09.08-01.38.20:510][794]LightingResults: New page: Lighting Build
+[2015.09.08-01.38.20:597][794]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C21261F80
+[2015.09.08-01.38.20:934][794]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.38.20:936][794]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.38.20:936][794]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.38.20:936][794]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.38.20:984][794]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.08-01.38.21:215][794]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.38.21:493][794]Cmd: MAP CHECKDEP
+[2015.09.08-01.38.21:494][794]MapCheck: New page: SinglePlayer_Final - Sep 7, 2015, 11:38:21 AM
+[2015.09.08-01.38.21:606][794]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.568ms to complete.
+[2015.09.08-01.38.21:606][794]LogFileHelpers: Loading map 'SinglePlayer_Final' took 1.213
+[2015.09.08-01.39.25:804][460]LogRenderer:Warning: Reallocating scene render targets to support 1296x712 (Frame:1229).
+[2015.09.08-01.39.25:970][461]LogRenderer:Warning: Reallocating scene render targets to support 1368x728 (Frame:1231).
+[2015.09.08-01.39.35:927][793]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.39.35:951][793]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:39:35 AM)
+[2015.09.08-01.39.36:035][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083752s)
+[2015.09.08-01.39.36:036][793]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2015.09.08-01.39.36:037][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.085534s)
+[2015.09.08-01.39.36:197][793]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.39.36:320][793]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.39.36:386][793]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.39.36:386][793]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.39.36:386][793]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.39.36:386][793]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.39.36:387][793]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.39.36
+[2015.09.08-01.39.36:532][793]LogWorld: Bringing up level for play took: 0.211362
+[2015.09.08-01.39.36:749][793]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 1.601
+[2015.09.08-01.40.08:153][657]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C257E3240
+[2015.09.08-01.40.08:235][658]Cmd: SELECT NONE
+[2015.09.08-01.40.15:060][843]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.40.15:060][843]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:40:15 AM)
+[2015.09.08-01.40.15:099][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037847s)
+[2015.09.08-01.40.15:099][843]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2015.09.08-01.40.15:100][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.038780s)
+[2015.09.08-01.40.15:137][843]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.40.15:139][843]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.40.15:200][843]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.40.15:200][843]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.40.15:200][843]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.40.15:200][843]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.40.15:200][843]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.40.15
+[2015.09.08-01.40.15:203][843]LogWorld: Bringing up level for play took: 0.062751
+[2015.09.08-01.40.15:208][843]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 0.061
+[2015.09.08-01.42.05:987][177]LogCharacterMovement: William_C_1 is stuck and failed to move!
+[2015.09.08-01.42.09:491][255]LogCharacterMovement: William_C_1 is stuck and failed to move!
+[2015.09.08-01.42.11:287][295]LogCharacterMovement: William_C_1 is stuck and failed to move!
+[2015.09.08-01.42.22:882][562]LogCharacterMovement: William_C_1 is stuck and failed to move!
+[2015.09.08-01.42.46:508][112]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C35EE49A0
+[2015.09.08-01.43.33:382][435]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.43.33:383][435]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:43:33 AM)
+[2015.09.08-01.43.33:420][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037235s)
+[2015.09.08-01.43.33:421][435]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2015.09.08-01.43.33:421][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.038242s)
+[2015.09.08-01.43.33:457][435]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.43.33:460][435]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.43.33:523][435]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.43.33:523][435]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.43.33:523][435]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.43.33:523][435]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.43.33:523][435]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.43.33
+[2015.09.08-01.43.33:526][435]LogWorld: Bringing up level for play took: 0.065826
+[2015.09.08-01.43.33:530][435]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 0.382
+[2015.09.08-01.43.58:183][ 82]LogCharacterMovement: William_C_2 is stuck and failed to move!
+[2015.09.08-01.44.13:732][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C25608D60
+[2015.09.08-01.44.28:272][953]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.09.08-01.44.29:395][981]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/_BaseMaterial_b.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/_BaseMaterial_d.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/_BaseMaterial_g.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/_BaseMaterial_m.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/_BaseMaterial_n.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/_BaseMaterial_o.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Albedo_Xl-jsFo-SK_copy.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Archway2_albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Archway2_ao.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Archway2_metallic.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Archway2_normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Archway2_roughness.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box001_Albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box001_AO.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box001_Metallic.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box001_Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box001_Roughness.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box002_Albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box002_AO.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box002_Metallic.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box002_Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box002_Roughness.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box009_Albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box009_Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box009_Reflection.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box010_Albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box010_Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box010_Reflection.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box012_Albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box012_Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Box012_Reflection.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/DarkRocks.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/efeu0.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/efeu1.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Fire.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Fire_Mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Fire_Mat2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/FireOPmask.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box001.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box002.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box003.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box004.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box005.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box006.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box007.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box008.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box009.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box010.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box011.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box012.uasset"'
+[2015.09.08-01.44.29:487][984]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.09.08-01.44.29:487][984]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box014.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box015.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box016.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Box017.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Cylinder001.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Object001.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_Object003.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_StraightStair002.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/MapPieces_StraightStair003.uasset"'
+[2015.09.08-01.44.29:488][984]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Water_temple'
+[2015.09.08-01.44.29:558][985]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.09.08-01.44.30:571][  8]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/Archway.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_ao.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_metallic.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_roughness.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/Displacement_map.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/Photo-Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/tornado.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/waterfall.uasset"'
+[2015.09.08-01.44.30:594][  9]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Textures/Water_temple/Displacement_map.uasset
+A  Content/Textures/Water_temple/Photo-Normal.uasset
+AM Content/Textures/Water_temple/tornado.uasset
+A  Content/Textures/Water_temple/waterfall.uasset
+'
+[2015.09.08-01.44.32:251][ 50]LogActorFactory: Actor Factory created tornado
+[2015.09.08-01.44.32:794][ 65]LogActorFactory: Actor Factory created tornado
+[2015.09.08-01.45.31:803][846]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.45.31:803][846]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:45:31 AM)
+[2015.09.08-01.45.31:873][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040555s)
+[2015.09.08-01.45.31:873][846]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2015.09.08-01.45.31:874][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.041564s)
+[2015.09.08-01.45.31:911][846]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.45.31:914][846]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.45.31:976][846]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.45.31:976][846]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.45.31:976][846]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.45.31:976][846]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.45.31:977][846]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.45.31
+[2015.09.08-01.45.31:979][846]LogWorld: Bringing up level for play took: 0.065410
+[2015.09.08-01.45.31:983][846]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 0.835
+[2015.09.08-01.46.01:693][229]LogCharacterMovement: William_C_3 is stuck and failed to move!
+[2015.09.08-01.46.31:782][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C49A92660
+[2015.09.08-01.47.26:690][998]LogCharacterMovement: William_C_3 is stuck and failed to move!
+[2015.09.08-01.47.26:774][  2]LogCharacterMovement: William_C_3 is stuck and failed to move!
+[2015.09.08-01.47.31:937][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C16118400
+[2015.09.08-01.53.20:747][766]Cmd: DELETE
+[2015.09.08-01.53.20:747][766]Cmd: ACTOR DELETE
+[2015.09.08-01.53.20:786][766]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.08-01.53.20:819][766]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2015.09.08-01.53.33:059][258]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.53.33:059][258]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:53:33 AM)
+[2015.09.08-01.53.33:099][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039001s)
+[2015.09.08-01.53.33:100][258]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2015.09.08-01.53.33:100][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.039978s)
+[2015.09.08-01.53.33:135][258]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.53.33:137][258]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.53.33:198][258]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.33:198][258]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.33:198][258]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.33:198][258]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.33:199][258]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.53.33
+[2015.09.08-01.53.33:202][258]LogWorld: Bringing up level for play took: 0.063681
+[2015.09.08-01.53.33:219][258]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 0.071
+[2015.09.08-01.53.41:732][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C160CBCE0
+[2015.09.08-01.53.46:060][752]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.53.46:061][752]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:53:46 AM)
+[2015.09.08-01.53.46:098][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036897s)
+[2015.09.08-01.53.46:099][752]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2015.09.08-01.53.46:099][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.037918s)
+[2015.09.08-01.53.46:131][752]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.53.46:134][752]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.53.46:194][752]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.46:194][752]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.46:195][752]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.46:195][752]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.53.46:195][752]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.53.46
+[2015.09.08-01.53.46:197][752]LogWorld: Bringing up level for play took: 0.063271
+[2015.09.08-01.53.46:201][752]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 1.054
+[2015.09.08-01.53.50:912][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C15EC9A80
+[2015.09.08-01.55.16:971][380]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Water_Temple'
+[2015.09.08-01.55.17:981][412]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/Water_temple'
+[2015.09.08-01.55.18:994][443]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/Archway.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_albedo.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_ao.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_metallic.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/BaseMaterial_roughness.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/Displacement_map.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/Photo-Normal.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/tornado.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Textures/Water_temple/waterfall.uasset"'
+[2015.09.08-01.55.19:027][443]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Content/Textures/Water_temple/Displacement_map.uasset
+A  Content/Textures/Water_temple/Photo-Normal.uasset
+AM Content/Textures/Water_temple/tornado.uasset
+A  Content/Textures/Water_temple/waterfall.uasset
+'
+[2015.09.08-01.55.19:866][470]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/Water/Materials'
+[2015.09.08-01.55.20:888][496]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/4WayChaos.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Fire.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Fire2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Archway2_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Archway_Mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_base.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_lank2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Platform2.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_Wall1_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_wall2_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_wall3_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_water.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_window_low.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_window_mat.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Water_windowHigh.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/Waterfall.uasset" "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Materials/WIP_MAT.uasset"'
+[2015.09.08-01.55.20:896][496]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/Maps/Water/Materials/Water.uasset
+AM Content/Maps/Water/Materials/Waterfall.uasset
+'
+[2015.09.08-01.55.34:969][801]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.09.08-01.55.35:104][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.09.08-01.55.35:366][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.09.08-01.55.35:378][801]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.09.08-01.55.35:436][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.09.08-01.55.35:436][801]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.09.08-01.55.35:462][801]LogMaterial: Missing cached shader map for material Water, compiling. 
+[2015.09.08-01.55.35:472][801]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.09.08-01.55.35:525][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.09.08-01.55.35:537][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.09.08-01.55.35:551][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.09.08-01.55.41:152][954]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2015.09.08-01.55.41:152][954]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.09.08-01.55.41:152][954]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.09.08-01.55.41:152][954]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2015.09.08-01.55.41:152][954]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.09.08-01.56.39:961][874]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.56.39:961][874]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:56:39 AM)
+[2015.09.08-01.56.39:999][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037629s)
+[2015.09.08-01.56.40:000][874]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2015.09.08-01.56.40:000][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.038653s)
+[2015.09.08-01.56.40:034][874]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.56.40:036][874]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.56.40:096][874]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.56.40:096][874]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.56.40:096][874]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.56.40:096][874]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.56.40:097][874]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.56.40
+[2015.09.08-01.56.40:099][874]LogWorld: Bringing up level for play took: 0.062670
+[2015.09.08-01.56.40:103][874]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 0.955
+[2015.09.08-01.57.04:783][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C1E61F920
+[2015.09.08-01.57.04:783][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C23D30FE0
+[2015.09.08-01.57.09:270][ 13]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.08-01.57.09:270][ 13]PIE: New page: PIE session: SinglePlayer_Final (Sep 7, 2015, 11:57:09 AM)
+[2015.09.08-01.57.09:308][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037474s)
+[2015.09.08-01.57.09:309][ 13]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2015.09.08-01.57.09:309][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Water/Map/SinglePlayer_Final.SinglePlayer_Final to /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final (0.038779s)
+[2015.09.08-01.57.09:348][ 13]LogWorld: Game class is 'TheBraveGameMode_C'
+[2015.09.08-01.57.09:350][ 13]LogAIModule: Creating AISystem for world SinglePlayer_Final
+[2015.09.08-01.57.09:411][ 13]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.57.09:411][ 13]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.57.09:411][ 13]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.57.09:411][ 13]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.09.08-01.57.09:412][ 13]LogWorld: Bringing World /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final.SinglePlayer_Final up for play (max tick rate 0) at 2015.09.07-18.57.09
+[2015.09.08-01.57.09:414][ 13]LogWorld: Bringing up level for play took: 0.063691
+[2015.09.08-01.57.09:420][ 13]PIE: Info Play in editor start time for /Game/Maps/Water/Map/UEDPIE_0_SinglePlayer_Final 0.272
+[2015.09.08-01.57.42:046][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C2320E700
+[2015.09.08-02.00.00:380][794]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Map/SinglePlayer_Final.umap"'
+[2015.09.08-02.00.00:407][794]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Water/Map/SinglePlayer_Final.umap
+'
+[2015.09.08-02.00.03:182][794]LogSavePackage: Save=2546.239258ms
+[2015.09.08-02.00.03:182][794]LogSavePackage: Moving '../../../../../../GameDev/WTB/WTBREPO/WilliamTheBrave/Saved/SinglePlayer_Final750FA80046E80D773FB72DBA79A777CB.tmp' to '../../../../../../GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Map/SinglePlayer_Final.umap'
+[2015.09.08-02.00.03:261][795]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "S:/GameDev/WTB/WTBREPO/WilliamTheBrave/Content/Maps/Water/Map/SinglePlayer_Final.umap"'
+[2015.09.08-02.00.03:271][796]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/Water/Map/SinglePlayer_Final.umap
+'
+[2015.09.08-02.00.16:649][100]Cmd: QUIT_EDITOR
+[2015.09.08-02.00.17:103][100]LogExit: Preparing to exit.
+[2015.09.08-02.00.18:479][100]LogExit: Editor shut down
+[2015.09.08-02.00.18:480][100]LogExit: Transaction tracking system shut down
+[2015.09.08-02.00.18:481][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C258C7EC0
+[2015.09.08-02.00.18:481][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C331ACCC0
+[2015.09.08-02.00.18:482][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C35EE5C60
+[2015.09.08-02.00.18:485][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003C275BDBC0
+[2015.09.08-02.00.19:331][100]LogExit: Object subsystem successfully closed.
+[2015.09.08-02.00.19:680][100]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2015.09.08-02.00.19:681][100]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.09.08-02.00.19:681][100]LogModuleManager: Shutting down and abandoning module EditorWidgets (177)
+[2015.09.08-02.00.19:681][100]LogModuleManager: Shutting down and abandoning module CollectionManager (176)
+[2015.09.08-02.00.19:695][100]LogModuleManager: Shutting down and abandoning module CrashTracker (175)
+[2015.09.08-02.00.19:695][100]LogModuleManager: Shutting down and abandoning module SuperSearch (174)
+[2015.09.08-02.00.19:695][100]LogModuleManager: Shutting down and abandoning module SceneOutliner (173)
+[2015.09.08-02.00.19:695][100]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.09.08-02.00.19:711][100]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.09.08-02.00.19:711][100]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.09.08-02.00.19:725][100]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.09.08-02.00.19:737][100]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.09.08-02.00.19:767][100]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.09.08-02.00.19:779][100]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.09.08-02.00.19:813][100]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.09.08-02.00.19:813][100]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.09.08-02.00.19:813][100]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.09.08-02.00.19:828][100]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.09.08-02.00.19:844][100]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.09.08-02.00.20:194][100]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.09.08-02.00.20:194][100]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.09.08-02.00.20:194][100]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.09.08-02.00.20:210][100]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.09.08-02.00.20:210][100]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.09.08-02.00.20:239][100]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.09.08-02.00.20:239][100]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.09.08-02.00.20:254][100]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.09.08-02.00.20:266][100]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.09.08-02.00.20:270][100]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.09.08-02.00.20:277][100]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.09.08-02.00.20:277][100]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.09.08-02.00.20:291][100]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.09.08-02.00.20:302][100]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.09.08-02.00.20:309][100]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.09.08-02.00.20:333][100]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.09.08-02.00.20:333][100]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.09.08-02.00.20:333][100]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.09.08-02.00.20:333][100]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.09.08-02.00.20:490][100]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.09.08-02.00.20:511][100]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.09.08-02.00.20:532][100]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.09.08-02.00.20:544][100]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.09.08-02.00.20:552][100]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.09.08-02.00.20:552][100]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.09.08-02.00.20:552][100]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.09.08-02.00.20:552][100]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.09.08-02.00.20:562][100]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.09.08-02.00.20:581][100]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.09.08-02.00.20:581][100]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.09.08-02.00.20:590][100]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.09.08-02.00.20:590][100]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.09.08-02.00.20:599][100]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.09.08-02.00.20:599][100]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.09.08-02.00.20:700][100]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.09.08-02.00.20:700][100]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.09.08-02.00.20:700][100]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.09.08-02.00.20:705][100]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.09.08-02.00.20:705][100]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.09.08-02.00.20:719][100]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.09.08-02.00.20:785][100]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.09.08-02.00.20:794][100]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.09.08-02.00.20:794][100]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.09.08-02.00.20:794][100]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.09.08-02.00.20:794][100]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.09.08-02.00.20:810][100]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.09.08-02.00.20:829][100]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.09.08-02.00.20:840][100]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.09.08-02.00.20:840][100]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.09.08-02.00.20:851][100]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.09.08-02.00.20:851][100]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.09.08-02.00.20:855][100]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.09.08-02.00.20:873][100]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.09.08-02.00.20:874][100]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.08-02.00.20:874][100]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.09.08-02.00.20:874][100]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.09.08-02.00.20:874][100]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.09.08-02.00.20:884][100]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.09.08-02.00.20:902][100]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.09.08-02.00.20:902][100]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.09.08-02.00.20:902][100]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.09.08-02.00.20:902][100]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.09.08-02.00.20:902][100]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.09.08-02.00.20:902][100]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.08-02.00.20:903][100]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.08-02.00.20:932][100]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.09.08-02.00.20:944][100]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.09.08-02.00.21:046][100]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.09.08-02.00.21:058][100]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.09.08-02.00.21:061][100]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.09.08-02.00.21:061][100]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.09.08-02.00.21:061][100]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.09.08-02.00.21:061][100]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.09.08-02.00.21:061][100]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.09.08-02.00.21:076][100]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.09.08-02.00.21:076][100]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.09.08-02.00.21:098][100]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.09.08-02.00.21:098][100]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.09.08-02.00.21:098][100]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.09.08-02.00.21:102][100]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.09.08-02.00.21:121][100]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.09.08-02.00.21:136][100]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.09.08-02.00.21:136][100]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.09.08-02.00.21:136][100]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.09.08-02.00.21:144][100]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.09.08-02.00.21:159][100]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.09.08-02.00.21:164][100]LogDerivedDataCache: Shutdown
+[2015.09.08-02.00.21:164][100]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.09.08-02.00.21:173][100]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.09.08-02.00.21:173][100]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.09.08-02.00.21:183][100]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.09.08-02.00.21:184][100]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.09.08-02.00.21:201][100]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.08-02.00.21:202][100]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.08-02.00.21:243][100]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.08-02.00.21:243][100]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.08-02.00.21:243][100]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.08-02.00.21:243][100]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.08-02.00.21:243][100]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.08-02.00.21:243][100]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.08-02.00.21:255][100]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.08-02.00.21:255][100]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.08-02.00.21:261][100]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.08-02.00.21:278][100]LogExit: Exiting.
+[2015.09.08-02.00.21:304][100]Log file closed, 09/07/15 19:00:21
